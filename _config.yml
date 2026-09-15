@@ -1,0 +1,8 @@
+# Jekyll config — MERIDIAN TALENT
+# The site is a single templated page; all copy lives in _data/content.yml.
+title: Meridian Talent
+url: https://meridiantalent.au
+exclude:
+  - README.md
+  - .pages.yml
+  - content.yml

@@ -1,3 +1,8 @@
+---
+# Content for this page lives in _data/content.yml and is edited in Pages CMS.
+# 本页文案存放在 _data/content.yml，通过 Pages CMS 后台修改。
+---
+{%- assign c = site.data.content -%}
 <!doctype html>
 <html lang="zh-Hans">
 <head>
@@ -364,19 +369,19 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
   <div class="wrap nav">
     <div class="brand">
       <b>MERIDIAN TALENT</b>
-      <i data-zh="美瑞安人才服务 · ACN 701 340 409" data-en="ACN 701 340 409">美瑞安人才服务 · ACN 701 340 409</i>
+      <i data-zh="{{ c.nav.f01.zh }}" data-en="{{ c.nav.f01.en }}">{{ c.nav.f01.zh }}</i>
     </div>
     <nav class="navlinks">
-      <a href="#why" data-zh="服务差异" data-en="How we differ">服务差异</a>
-      <a href="#service" data-zh="服务范围" data-en="Scope">服务范围</a>
-      <a href="#packages" data-zh="服务包" data-en="Packages">服务包</a>
-      <a href="#chinadesk" data-zh="出海专线" data-en="China Desk">出海专线</a>
+      <a href="#why" data-zh="{{ c.nav.f02.zh }}" data-en="{{ c.nav.f02.en }}">{{ c.nav.f02.zh }}</a>
+      <a href="#service" data-zh="{{ c.nav.f03.zh }}" data-en="{{ c.nav.f03.en }}">{{ c.nav.f03.zh }}</a>
+      <a href="#packages" data-zh="{{ c.nav.f04.zh }}" data-en="{{ c.nav.f04.en }}">{{ c.nav.f04.zh }}</a>
+      <a href="#chinadesk" data-zh="{{ c.nav.f05.zh }}" data-en="{{ c.nav.f05.en }}">{{ c.nav.f05.zh }}</a>
     </nav>
     <div class="langbtn" role="group" aria-label="Language">
       <button type="button" data-set="zh" aria-pressed="true">中文</button>
       <button type="button" data-set="en" aria-pressed="false">EN</button>
     </div>
-    <a class="cta" href="#contact" data-zh="预约落地咨询" data-en="Book a consultation">预约落地咨询</a>
+    <a class="cta" href="#contact" data-zh="{{ c.nav.f06.zh }}" data-en="{{ c.nav.f06.en }}">{{ c.nav.f06.zh }}</a>
   </div>
 </header>
 
@@ -384,17 +389,17 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <div class="eyebrow"><span data-zh="澳洲团队搭建与 HR 运营" data-en="Building and running Australian teams">澳洲团队搭建与 HR 运营</span></div>
-      <h1 class="hero-sub" data-zh='在澳洲搭起团队，<br><span>并且运转下去</span>' data-en='Build an Australian team,<br><span>then keep it running</span>'>在澳洲搭起团队，<br><span>并且运转下去</span></h1>
-      <p class="lede" style="margin-top:22px" data-zh="我们帮海外企业在澳洲组建本地团队，并接手之后的日常 HR 运营。擅长领域包括新能源、教育与金融科技。" data-en="We build local teams in Australia for companies expanding from overseas, and run the HR that follows. Our depth is in new energy, education and fintech.">我们帮海外企业在澳洲组建本地团队，并接手之后的日常 HR 运营。擅长领域包括新能源、教育与金融科技。</p>
-      <p class="hero-en" data-zh="新能源 · 教育 · 金融科技 · 基建工程 · 专业服务" data-en="New Energy · Education · Fintech · Infrastructure · Professional Services">新能源 · 教育 · 金融科技 · 基建工程 · 专业服务</p>
+      <div class="eyebrow"><span data-zh="{{ c.hero.f01.zh }}" data-en="{{ c.hero.f01.en }}">{{ c.hero.f01.zh }}</span></div>
+      <h1 class="hero-sub" data-zh="{{ c.hero.f02.zh }}" data-en="{{ c.hero.f02.en }}">{{ c.hero.f02.zh }}</h1>
+      <p class="lede" style="margin-top:22px" data-zh="{{ c.hero.f03.zh }}" data-en="{{ c.hero.f03.en }}">{{ c.hero.f03.zh }}</p>
+      <p class="hero-en" data-zh="{{ c.hero.f04.zh }}" data-en="{{ c.hero.f04.en }}">{{ c.hero.f04.zh }}</p>
       <div class="hero-btns">
-        <a class="cta" href="#contact" data-zh="预约 30 分钟落地诊断" data-en="Book a 30-min landing review">预约 30 分钟落地诊断</a>
-        <a class="cta ghost" href="#service" data-zh="看服务全景" data-en="See the full scope">看服务全景</a>
+        <a class="cta" href="#contact" data-zh="{{ c.hero.f05.zh }}" data-en="{{ c.hero.f05.en }}">{{ c.hero.f05.zh }}</a>
+        <a class="cta ghost" href="#service" data-zh="{{ c.hero.f06.zh }}" data-en="{{ c.hero.f06.en }}">{{ c.hero.f06.zh }}</a>
       </div>
       <div class="coord">
-        <span data-zh="服务覆盖　<b>SYDNEY · MELBOURNE · BRISBANE · PERTH · ADELAIDE · CANBERRA</b>" data-en="Coverage　<b>SYDNEY · MELBOURNE · BRISBANE · PERTH · ADELAIDE · CANBERRA</b>">服务覆盖　<b>SYDNEY · MELBOURNE · BRISBANE · PERTH · ADELAIDE · CANBERRA</b></span>
-        <span data-zh="总部　<b>SYDNEY HAYMARKET</b>　·　对接　<b>CN / AU 双时区</b>" data-en="HQ　<b>SYDNEY HAYMARKET</b>　·　Coverage　<b>CN / AU dual time zone</b>">总部　<b>SYDNEY HAYMARKET</b>　·　对接　<b>CN / AU 双时区</b></span>
+        <span data-zh="{{ c.hero.f07.zh }}" data-en="{{ c.hero.f07.en }}">{{ c.hero.f07.zh }}</span>
+        <span data-zh="{{ c.hero.f08.zh }}" data-en="{{ c.hero.f08.en }}">{{ c.hero.f08.zh }}</span>
       </div>
     </div>
     <div class="globe-wrap"><canvas id="globe" aria-label="Routes from East Asia to Sydney, Melbourne, Brisbane, Perth, Adelaide and Canberra" role="img"></canvas></div>
@@ -404,10 +409,10 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <!-- ============ STATS ============ -->
 <div class="wrap">
   <div class="stats rv">
-    <div class="stat"><b>15<em>+</em></b><p data-zh="合伙人平均行业与人力资源从业年限（个人从业经历）" data-en="Average years of sector and HR experience per partner (individual careers)">合伙人平均行业与人力资源从业年限（个人从业经历）</p></div>
-    <div class="stat"><b>6<em data-zh="环" data-en="">环</em></b><p data-zh="实体 · 签证 · 招聘 · 合规 · 薪酬 · 留存，同一支团队交付" data-en="Entity · visas · hiring · compliance · payroll · retention — delivered by one team">实体 · 签证 · 招聘 · 合规 · 薪酬 · 留存，同一支团队交付</p></div>
-    <div class="stat"><b>1<em data-zh="个" data-en="">个</em></b><p data-zh="对接人统一协调全部落地环节与各专业承办方" data-en="One point of contact coordinating every workstream and every specialist provider">对接人统一协调全部落地环节与各专业承办方</p></div>
-    <div class="stat"><b>2<em data-zh="语" data-en="">语</em></b><p data-zh="中英双语交付：合同、员工手册、绩效表与月度汇报均出双语版本" data-en="Bilingual delivery — contracts, handbook, performance forms and monthly reporting in both languages">中英双语交付：合同、员工手册、绩效表与月度汇报均出双语版本</p></div>
+    <div class="stat"><b>15<em>+</em></b><p data-zh="{{ c.stats.f01.zh }}" data-en="{{ c.stats.f01.en }}">{{ c.stats.f01.zh }}</p></div>
+    <div class="stat"><b>6<em data-zh="{{ c.stats.f02.zh }}" data-en="{{ c.stats.f02.en }}">{{ c.stats.f02.zh }}</em></b><p data-zh="{{ c.stats.f03.zh }}" data-en="{{ c.stats.f03.en }}">{{ c.stats.f03.zh }}</p></div>
+    <div class="stat"><b>1<em data-zh="{{ c.stats.f04.zh }}" data-en="{{ c.stats.f04.en }}">{{ c.stats.f04.zh }}</em></b><p data-zh="{{ c.stats.f05.zh }}" data-en="{{ c.stats.f05.en }}">{{ c.stats.f05.zh }}</p></div>
+    <div class="stat"><b>2<em data-zh="{{ c.stats.f06.zh }}" data-en="{{ c.stats.f06.en }}">{{ c.stats.f06.zh }}</em></b><p data-zh="{{ c.stats.f07.zh }}" data-en="{{ c.stats.f07.en }}">{{ c.stats.f07.zh }}</p></div>
   </div>
 </div>
 
@@ -415,54 +420,54 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section id="why">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="eyebrow"><span data-zh="服务差异" data-en="How we differ">服务差异</span></div>
-      <h2 data-zh="把分散的环节，收在一条时间表上" data-en="Bringing scattered workstreams onto one timeline">把分散的环节，收在一条时间表上</h2>
-      <p class="lede" data-zh="赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同条款、薪酬分类、超年金与申报、外派与本地员工的工作习惯差异、核心岗位的留存。这些环节通常分散在不同供应商手里，衔接的责任最后落回企业自己身上。" data-en="Australian landings usually run into trouble after the hire, not before it: contract terms, award classification, superannuation and reporting, differences in working norms between expat and local staff, and retention in key roles. These pieces usually sit with different providers, and joining them up ends up falling to the company itself.">赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同条款、薪酬分类、超年金与申报、外派与本地员工的工作习惯差异、核心岗位的留存。这些环节通常分散在不同供应商手里，衔接的责任最后落回企业自己身上。</p>
+      <div class="eyebrow"><span data-zh="{{ c.why.f01.zh }}" data-en="{{ c.why.f01.en }}">{{ c.why.f01.zh }}</span></div>
+      <h2 data-zh="{{ c.why.f02.zh }}" data-en="{{ c.why.f02.en }}">{{ c.why.f02.zh }}</h2>
+      <p class="lede" data-zh="{{ c.why.f03.zh }}" data-en="{{ c.why.f03.en }}">{{ c.why.f03.zh }}</p>
     </div>
     <div class="cmp-scroll rv">
       <table class="cmp">
         <thead>
           <tr>
             <th></th>
-            <th data-zh="分别向多家供应商采购" data-en="Buying from several providers separately">分别向多家供应商采购</th>
-            <th data-zh="由 MERIDIAN TALENT 统一协调" data-en="Coordinated by MERIDIAN TALENT">由 MERIDIAN TALENT 统一协调</th>
+            <th data-zh="{{ c.why.f04.zh }}" data-en="{{ c.why.f04.en }}">{{ c.why.f04.zh }}</th>
+            <th data-zh="{{ c.why.f05.zh }}" data-en="{{ c.why.f05.en }}">{{ c.why.f05.zh }}</th>
           </tr>
         </thead>
         <tbody>
           <tr>
-            <th data-zh="服务起点" data-en="Starting point">服务起点</th>
-            <td class="them" data-zh="通常在实体、岗位与预算都定好之后才介入" data-en="Usually engaged after the entity, the roles and the budget are already decided">通常在实体、岗位与预算都定好之后才介入</td>
-            <td class="us" data-zh="从实体结构与首年编制阶段就一起规划" data-en="Involved from the entity-structure and first-year headcount stage">从实体结构与首年编制阶段就一起规划</td>
+            <th data-zh="{{ c.why.f06.zh }}" data-en="{{ c.why.f06.en }}">{{ c.why.f06.zh }}</th>
+            <td class="them" data-zh="{{ c.why.f07.zh }}" data-en="{{ c.why.f07.en }}">{{ c.why.f07.zh }}</td>
+            <td class="us" data-zh="{{ c.why.f08.zh }}" data-en="{{ c.why.f08.en }}">{{ c.why.f08.zh }}</td>
           </tr>
           <tr>
-            <th data-zh="行业理解" data-en="Sector depth">行业理解</th>
-            <td class="them" data-zh="各方按自身专长推荐，行业口径不一定一致" data-en="Each provider recommends from its own specialism; sector definitions may not line up">各方按自身专长推荐，行业口径不一定一致</td>
-            <td class="us" data-zh="按行业分组的顾问团队，能与候选人聊清楚项目、标准与资质" data-en="Consultants grouped by sector — we discuss projects, standards and licences with candidates">按行业分组的顾问团队，能与候选人聊清楚项目、标准与资质</td>
+            <th data-zh="{{ c.why.f09.zh }}" data-en="{{ c.why.f09.en }}">{{ c.why.f09.zh }}</th>
+            <td class="them" data-zh="{{ c.why.f10.zh }}" data-en="{{ c.why.f10.en }}">{{ c.why.f10.zh }}</td>
+            <td class="us" data-zh="{{ c.why.f11.zh }}" data-en="{{ c.why.f11.en }}">{{ c.why.f11.zh }}</td>
           </tr>
           <tr>
-            <th data-zh="合规责任" data-en="Compliance">合规责任</th>
-            <td class="them" data-zh="合同、薪酬分类与各项申报分散在不同方" data-en="Contracts, award classification and the various filings sit with different parties">合同、薪酬分类与各项申报分散在不同方</td>
-            <td class="us" data-zh="由同一支团队跟进并对接各承办方（承办分工见下方专业边界）" data-en="Tracked by one team and coordinated with each specialist provider (see the scope note below)">由同一支团队跟进并对接各承办方（承办分工见下方专业边界）</td>
+            <th data-zh="{{ c.why.f12.zh }}" data-en="{{ c.why.f12.en }}">{{ c.why.f12.zh }}</th>
+            <td class="them" data-zh="{{ c.why.f13.zh }}" data-en="{{ c.why.f13.en }}">{{ c.why.f13.zh }}</td>
+            <td class="us" data-zh="{{ c.why.f14.zh }}" data-en="{{ c.why.f14.en }}">{{ c.why.f14.zh }}</td>
           </tr>
           <tr>
-            <th data-zh="签证" data-en="Visas">签证</th>
-            <td class="them" data-zh="移民、招聘与薪酬各自推进，时间表需要企业自行对齐" data-en="Migration, hiring and payroll advance separately; aligning the timeline falls to the company">移民、招聘与薪酬各自推进，时间表需要企业自行对齐</td>
-            <td class="us" data-zh="由我们协调 MARA 注册代理或律师，与招聘计划排在同一张时间表上" data-en="We coordinate the registered migration agent or lawyer and put it on the same timeline as hiring">由我们协调 MARA 注册代理或律师，与招聘计划排在同一张时间表上</td>
+            <th data-zh="{{ c.why.f15.zh }}" data-en="{{ c.why.f15.en }}">{{ c.why.f15.zh }}</th>
+            <td class="them" data-zh="{{ c.why.f16.zh }}" data-en="{{ c.why.f16.en }}">{{ c.why.f16.zh }}</td>
+            <td class="us" data-zh="{{ c.why.f17.zh }}" data-en="{{ c.why.f17.en }}">{{ c.why.f17.zh }}</td>
           </tr>
           <tr>
-            <th data-zh="人才储备" data-en="Talent pipeline">人才储备</th>
-            <td class="them" data-zh="有岗位时才启动寻访" data-en="Search starts only once a role opens">有岗位时才启动寻访</td>
-            <td class="us" data-zh="按行业长期跟进候选人，不是临门才开始找" data-en="Candidates tracked by sector over time, not sourced from scratch when a role opens">按行业长期跟进候选人，不是临门才开始找</td>
+            <th data-zh="{{ c.why.f18.zh }}" data-en="{{ c.why.f18.en }}">{{ c.why.f18.zh }}</th>
+            <td class="them" data-zh="{{ c.why.f19.zh }}" data-en="{{ c.why.f19.en }}">{{ c.why.f19.zh }}</td>
+            <td class="us" data-zh="{{ c.why.f20.zh }}" data-en="{{ c.why.f20.en }}">{{ c.why.f20.zh }}</td>
           </tr>
           <tr>
-            <th data-zh="语言与文化" data-en="Language &amp; culture">语言与文化</th>
-            <td class="them" data-zh="中英两侧的沟通往往要企业自行居中翻译" data-en="Communication between the two sides is left for the company to translate">中英两侧的沟通往往要企业自行居中翻译</td>
-            <td class="us" data-zh="双语团队，同时面向总部与本地员工" data-en="A bilingual team working with head office and local staff alike">双语团队，同时面向总部与本地员工</td>
+            <th data-zh="{{ c.why.f21.zh }}" data-en="{{ c.why.f21.en }}">{{ c.why.f21.zh }}</th>
+            <td class="them" data-zh="{{ c.why.f22.zh }}" data-en="{{ c.why.f22.en }}">{{ c.why.f22.zh }}</td>
+            <td class="us" data-zh="{{ c.why.f23.zh }}" data-en="{{ c.why.f23.en }}">{{ c.why.f23.zh }}</td>
           </tr>
           <tr>
-            <th data-zh="计费方式" data-en="Commercials">计费方式</th>
-            <td class="them" data-zh="各供应商分别计费，总成本到后期才看得清" data-en="Each provider bills separately; the total only becomes clear late">各供应商分别计费，总成本到后期才看得清</td>
-            <td class="us" data-zh="落地项目制 + 月度 HR 订阅，服务范围在服务协议中列明" data-en="A project-based landing fee plus a monthly HR retainer, with the scope set out in the service agreement">落地项目制 + 月度 HR 订阅，服务范围在服务协议中列明</td>
+            <th data-zh="{{ c.why.f24.zh }}" data-en="{{ c.why.f24.en }}">{{ c.why.f24.zh }}</th>
+            <td class="them" data-zh="{{ c.why.f25.zh }}" data-en="{{ c.why.f25.en }}">{{ c.why.f25.zh }}</td>
+            <td class="us" data-zh="{{ c.why.f26.zh }}" data-en="{{ c.why.f26.en }}">{{ c.why.f26.zh }}</td>
           </tr>
         </tbody>
       </table>
@@ -474,76 +479,76 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section id="service">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="eyebrow"><span data-zh="一条龙" data-en="End to end">一条龙</span></div>
-      <h2 data-zh="六个环节，一个团队交付" data-en="Six workstreams. One team delivers all of them.">六个环节，一个团队交付</h2>
-      <p class="lede" data-zh="每一项单拿出来都能找到供应商；难的是把它们串成一条线，并且有人为结果负责。" data-en="Each of these has vendors who will sell it separately. The hard part is joining them into one line with one party accountable for the outcome.">每一项单拿出来都能找到供应商；难的是把它们串成一条线，并且有人为结果负责。</p>
+      <div class="eyebrow"><span data-zh="{{ c.service.f01.zh }}" data-en="{{ c.service.f01.en }}">{{ c.service.f01.zh }}</span></div>
+      <h2 data-zh="{{ c.service.f02.zh }}" data-en="{{ c.service.f02.en }}">{{ c.service.f02.zh }}</h2>
+      <p class="lede" data-zh="{{ c.service.f03.zh }}" data-en="{{ c.service.f03.en }}">{{ c.service.f03.zh }}</p>
     </div>
     <div class="grid g3 rv">
       <div class="card">
         <div class="k">01 / ENTITY</div>
-        <h3 data-zh="实体与架构落地" data-en="Entity &amp; structure">实体与架构落地</h3>
+        <h3 data-zh="{{ c.service.f04.zh }}" data-en="{{ c.service.f04.en }}">{{ c.service.f04.zh }}</h3>
         <ul>
-          <li data-zh="公司注册、ACN/ABN、GST 与税号" data-en="Company registration, ACN/ABN, GST and tax registrations">公司注册、ACN/ABN、GST 与税号</li>
-          <li data-zh="董事居住要求与公司秘书安排" data-en="Resident director requirements and company secretary">董事居住要求与公司秘书安排</li>
-          <li data-zh="注册地址、银行开户与保险配置" data-en="Registered address, bank accounts and insurance">注册地址、银行开户与保险配置</li>
+          <li data-zh="{{ c.service.f05.zh }}" data-en="{{ c.service.f05.en }}">{{ c.service.f05.zh }}</li>
+          <li data-zh="{{ c.service.f06.zh }}" data-en="{{ c.service.f06.en }}">{{ c.service.f06.zh }}</li>
+          <li data-zh="{{ c.service.f07.zh }}" data-en="{{ c.service.f07.en }}">{{ c.service.f07.zh }}</li>
         </ul>
       </div>
       <div class="card">
         <div class="k">02 / VISA</div>
-        <h3 data-zh="雇主担保与签证路径" data-en="Sponsorship &amp; visas">雇主担保与签证路径</h3>
+        <h3 data-zh="{{ c.service.f08.zh }}" data-en="{{ c.service.f08.en }}">{{ c.service.f08.zh }}</h3>
         <ul>
-          <li data-zh="Standard Business Sponsorship（SBS）雇主资质、提名与 482 / 186 路径设计（Accredited Sponsor 为另一独立资格）" data-en="Standard Business Sponsorship (SBS), nomination and 482 / 186 pathways (Accredited Sponsor is a separate status)">Standard Business Sponsorship（SBS）雇主资质、提名与 482 / 186 路径设计（Accredited Sponsor 为另一独立资格）</li>
-          <li data-zh="外派人员与本地雇佣的成本比选" data-en="Cost modelling: expat posting vs. local hire">外派人员与本地雇佣的成本比选</li>
-          <li data-zh="LMT 招聘测试与合规留痕" data-en="Labour market testing and compliant record-keeping">LMT 招聘测试与合规留痕</li>
+          <li data-zh="{{ c.service.f09.zh }}" data-en="{{ c.service.f09.en }}">{{ c.service.f09.zh }}</li>
+          <li data-zh="{{ c.service.f10.zh }}" data-en="{{ c.service.f10.en }}">{{ c.service.f10.zh }}</li>
+          <li data-zh="{{ c.service.f11.zh }}" data-en="{{ c.service.f11.en }}">{{ c.service.f11.zh }}</li>
         </ul>
       </div>
       <div class="card">
         <div class="k">03 / HIRING</div>
-        <h3 data-zh="分行业专项招聘" data-en="Sector-specialist recruitment">分行业专项招聘</h3>
+        <h3 data-zh="{{ c.service.f12.zh }}" data-en="{{ c.service.f12.en }}">{{ c.service.f12.zh }}</h3>
         <ul>
-          <li data-zh="国家经理、项目总监、工程与技术、BD、运营与财务" data-en="Country managers, project directors, engineering, BD, operations and finance">国家经理、项目总监、工程与技术、BD、运营与财务</li>
-          <li data-zh="白领、技术工种与门店/工地用工的混合方案" data-en="Blended models across professional, trade and site or store workforces">白领、技术工种与门店/工地用工的混合方案</li>
-          <li data-zh="核心岗位保用期与替补承诺" data-en="Guarantee period and replacement commitment on key roles">核心岗位保用期与替补承诺</li>
+          <li data-zh="{{ c.service.f13.zh }}" data-en="{{ c.service.f13.en }}">{{ c.service.f13.zh }}</li>
+          <li data-zh="{{ c.service.f14.zh }}" data-en="{{ c.service.f14.en }}">{{ c.service.f14.zh }}</li>
+          <li data-zh="{{ c.service.f15.zh }}" data-en="{{ c.service.f15.en }}">{{ c.service.f15.zh }}</li>
         </ul>
       </div>
       <div class="card">
         <div class="k">04 / COMPLIANCE</div>
-        <h3 data-zh="雇佣合规" data-en="Employment compliance">雇佣合规</h3>
+        <h3 data-zh="{{ c.service.f16.zh }}" data-en="{{ c.service.f16.en }}">{{ c.service.f16.zh }}</h3>
         <ul>
-          <li data-zh="Fair Work、NES 与薪酬标准分类" data-en="Fair Work, NES and modern award classification">Fair Work、NES 与薪酬标准分类</li>
-          <li data-zh="超年金、工伤险、Payroll Tax 与 STP 申报" data-en="Superannuation, workers comp, payroll tax and STP reporting">超年金、工伤险、Payroll Tax 与 STP 申报</li>
-          <li data-zh="员工手册、WHS 制度与解雇合规流程" data-en="Handbooks, WHS policy and lawful termination process">员工手册、WHS 制度与解雇合规流程</li>
+          <li data-zh="{{ c.service.f17.zh }}" data-en="{{ c.service.f17.en }}">{{ c.service.f17.zh }}</li>
+          <li data-zh="{{ c.service.f18.zh }}" data-en="{{ c.service.f18.en }}">{{ c.service.f18.zh }}</li>
+          <li data-zh="{{ c.service.f19.zh }}" data-en="{{ c.service.f19.en }}">{{ c.service.f19.zh }}</li>
         </ul>
       </div>
       <div class="card">
         <div class="k">05 / PAYROLL</div>
-        <h3 data-zh="薪酬与人事运营" data-en="Payroll &amp; HR operations">薪酬与人事运营</h3>
+        <h3 data-zh="{{ c.service.f20.zh }}" data-en="{{ c.service.f20.en }}">{{ c.service.f20.zh }}</h3>
         <ul>
-          <li data-zh="薪酬带宽设计与年度调薪测算" data-en="Salary banding and annual pay-review modelling">薪酬带宽设计与年度调薪测算</li>
-          <li data-zh="发薪、休假、报销与人事系统搭建" data-en="Payroll runs, leave, expenses and HRIS setup">发薪、休假、报销与人事系统搭建</li>
-          <li data-zh="合规与签证到期日程表，月度汇报中提示" data-en="A schedule of compliance and visa expiry dates, flagged in the monthly report">合规与签证到期日程表，月度汇报中提示</li>
+          <li data-zh="{{ c.service.f21.zh }}" data-en="{{ c.service.f21.en }}">{{ c.service.f21.zh }}</li>
+          <li data-zh="{{ c.service.f22.zh }}" data-en="{{ c.service.f22.en }}">{{ c.service.f22.zh }}</li>
+          <li data-zh="{{ c.service.f23.zh }}" data-en="{{ c.service.f23.en }}">{{ c.service.f23.zh }}</li>
         </ul>
       </div>
       <div class="card">
         <div class="k">06 / RETENTION</div>
-        <h3 data-zh="团队留存与绩效" data-en="Retention &amp; performance">团队留存与绩效</h3>
+        <h3 data-zh="{{ c.service.f24.zh }}" data-en="{{ c.service.f24.en }}">{{ c.service.f24.zh }}</h3>
         <ul>
-          <li data-zh="绩效制度与总部 KPI 的本地翻译" data-en="Translating HQ KPIs into a local performance framework">绩效制度与总部 KPI 的本地翻译</li>
-          <li data-zh="外派主管的本地管理教练" data-en="Coaching for expat managers leading local teams">外派主管的本地管理教练</li>
-          <li data-zh="雇主品牌与 Seek / LinkedIn 主页运营" data-en="Employer brand and Seek / LinkedIn presence">雇主品牌与 Seek / LinkedIn 主页运营</li>
+          <li data-zh="{{ c.service.f25.zh }}" data-en="{{ c.service.f25.en }}">{{ c.service.f25.zh }}</li>
+          <li data-zh="{{ c.service.f26.zh }}" data-en="{{ c.service.f26.en }}">{{ c.service.f26.zh }}</li>
+          <li data-zh="{{ c.service.f27.zh }}" data-en="{{ c.service.f27.en }}">{{ c.service.f27.zh }}</li>
         </ul>
       </div>
     </div>
     <div class="bound rv">
-      <h3 data-zh="专业边界与审批权限" data-en="Scope, licensed providers and approvals">专业边界与审批权限</h3>
-      <p class="bl" data-zh="我们负责统筹、协调与执行人力环节。以下事项由持牌专业方承办，我们负责对接方案与跟进进度，不以自身名义出具相关意见。" data-en="We coordinate and run the workforce side of the work. The items below are carried out by licensed providers; we align the plan and track progress, and do not issue this advice ourselves.">我们负责统筹、协调与执行人力环节。以下事项由持牌专业方承办，我们负责对接方案与跟进进度，不以自身名义出具相关意见。</p>
+      <h3 data-zh="{{ c.service.f28.zh }}" data-en="{{ c.service.f28.en }}">{{ c.service.f28.zh }}</h3>
+      <p class="bl" data-zh="{{ c.service.f29.zh }}" data-en="{{ c.service.f29.en }}">{{ c.service.f29.zh }}</p>
       <ul>
-        <li data-zh="移民与签证申请由 MARA 注册移民代理或执业律师承办" data-en="Migration and visa applications are handled by a MARA-registered migration agent or a practising lawyer">移民与签证申请由 MARA 注册移民代理或执业律师承办</li>
-        <li data-zh="BAS 与 STP 申报由注册 BAS 代理或税务代理承办" data-en="BAS and STP lodgements are handled by a registered BAS agent or tax agent">BAS 与 STP 申报由注册 BAS 代理或税务代理承办</li>
-        <li data-zh="公司设立、税务架构与法律意见由会计师或律师出具" data-en="Company set-up, tax structuring and legal advice come from the company’s accountant or lawyer">公司设立、税务架构与法律意见由会计师或律师出具</li>
-        <li data-zh="雇佣条件以 Fair Work 与适用的薪酬标准为准" data-en="Employment conditions are governed by the Fair Work Act and the applicable modern award">雇佣条件以 Fair Work 与适用的薪酬标准为准</li>
-        <li data-zh="录用、调薪、解雇与对外付款，由客户书面授权人审批后执行" data-en="Hiring, pay changes, terminations and outbound payments are executed only after approval by the company’s authorised signatory">录用、调薪、解雇与对外付款，由客户书面授权人审批后执行</li>
-        <li data-zh="移民、税务与法律意见，均由上述持牌方以其名义出具" data-en="Migration, tax and legal advice is issued by those licensed providers in their own name">移民、税务与法律意见，均由上述持牌方以其名义出具</li>
+        <li data-zh="{{ c.service.f30.zh }}" data-en="{{ c.service.f30.en }}">{{ c.service.f30.zh }}</li>
+        <li data-zh="{{ c.service.f31.zh }}" data-en="{{ c.service.f31.en }}">{{ c.service.f31.zh }}</li>
+        <li data-zh="{{ c.service.f32.zh }}" data-en="{{ c.service.f32.en }}">{{ c.service.f32.zh }}</li>
+        <li data-zh="{{ c.service.f33.zh }}" data-en="{{ c.service.f33.en }}">{{ c.service.f33.zh }}</li>
+        <li data-zh="{{ c.service.f34.zh }}" data-en="{{ c.service.f34.en }}">{{ c.service.f34.zh }}</li>
+        <li data-zh="{{ c.service.f35.zh }}" data-en="{{ c.service.f35.en }}">{{ c.service.f35.zh }}</li>
       </ul>
     </div>
   </div>
@@ -553,110 +558,110 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section id="packages" class="band">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="eyebrow"><span data-zh="服务包" data-en="Packages">服务包</span></div>
-      <h2 data-zh="三种合作方式，范围写进服务协议" data-en="Three ways to work together, with scope written into the agreement">三种合作方式，范围写进服务协议</h2>
-      <p class="lede" data-zh="主推的是整体落地服务：公司层面与员工层面由同一位负责人统一安排。每个包都列明提供的服务、需要公司提供的前置资料与验收标准，可以组合，也可以单独采购，具体范围以服务协议为准。" data-en="Our lead product is the end-to-end landing service, where the company side and the employee side are run by one named lead. Each package sets out the services provided, what the company provides first, and how completion is signed off. They can be combined or taken separately, with the detailed scope set out in the service agreement.">主推的是整体落地服务：公司层面与员工层面由同一位负责人统一安排。每个包都列明提供的服务、需要公司提供的前置资料与验收标准，可以组合，也可以单独采购，具体范围以服务协议为准。</p>
+      <div class="eyebrow"><span data-zh="{{ c.packages.f01.zh }}" data-en="{{ c.packages.f01.en }}">{{ c.packages.f01.zh }}</span></div>
+      <h2 data-zh="{{ c.packages.f02.zh }}" data-en="{{ c.packages.f02.en }}">{{ c.packages.f02.zh }}</h2>
+      <p class="lede" data-zh="{{ c.packages.f03.zh }}" data-en="{{ c.packages.f03.en }}">{{ c.packages.f03.zh }}</p>
     </div>
     <div class="pkgs rv">
 
       <div class="pkg flag">
-        <div class="pk">PACKAGE A <span class="flagtag" data-zh="主推" data-en="Flagship">主推</span></div>
-        <h3 data-zh="整体落地服务（管家模式）" data-en="End-to-End Landing (Concierge)">整体落地服务（管家模式）</h3>
-        <p class="sub" data-zh="适合要把团队从海外派到澳洲的企业。公司这边的实体、用工、合规与税务对接，员工这边的签证、接机、住处、子女入学、搬家与入职，由同一位负责人统一安排，全程单一对接窗口。" data-en="For companies moving a team from overseas to Australia. The entity, employment, compliance and tax side for the business, and the visa, arrival, housing, schooling, move and onboarding side for each person — all run by one named lead, as a single point of contact throughout.">适合要把团队从海外派到澳洲的企业。公司这边的实体、用工、合规与税务对接，员工这边的签证、接机、住处、子女入学、搬家与入职，由同一位负责人统一安排，全程单一对接窗口。</p>
+        <div class="pk">PACKAGE A <span class="flagtag" data-zh="{{ c.packages.f04.zh }}" data-en="{{ c.packages.f04.en }}">{{ c.packages.f04.zh }}</span></div>
+        <h3 data-zh="{{ c.packages.f05.zh }}" data-en="{{ c.packages.f05.en }}">{{ c.packages.f05.zh }}</h3>
+        <p class="sub" data-zh="{{ c.packages.f06.zh }}" data-en="{{ c.packages.f06.en }}">{{ c.packages.f06.zh }}</p>
         <div class="fgrid">
-          <div class="grp"><span class="gt" data-zh="公司层面提供的服务" data-en="What we provide for the company">公司层面提供的服务</span>
+          <div class="grp"><span class="gt" data-zh="{{ c.packages.f07.zh }}" data-en="{{ c.packages.f07.en }}">{{ c.packages.f07.zh }}</span>
             <ul>
-              <li data-zh="用工结构与实体落地方案（与贵司的会计师、律师共同确认）" data-en="Workforce structure and entity setup plan, confirmed with the company’s accountant and lawyer">用工结构与实体落地方案（与贵司的会计师、律师共同确认）</li>
-              <li data-zh="首年编制规划与人力成本模型（含派驻人员的整体成本）" data-en="First-year headcount plan and workforce cost model, including the full cost of each assignee">首年编制规划与人力成本模型（含派驻人员的整体成本）</li>
-              <li data-zh="雇佣合同模板与员工手册（中英双语）" data-en="Employment contract templates and employee handbook, in both languages">雇佣合同模板与员工手册（中英双语）</li>
-              <li data-zh="薪酬分类意见与薪资区间" data-en="Award classification assessment and salary ranges">薪酬分类意见与薪资区间</li>
-              <li data-zh="发薪、超年金（Super）、工伤保险与合规节点的开办与移交" data-en="Payroll, superannuation, workers compensation and compliance milestones set up and handed over">发薪、超年金（Super）、工伤保险与合规节点的开办与移交</li>
-              <li data-zh="注册移民代理、税务师、律师与财务顾问的选定与统一对接" data-en="Registered migration agent, tax agent, lawyer and financial adviser selected and coordinated through one point of contact">注册移民代理、税务师、律师与财务顾问的选定与统一对接</li>
+              <li data-zh="{{ c.packages.f08.zh }}" data-en="{{ c.packages.f08.en }}">{{ c.packages.f08.zh }}</li>
+              <li data-zh="{{ c.packages.f09.zh }}" data-en="{{ c.packages.f09.en }}">{{ c.packages.f09.zh }}</li>
+              <li data-zh="{{ c.packages.f10.zh }}" data-en="{{ c.packages.f10.en }}">{{ c.packages.f10.zh }}</li>
+              <li data-zh="{{ c.packages.f11.zh }}" data-en="{{ c.packages.f11.en }}">{{ c.packages.f11.zh }}</li>
+              <li data-zh="{{ c.packages.f12.zh }}" data-en="{{ c.packages.f12.en }}">{{ c.packages.f12.zh }}</li>
+              <li data-zh="{{ c.packages.f13.zh }}" data-en="{{ c.packages.f13.en }}">{{ c.packages.f13.zh }}</li>
             </ul>
           </div>
-          <div class="grp"><span class="gt" data-zh="为员工与家属提供的服务" data-en="What we provide for the employee and family">为员工与家属提供的服务</span>
+          <div class="grp"><span class="gt" data-zh="{{ c.packages.f14.zh }}" data-en="{{ c.packages.f14.en }}">{{ c.packages.f14.zh }}</span>
             <ul>
-              <li data-zh="签证路径时间表；移民申请由注册移民代理承办，我们全程对接与跟进" data-en="Visa pathway timeline; the application is lodged by the registered migration agent, with us coordinating and tracking it throughout">签证路径时间表；移民申请由注册移民代理承办，我们全程对接与跟进</li>
-              <li data-zh="行前说明与文件清单，接机与首周过渡住宿" data-en="Pre-departure briefing and document checklist, airport pickup and first-week accommodation">行前说明与文件清单，接机与首周过渡住宿</li>
-              <li data-zh="手机卡、银行开户、税号（TFN）与医疗登记的落地事项" data-en="SIM, bank account, tax file number and medical registration sorted on arrival">手机卡、银行开户、税号（TFN）与医疗登记的落地事项</li>
-              <li data-zh="选区看房、租约审阅与签约陪同" data-en="Suburb selection, property viewings, lease review and accompaniment at signing">选区看房、租约审阅与签约陪同</li>
-              <li data-zh="子女入学：学区与学校范围、申请材料与面谈安排" data-en="Schooling: catchment and school options, application documents and interview scheduling">子女入学：学区与学校范围、申请材料与面谈安排</li>
-              <li data-zh="国际搬家与宠物入境：承办方比价与全程安排" data-en="International removals and pet import: quotes compared and the whole process arranged">国际搬家与宠物入境：承办方比价与全程安排</li>
-              <li data-zh="租金、押金、学费、搬家与机票等第三方费用的比价、代办与台账" data-en="Rent, bonds, school fees, removals and airfares: quotes compared, arrangements made and a running cost record kept">租金、押金、学费、搬家与机票等第三方费用的比价、代办与台账</li>
-              <li data-zh="入职手续与到澳首月的安顿跟进" data-en="Onboarding paperwork and settling-in follow-up through the first month">入职手续与到澳首月的安顿跟进</li>
-              <li data-zh="一位专属负责人，中英文随时对接" data-en="One named lead, reachable in Chinese and English">一位专属负责人，中英文随时对接</li>
+              <li data-zh="{{ c.packages.f15.zh }}" data-en="{{ c.packages.f15.en }}">{{ c.packages.f15.zh }}</li>
+              <li data-zh="{{ c.packages.f16.zh }}" data-en="{{ c.packages.f16.en }}">{{ c.packages.f16.zh }}</li>
+              <li data-zh="{{ c.packages.f17.zh }}" data-en="{{ c.packages.f17.en }}">{{ c.packages.f17.zh }}</li>
+              <li data-zh="{{ c.packages.f18.zh }}" data-en="{{ c.packages.f18.en }}">{{ c.packages.f18.zh }}</li>
+              <li data-zh="{{ c.packages.f19.zh }}" data-en="{{ c.packages.f19.en }}">{{ c.packages.f19.zh }}</li>
+              <li data-zh="{{ c.packages.f20.zh }}" data-en="{{ c.packages.f20.en }}">{{ c.packages.f20.zh }}</li>
+              <li data-zh="{{ c.packages.f21.zh }}" data-en="{{ c.packages.f21.en }}">{{ c.packages.f21.zh }}</li>
+              <li data-zh="{{ c.packages.f22.zh }}" data-en="{{ c.packages.f22.en }}">{{ c.packages.f22.zh }}</li>
+              <li data-zh="{{ c.packages.f23.zh }}" data-en="{{ c.packages.f23.en }}">{{ c.packages.f23.zh }}</li>
             </ul>
           </div>
-          <div class="grp"><span class="gt" data-zh="需要公司提供" data-en="Required from the company">需要公司提供</span>
+          <div class="grp"><span class="gt" data-zh="{{ c.packages.f24.zh }}" data-en="{{ c.packages.f24.en }}">{{ c.packages.f24.zh }}</span>
             <ul>
-              <li data-zh="派驻人员名单、家属情况与预计到澳时间" data-en="The list of assignees, their family situation and expected arrival dates">派驻人员名单、家属情况与预计到澳时间</li>
-              <li data-zh="业务计划与首年编制设想" data-en="Business plan and first-year headcount intentions">业务计划与首年编制设想</li>
-              <li data-zh="已有实体资料，或注册意向" data-en="Existing entity details, or the intention to register">已有实体资料，或注册意向</li>
-              <li data-zh="人力与安置的预算区间" data-en="A budget range for workforce and relocation">人力与安置的预算区间</li>
+              <li data-zh="{{ c.packages.f25.zh }}" data-en="{{ c.packages.f25.en }}">{{ c.packages.f25.zh }}</li>
+              <li data-zh="{{ c.packages.f26.zh }}" data-en="{{ c.packages.f26.en }}">{{ c.packages.f26.zh }}</li>
+              <li data-zh="{{ c.packages.f27.zh }}" data-en="{{ c.packages.f27.en }}">{{ c.packages.f27.zh }}</li>
+              <li data-zh="{{ c.packages.f28.zh }}" data-en="{{ c.packages.f28.en }}">{{ c.packages.f28.zh }}</li>
             </ul>
           </div>
-          <div class="grp wide"><span class="gt" data-zh="验收" data-en="Sign-off">验收</span>
-            <ul><li data-zh="公司层面的文件交付并经贵司书面确认；派驻人员完成入职，住处与子女入学落定" data-en="The company-side documents are delivered and confirmed in writing, and each assignee has started work with housing and schooling settled">公司层面的文件交付并经贵司书面确认；派驻人员完成入职，住处与子女入学落定</li></ul>
+          <div class="grp wide"><span class="gt" data-zh="{{ c.packages.f29.zh }}" data-en="{{ c.packages.f29.en }}">{{ c.packages.f29.zh }}</span>
+            <ul><li data-zh="{{ c.packages.f30.zh }}" data-en="{{ c.packages.f30.en }}">{{ c.packages.f30.zh }}</li></ul>
           </div>
         </div>
       </div>
 
       <div class="pkg">
         <div class="pk">PACKAGE B</div>
-        <h3 data-zh="关键岗位招聘" data-en="Key Hires">关键岗位招聘</h3>
-        <p class="sub" data-zh="适合已有实体，需要补齐国家经理、项目负责人或工程技术岗位的企业。" data-en="For businesses with an entity in place that need a country manager, project lead or technical hires.">适合已有实体，需要补齐国家经理、项目负责人或工程技术岗位的企业。</p>
-        <div class="grp"><span class="gt" data-zh="提供的服务包括" data-en="Services include">提供的服务包括</span>
+        <h3 data-zh="{{ c.packages.f31.zh }}" data-en="{{ c.packages.f31.en }}">{{ c.packages.f31.zh }}</h3>
+        <p class="sub" data-zh="{{ c.packages.f32.zh }}" data-en="{{ c.packages.f32.en }}">{{ c.packages.f32.zh }}</p>
+        <div class="grp"><span class="gt" data-zh="{{ c.packages.f33.zh }}" data-en="{{ c.packages.f33.en }}">{{ c.packages.f33.zh }}</span>
           <ul>
-            <li data-zh="岗位说明、汇报线与薪资区间" data-en="Role brief, reporting line and salary range">岗位说明、汇报线与薪资区间</li>
-            <li data-zh="候选人长名单与结构化评估" data-en="A longlist with structured assessment">候选人长名单与结构化评估</li>
-            <li data-zh="技术面试安排与资质核实协调" data-en="Technical interviews arranged and credential checks coordinated">技术面试安排与资质核实协调</li>
-            <li data-zh="offer 谈判与入职材料" data-en="Offer negotiation and onboarding paperwork">offer 谈判与入职材料</li>
-            <li data-zh="候选人签证与雇主担保材料的对接与进度跟进" data-en="Candidate visa and sponsorship paperwork coordinated and tracked">候选人签证与雇主担保材料的对接与进度跟进</li>
-            <li data-zh="背景调查与测评的安排与结果解读" data-en="Background checks and assessments arranged, with the results interpreted">背景调查与测评的安排与结果解读</li>
-            <li data-zh="保用期内的替补（期限见服务协议）" data-en="Replacement within the guarantee period, on the terms set out in the service agreement">保用期内的替补（期限见服务协议）</li>
+            <li data-zh="{{ c.packages.f34.zh }}" data-en="{{ c.packages.f34.en }}">{{ c.packages.f34.zh }}</li>
+            <li data-zh="{{ c.packages.f35.zh }}" data-en="{{ c.packages.f35.en }}">{{ c.packages.f35.zh }}</li>
+            <li data-zh="{{ c.packages.f36.zh }}" data-en="{{ c.packages.f36.en }}">{{ c.packages.f36.zh }}</li>
+            <li data-zh="{{ c.packages.f37.zh }}" data-en="{{ c.packages.f37.en }}">{{ c.packages.f37.zh }}</li>
+            <li data-zh="{{ c.packages.f38.zh }}" data-en="{{ c.packages.f38.en }}">{{ c.packages.f38.zh }}</li>
+            <li data-zh="{{ c.packages.f39.zh }}" data-en="{{ c.packages.f39.en }}">{{ c.packages.f39.zh }}</li>
+            <li data-zh="{{ c.packages.f40.zh }}" data-en="{{ c.packages.f40.en }}">{{ c.packages.f40.zh }}</li>
           </ul>
         </div>
-        <div class="grp"><span class="gt" data-zh="需要公司提供" data-en="Required from the company">需要公司提供</span>
+        <div class="grp"><span class="gt" data-zh="{{ c.packages.f41.zh }}" data-en="{{ c.packages.f41.en }}">{{ c.packages.f41.zh }}</span>
           <ul>
-            <li data-zh="岗位需求与汇报关系" data-en="The role requirements and reporting relationships">岗位需求与汇报关系</li>
-            <li data-zh="面试参与人与可用时间" data-en="Who will interview, and when they are available">面试参与人与可用时间</li>
-            <li data-zh="书面的薪资授权区间" data-en="An approved salary range in writing">书面的薪资授权区间</li>
+            <li data-zh="{{ c.packages.f42.zh }}" data-en="{{ c.packages.f42.en }}">{{ c.packages.f42.zh }}</li>
+            <li data-zh="{{ c.packages.f43.zh }}" data-en="{{ c.packages.f43.en }}">{{ c.packages.f43.zh }}</li>
+            <li data-zh="{{ c.packages.f44.zh }}" data-en="{{ c.packages.f44.en }}">{{ c.packages.f44.zh }}</li>
           </ul>
         </div>
-        <div class="grp"><span class="gt" data-zh="验收" data-en="Sign-off">验收</span>
-          <ul><li data-zh="候选人到岗，并通过服务协议约定的保用期" data-en="The hire starts and completes the guarantee period set out in the agreement">候选人到岗，并通过服务协议约定的保用期</li></ul>
+        <div class="grp"><span class="gt" data-zh="{{ c.packages.f45.zh }}" data-en="{{ c.packages.f45.en }}">{{ c.packages.f45.zh }}</span>
+          <ul><li data-zh="{{ c.packages.f46.zh }}" data-en="{{ c.packages.f46.en }}">{{ c.packages.f46.zh }}</li></ul>
         </div>
       </div>
 
       <div class="pkg">
         <div class="pk">PACKAGE C</div>
-        <h3 data-zh="月度 HR 运营" data-en="Monthly HR Operations">月度 HR 运营</h3>
-        <p class="sub" data-zh="适合 5–30 人规模、还不值得设全职 HR 总监的本地团队。" data-en="For local teams of roughly 5–30 people, where a full-time HR director is not yet worth it.">适合 5–30 人规模、还不值得设全职 HR 总监的本地团队。</p>
-        <div class="grp"><span class="gt" data-zh="提供的服务包括" data-en="Services include">提供的服务包括</span>
+        <h3 data-zh="{{ c.packages.f47.zh }}" data-en="{{ c.packages.f47.en }}">{{ c.packages.f47.zh }}</h3>
+        <p class="sub" data-zh="{{ c.packages.f48.zh }}" data-en="{{ c.packages.f48.en }}">{{ c.packages.f48.zh }}</p>
+        <div class="grp"><span class="gt" data-zh="{{ c.packages.f49.zh }}" data-en="{{ c.packages.f49.en }}">{{ c.packages.f49.zh }}</span>
           <ul>
-            <li data-zh="发薪、休假与报销流程的日常运行" data-en="Running payroll, leave and expense processes">发薪、休假与报销流程的日常运行</li>
-            <li data-zh="合规与签证到期日程表" data-en="A schedule of compliance and visa expiry dates">合规与签证到期日程表</li>
-            <li data-zh="员工关系与绩效流程支持" data-en="Support on employee relations and performance process">员工关系与绩效流程支持</li>
-            <li data-zh="月度中英双语汇报" data-en="Monthly reporting in both Chinese and English">月度中英双语汇报</li>
-            <li data-zh="BAS 与 STP 申报：由注册代理办理，我们负责数据、时点与进度对接" data-en="BAS and STP lodgements are made by the registered agent; we provide the data and manage timing and progress">BAS 与 STP 申报：由注册代理办理，我们负责数据、时点与进度对接</li>
-            <li data-zh="员工关系争议的流程处理，必要时对接执业律师" data-en="Employee relations disputes run through the correct process, with a practising lawyer brought in where needed">员工关系争议的流程处理，必要时对接执业律师</li>
-            <li data-zh="约定工时内的 HR 负责人参与，专项项目按需单独排期" data-en="An HR lead’s time up to the hours agreed, with dedicated projects scheduled separately as needed">约定工时内的 HR 负责人参与，专项项目按需单独排期</li>
+            <li data-zh="{{ c.packages.f50.zh }}" data-en="{{ c.packages.f50.en }}">{{ c.packages.f50.zh }}</li>
+            <li data-zh="{{ c.packages.f51.zh }}" data-en="{{ c.packages.f51.en }}">{{ c.packages.f51.zh }}</li>
+            <li data-zh="{{ c.packages.f52.zh }}" data-en="{{ c.packages.f52.en }}">{{ c.packages.f52.zh }}</li>
+            <li data-zh="{{ c.packages.f53.zh }}" data-en="{{ c.packages.f53.en }}">{{ c.packages.f53.zh }}</li>
+            <li data-zh="{{ c.packages.f54.zh }}" data-en="{{ c.packages.f54.en }}">{{ c.packages.f54.zh }}</li>
+            <li data-zh="{{ c.packages.f55.zh }}" data-en="{{ c.packages.f55.en }}">{{ c.packages.f55.zh }}</li>
+            <li data-zh="{{ c.packages.f56.zh }}" data-en="{{ c.packages.f56.en }}">{{ c.packages.f56.zh }}</li>
           </ul>
         </div>
-        <div class="grp"><span class="gt" data-zh="需要公司提供" data-en="Required from the company">需要公司提供</span>
+        <div class="grp"><span class="gt" data-zh="{{ c.packages.f57.zh }}" data-en="{{ c.packages.f57.en }}">{{ c.packages.f57.zh }}</span>
           <ul>
-            <li data-zh="现有员工名册与雇佣合同" data-en="The current staff list and employment contracts">现有员工名册与雇佣合同</li>
-            <li data-zh="薪酬与福利现状" data-en="Current pay and benefits arrangements">薪酬与福利现状</li>
-            <li data-zh="相关系统的访问授权" data-en="Access to the relevant systems">相关系统的访问授权</li>
+            <li data-zh="{{ c.packages.f58.zh }}" data-en="{{ c.packages.f58.en }}">{{ c.packages.f58.zh }}</li>
+            <li data-zh="{{ c.packages.f59.zh }}" data-en="{{ c.packages.f59.en }}">{{ c.packages.f59.zh }}</li>
+            <li data-zh="{{ c.packages.f60.zh }}" data-en="{{ c.packages.f60.en }}">{{ c.packages.f60.zh }}</li>
           </ul>
         </div>
-        <div class="grp"><span class="gt" data-zh="验收" data-en="Sign-off">验收</span>
-          <ul><li data-zh="按月交付汇报，每季度复盘范围与工时" data-en="Monthly reporting delivered, with scope and hours reviewed each quarter">按月交付汇报，每季度复盘范围与工时</li></ul>
+        <div class="grp"><span class="gt" data-zh="{{ c.packages.f61.zh }}" data-en="{{ c.packages.f61.en }}">{{ c.packages.f61.zh }}</span>
+          <ul><li data-zh="{{ c.packages.f62.zh }}" data-en="{{ c.packages.f62.en }}">{{ c.packages.f62.zh }}</li></ul>
         </div>
       </div>
 
     </div>
-    <p class="pricenote rv" data-zh="价格按编制规模、服务期与所在州确定，签约前以书面报价单为准，本页不列价格。保用期长度与替补次数、以及各包的工时上限，均在服务协议中写明。" data-en="Pricing depends on headcount, term and the state of operation, and is confirmed in a written quote before signing — this page does not list prices. Guarantee periods, replacement counts and the hours included in each package are all set out in the agreement.">价格按编制规模、服务期与所在州确定，签约前以书面报价单为准，本页不列价格。保用期长度与替补次数、以及各包的工时上限，均在服务协议中写明。</p>
+    <p class="pricenote rv" data-zh="{{ c.packages.f63.zh }}" data-en="{{ c.packages.f63.en }}">{{ c.packages.f63.zh }}</p>
   </div>
 </section>
 
@@ -664,35 +669,35 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section id="timeline">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="eyebrow"><span data-zh="落地路径" data-en="How it runs">落地路径</span></div>
-      <h2 data-zh="落地要按顺序推进" data-en="The order of the work matters">落地要按顺序推进</h2>
-      <p class="lede" data-zh="这些环节彼此依赖——签证方案要在招聘启动前定，薪酬分类要在发出 offer 前定。顺序错了，返工和成本都会跟着上来。实际用时取决于签证审批进度与企业自身的业务节奏。" data-en="These steps depend on one another: the visa plan is settled before hiring starts, the award classification before any offer goes out. Get the order wrong and rework and cost follow. How long it takes depends on visa processing and the company’s own pace.">这些环节彼此依赖——签证方案要在招聘启动前定，薪酬分类要在发出 offer 前定。顺序错了，返工和成本都会跟着上来。实际用时取决于签证审批进度与企业自身的业务节奏。</p>
+      <div class="eyebrow"><span data-zh="{{ c.timeline.f01.zh }}" data-en="{{ c.timeline.f01.en }}">{{ c.timeline.f01.zh }}</span></div>
+      <h2 data-zh="{{ c.timeline.f02.zh }}" data-en="{{ c.timeline.f02.en }}">{{ c.timeline.f02.zh }}</h2>
+      <p class="lede" data-zh="{{ c.timeline.f03.zh }}" data-en="{{ c.timeline.f03.en }}">{{ c.timeline.f03.zh }}</p>
     </div>
     <div class="tl rv">
       <div class="tl-step">
         <div class="d">STEP 01</div>
-        <h3 data-zh="落地诊断" data-en="Landing review">落地诊断</h3>
-        <p data-zh="业务目标、首年编制、预算与风险清单，出具落地方案与成本模型。" data-en="Business goals, first-year headcount, budget and risk register — delivered as a plan and a cost model.">业务目标、首年编制、预算与风险清单，出具落地方案与成本模型。</p>
+        <h3 data-zh="{{ c.timeline.f04.zh }}" data-en="{{ c.timeline.f04.en }}">{{ c.timeline.f04.zh }}</h3>
+        <p data-zh="{{ c.timeline.f05.zh }}" data-en="{{ c.timeline.f05.en }}">{{ c.timeline.f05.zh }}</p>
       </div>
       <div class="tl-step">
         <div class="d">STEP 02</div>
-        <h3 data-zh="实体与合规底座" data-en="Entity &amp; compliance base">实体与合规底座</h3>
-        <p data-zh="公司与税务注册完成，保险、合同模板、员工手册与薪酬分类就位。" data-en="Company and tax registrations done; insurance, contract templates, handbook and award classification in place.">公司与税务注册完成，保险、合同模板、员工手册与薪酬分类就位。</p>
+        <h3 data-zh="{{ c.timeline.f06.zh }}" data-en="{{ c.timeline.f06.en }}">{{ c.timeline.f06.zh }}</h3>
+        <p data-zh="{{ c.timeline.f07.zh }}" data-en="{{ c.timeline.f07.en }}">{{ c.timeline.f07.zh }}</p>
       </div>
       <div class="tl-step">
         <div class="d">STEP 03</div>
-        <h3 data-zh="首批关键岗位" data-en="First key hires">首批关键岗位</h3>
-        <p data-zh="国家经理 / 项目负责人进入终面，签证路径与担保资质并行推进。" data-en="Country manager and project lead reach final interview; sponsorship runs in parallel.">国家经理 / 项目负责人进入终面，签证路径与担保资质并行推进。</p>
+        <h3 data-zh="{{ c.timeline.f08.zh }}" data-en="{{ c.timeline.f08.en }}">{{ c.timeline.f08.zh }}</h3>
+        <p data-zh="{{ c.timeline.f09.zh }}" data-en="{{ c.timeline.f09.en }}">{{ c.timeline.f09.zh }}</p>
       </div>
       <div class="tl-step">
         <div class="d">STEP 04</div>
-        <h3 data-zh="团队成型" data-en="Team formed">团队成型</h3>
-        <p data-zh="工程、BD 与运营岗位陆续入职，发薪与人事系统跑通第一个完整周期。" data-en="Engineering, BD and ops roles onboard; payroll and HRIS complete a full cycle.">工程、BD 与运营岗位陆续入职，发薪与人事系统跑通第一个完整周期。</p>
+        <h3 data-zh="{{ c.timeline.f10.zh }}" data-en="{{ c.timeline.f10.en }}">{{ c.timeline.f10.zh }}</h3>
+        <p data-zh="{{ c.timeline.f11.zh }}" data-en="{{ c.timeline.f11.en }}">{{ c.timeline.f11.zh }}</p>
       </div>
       <div class="tl-step">
         <div class="d">STEP 05</div>
-        <h3 data-zh="移交与持续运营" data-en="Handover &amp; ongoing">移交与持续运营</h3>
-        <p data-zh="绩效制度上线，日常人事流程移交，转为月度 HR 订阅持续运营。" data-en="Performance framework live, day-to-day HR processes handed over, and the engagement moves to the monthly retainer.">绩效制度上线，日常人事流程移交，转为月度 HR 订阅持续运营。</p>
+        <h3 data-zh="{{ c.timeline.f12.zh }}" data-en="{{ c.timeline.f12.en }}">{{ c.timeline.f12.zh }}</h3>
+        <p data-zh="{{ c.timeline.f13.zh }}" data-en="{{ c.timeline.f13.en }}">{{ c.timeline.f13.zh }}</p>
       </div>
     </div>
   </div>
@@ -702,50 +707,50 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section id="chinadesk">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="eyebrow"><span data-zh="出海专线" data-en="China Desk">出海专线</span></div>
-      <h2 data-zh="一条专门服务中资企业出海的业务线" data-en="A dedicated desk for Chinese enterprises expanding abroad">一条专门服务中资企业出海的业务线</h2>
-      <p class="lede" data-zh="中资企业在澳洲遇到的问题，和一家欧美公司开分部完全不同：董事居住要求、外派人员身份、总部审批链条、跨时区汇报、以及本地员工对管理方式的不适应。我们为此单设一条业务线，用中文与总部沟通，用英文与监管机构、律师和员工沟通。" data-en="What a Chinese-invested business runs into in Australia is not what a European or US company runs into: resident director requirements, expat status, HQ approval chains, cross-time-zone reporting, and local staff adjusting to a different management style. We run a separate desk for it — speaking Chinese to head office, and English to the regulator, the lawyers and local staff.">中资企业在澳洲遇到的问题，和一家欧美公司开分部完全不同：董事居住要求、外派人员身份、总部审批链条、跨时区汇报、以及本地员工对管理方式的不适应。我们为此单设一条业务线，用中文与总部沟通，用英文与监管机构、律师和员工沟通。</p>
+      <div class="eyebrow"><span data-zh="{{ c.chinadesk.f01.zh }}" data-en="{{ c.chinadesk.f01.en }}">{{ c.chinadesk.f01.zh }}</span></div>
+      <h2 data-zh="{{ c.chinadesk.f02.zh }}" data-en="{{ c.chinadesk.f02.en }}">{{ c.chinadesk.f02.zh }}</h2>
+      <p class="lede" data-zh="{{ c.chinadesk.f03.zh }}" data-en="{{ c.chinadesk.f03.en }}">{{ c.chinadesk.f03.zh }}</p>
     </div>
     <div class="cd-grid rv">
       <div class="cd-list">
         <div class="cd-item">
           <span class="n">01</span>
           <div>
-            <h3 data-zh="总部可读的中文汇报" data-en="Reporting head office can read">总部可读的中文汇报</h3>
-            <p data-zh="人力预算、编制进度、离职率与合规风险，按总部习惯的口径出中文月报，不用国家经理自己翻译。" data-en="Headcount budget, hiring progress, attrition and compliance risk — reported monthly in Chinese, in the format head office already uses, so the country manager isn’t translating it themselves.">人力预算、编制进度、离职率与合规风险，按总部习惯的口径出中文月报，不用国家经理自己翻译。</p>
+            <h3 data-zh="{{ c.chinadesk.f04.zh }}" data-en="{{ c.chinadesk.f04.en }}">{{ c.chinadesk.f04.zh }}</h3>
+            <p data-zh="{{ c.chinadesk.f05.zh }}" data-en="{{ c.chinadesk.f05.en }}">{{ c.chinadesk.f05.zh }}</p>
           </div>
         </div>
         <div class="cd-item">
           <span class="n">02</span>
           <div>
-            <h3 data-zh="外派人员安置" data-en="Expat relocation">外派人员安置</h3>
-            <p data-zh="签证、税务身份、住房、子女入学、医疗保险与落地手续，让派过来的人第一个月就能专心工作。" data-en="Visas, tax residency, housing, schooling, health cover and settling-in logistics — so the person sent over can focus on the job in month one.">签证、税务身份、住房、子女入学、医疗保险与落地手续，让派过来的人第一个月就能专心工作。</p>
+            <h3 data-zh="{{ c.chinadesk.f06.zh }}" data-en="{{ c.chinadesk.f06.en }}">{{ c.chinadesk.f06.zh }}</h3>
+            <p data-zh="{{ c.chinadesk.f07.zh }}" data-en="{{ c.chinadesk.f07.en }}">{{ c.chinadesk.f07.zh }}</p>
           </div>
         </div>
         <div class="cd-item">
           <span class="n">03</span>
           <div>
-            <h3 data-zh="中英文双语文件包" data-en="Bilingual document pack">中英文双语文件包</h3>
-            <p data-zh="雇佣合同、员工手册、绩效表、offer 与离职流程全部中英对照；解释优先语言由合同约定并经律师审核，中文版便于总部理解与审批。" data-en="Contracts, handbook, performance forms, offers and exit process in parallel Chinese and English. Which language prevails is set in the agreement and reviewed by a lawyer; the Chinese version is there so head office can read and approve it.">雇佣合同、员工手册、绩效表、offer 与离职流程全部中英对照；解释优先语言由合同约定并经律师审核，中文版便于总部理解与审批。</p>
+            <h3 data-zh="{{ c.chinadesk.f08.zh }}" data-en="{{ c.chinadesk.f08.en }}">{{ c.chinadesk.f08.zh }}</h3>
+            <p data-zh="{{ c.chinadesk.f09.zh }}" data-en="{{ c.chinadesk.f09.en }}">{{ c.chinadesk.f09.zh }}</p>
           </div>
         </div>
         <div class="cd-item">
           <span class="n">04</span>
           <div>
-            <h3 data-zh="与贵司的会计师、律师协同" data-en="Working alongside the company’s accountants and lawyers">与贵司的会计师、律师协同</h3>
-            <p data-zh="人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司的会计师、税务顾问和移民代理／律师对齐，避免各自出方案、最后互相冲突。相关专业意见由各自持牌方出具。" data-en="A workforce plan doesn’t stand alone. We align employment structure and remuneration with the company’s accountants, tax advisers and migration agent or lawyer so the plans don’t contradict each other. The professional advice itself comes from each licensed provider.">人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司的会计师、税务顾问和移民代理／律师对齐，避免各自出方案、最后互相冲突。相关专业意见由各自持牌方出具。</p>
+            <h3 data-zh="{{ c.chinadesk.f10.zh }}" data-en="{{ c.chinadesk.f10.en }}">{{ c.chinadesk.f10.zh }}</h3>
+            <p data-zh="{{ c.chinadesk.f11.zh }}" data-en="{{ c.chinadesk.f11.en }}">{{ c.chinadesk.f11.zh }}</p>
           </div>
         </div>
         <div class="cd-item">
           <span class="n">05</span>
           <div>
-            <h3 data-zh="落地执行的四个节点" data-en="The four checkpoints of a landing">落地执行的四个节点</h3>
-            <p data-zh="派驻人员带着家庭过来，第一个月多半在处理住房、学校和银行，而不是工作。整体落地服务（Package A）按四个节点推进，每完成一段确认一段：" data-en="When someone relocates with their family, most of month one goes on housing, schools and banks rather than the job. The end-to-end landing service (Package A) runs to four checkpoints, each confirmed as it is completed:">派驻人员带着家庭过来，第一个月多半在处理住房、学校和银行，而不是工作。整体落地服务（Package A）按四个节点推进，每完成一段确认一段：</p>
+            <h3 data-zh="{{ c.chinadesk.f12.zh }}" data-en="{{ c.chinadesk.f12.en }}">{{ c.chinadesk.f12.zh }}</h3>
+            <p data-zh="{{ c.chinadesk.f13.zh }}" data-en="{{ c.chinadesk.f13.en }}">{{ c.chinadesk.f13.zh }}</p>
             <ul class="relo">
-              <li data-zh="出发前 —— 签证与体检节点确认、随行家属材料清单、住房与学区初选" data-en="Before departure — visa and medical milestones confirmed, dependant document checklist, shortlist of suburbs and schools">出发前 —— 签证与体检节点确认、随行家属材料清单、住房与学区初选</li>
-              <li data-zh="抵达前 —— 临时住所、机场接送、银行开户与电话卡预约" data-en="Before arrival — temporary accommodation, airport pick-up, bank account and SIM appointments booked">抵达前 —— 临时住所、机场接送、银行开户与电话卡预约</li>
-              <li data-zh="首日 —— 入职材料、TFN 与超年金账户、办公与门禁安排" data-en="Day one — onboarding paperwork, tax file number and super account, desk and building access">首日 —— 入职材料、TFN 与超年金账户、办公与门禁安排</li>
-              <li data-zh="7 天 / 30 天 —— 长租与学校确认、家属安顿回访、留存风险预警" data-en="Day 7 and day 30 — lease and school confirmed, a check-in with the family, and an early flag on any retention risk">7 天 / 30 天 —— 长租与学校确认、家属安顿回访、留存风险预警</li>
+              <li data-zh="{{ c.chinadesk.f14.zh }}" data-en="{{ c.chinadesk.f14.en }}">{{ c.chinadesk.f14.zh }}</li>
+              <li data-zh="{{ c.chinadesk.f15.zh }}" data-en="{{ c.chinadesk.f15.en }}">{{ c.chinadesk.f15.zh }}</li>
+              <li data-zh="{{ c.chinadesk.f16.zh }}" data-en="{{ c.chinadesk.f16.en }}">{{ c.chinadesk.f16.zh }}</li>
+              <li data-zh="{{ c.chinadesk.f17.zh }}" data-en="{{ c.chinadesk.f17.en }}">{{ c.chinadesk.f17.zh }}</li>
             </ul>
           </div>
         </div>
@@ -753,10 +758,10 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
       <div>
         <div class="contact" style="padding:30px 28px">
           <div style="grid-column:1/-1">
-            <div class="eyebrow"><span data-zh="同样适用于" data-en="Equally for">同样适用于</span></div>
-            <h3 style="margin-top:14px;font-size:20px" data-zh="任何第一次在澳洲雇人的公司" data-en="Any company hiring in Australia for the first time">任何第一次在澳洲雇人的公司</h3>
-            <p class="lede" style="margin-top:12px;font-size:15px" data-zh="出海专线是我们的一条业务线，不是我们的全部。欧美、东南亚、日韩企业的澳洲落地，以及本地企业的规模化扩张，走的是同一套流程与同一支团队——只是不需要中文那一层。" data-en="The China Desk is one of our lines, not all of them. European, US, Southeast Asian, Japanese and Korean businesses landing in Australia — and local companies scaling up — run through the same process and the same team, minus the Chinese-language layer.">出海专线是我们的一条业务线，不是我们的全部。欧美、东南亚、日韩企业的澳洲落地，以及本地企业的规模化扩张，走的是同一套流程与同一支团队——只是不需要中文那一层。</p>
-            <div class="hero-btns"><a class="cta ghost" href="#contact" data-zh="预约初步沟通" data-en="Book an initial call">预约初步沟通</a></div>
+            <div class="eyebrow"><span data-zh="{{ c.chinadesk.f18.zh }}" data-en="{{ c.chinadesk.f18.en }}">{{ c.chinadesk.f18.zh }}</span></div>
+            <h3 style="margin-top:14px;font-size:20px" data-zh="{{ c.chinadesk.f19.zh }}" data-en="{{ c.chinadesk.f19.en }}">{{ c.chinadesk.f19.zh }}</h3>
+            <p class="lede" style="margin-top:12px;font-size:15px" data-zh="{{ c.chinadesk.f20.zh }}" data-en="{{ c.chinadesk.f20.en }}">{{ c.chinadesk.f20.zh }}</p>
+            <div class="hero-btns"><a class="cta ghost" href="#contact" data-zh="{{ c.chinadesk.f21.zh }}" data-en="{{ c.chinadesk.f21.en }}">{{ c.chinadesk.f21.zh }}</a></div>
           </div>
         </div>
       </div>
@@ -768,85 +773,85 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section id="sectors">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="eyebrow"><span data-zh="行业覆盖" data-en="Sector coverage">行业覆盖</span></div>
-      <h2 data-zh="五个行业组，新能源是我们最深的一条" data-en="Five sector desks. New energy is the deepest of them.">五个行业组，新能源是我们最深的一条</h2>
-      <p class="lede" data-zh="同一个职位名称，在不同行业里是完全不同的人。所以顾问按行业分组，而不是按职能分组——他们看得懂贵司的项目，也听得懂候选人在说什么。" data-en="The same job title means a different person in a different industry. So our consultants are grouped by sector, not by function — they understand the projects, and they understand what a candidate is actually telling them.">同一个职位名称，在不同行业里是完全不同的人。所以顾问按行业分组，而不是按职能分组——他们看得懂贵司的项目，也听得懂候选人在说什么。</p>
+      <div class="eyebrow"><span data-zh="{{ c.sectors.f01.zh }}" data-en="{{ c.sectors.f01.en }}">{{ c.sectors.f01.zh }}</span></div>
+      <h2 data-zh="{{ c.sectors.f02.zh }}" data-en="{{ c.sectors.f02.en }}">{{ c.sectors.f02.zh }}</h2>
+      <p class="lede" data-zh="{{ c.sectors.f03.zh }}" data-en="{{ c.sectors.f03.en }}">{{ c.sectors.f03.zh }}</p>
     </div>
     <div class="desks rv">
       <div class="desk flag">
         <div class="hd">
           <span class="i">DESK 01</span>
-          <h3 data-zh="新能源与电力" data-en="New Energy &amp; Power">新能源与电力</h3>
-          <span class="flagtag" data-zh="重点赛道" data-en="FLAGSHIP">重点赛道</span>
+          <h3 data-zh="{{ c.sectors.f04.zh }}" data-en="{{ c.sectors.f04.en }}">{{ c.sectors.f04.zh }}</h3>
+          <span class="flagtag" data-zh="{{ c.sectors.f05.zh }}" data-en="{{ c.sectors.f05.en }}">{{ c.sectors.f05.zh }}</span>
         </div>
         <div class="chips">
-          <span class="chip" data-zh="光伏电站开发" data-en="Utility-scale solar">光伏电站开发</span>
-          <span class="chip" data-zh="工商业分布式" data-en="C&amp;I distributed solar">工商业分布式</span>
-          <span class="chip" data-zh="储能 BESS" data-en="Battery storage (BESS)">储能 BESS</span>
-          <span class="chip" data-zh="风电开发与运维" data-en="Wind development &amp; O&amp;M">风电开发与运维</span>
-          <span class="chip" data-zh="绿氢与电解槽" data-en="Green hydrogen &amp; electrolysers">绿氢与电解槽</span>
-          <span class="chip" data-zh="电池制造与回收" data-en="Battery manufacturing &amp; recycling">电池制造与回收</span>
-          <span class="chip" data-zh="充电桩与车网互动" data-en="EV charging &amp; V2G">充电桩与车网互动</span>
-          <span class="chip" data-zh="电网与并网工程" data-en="Grid &amp; connection engineering">电网与并网工程</span>
-          <span class="chip solar" data-zh="虚拟电厂 VPP" data-en="Virtual power plants">虚拟电厂 VPP</span>
-          <span class="chip solar" data-zh="绿证与碳资产" data-en="LGCs &amp; carbon assets">绿证与碳资产</span>
+          <span class="chip" data-zh="{{ c.sectors.f06.zh }}" data-en="{{ c.sectors.f06.en }}">{{ c.sectors.f06.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f07.zh }}" data-en="{{ c.sectors.f07.en }}">{{ c.sectors.f07.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f08.zh }}" data-en="{{ c.sectors.f08.en }}">{{ c.sectors.f08.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f09.zh }}" data-en="{{ c.sectors.f09.en }}">{{ c.sectors.f09.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f10.zh }}" data-en="{{ c.sectors.f10.en }}">{{ c.sectors.f10.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f11.zh }}" data-en="{{ c.sectors.f11.en }}">{{ c.sectors.f11.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f12.zh }}" data-en="{{ c.sectors.f12.en }}">{{ c.sectors.f12.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f13.zh }}" data-en="{{ c.sectors.f13.en }}">{{ c.sectors.f13.zh }}</span>
+          <span class="chip solar" data-zh="{{ c.sectors.f14.zh }}" data-en="{{ c.sectors.f14.en }}">{{ c.sectors.f14.zh }}</span>
+          <span class="chip solar" data-zh="{{ c.sectors.f15.zh }}" data-en="{{ c.sectors.f15.en }}">{{ c.sectors.f15.zh }}</span>
         </div>
       </div>
       <div class="desk">
         <div class="hd">
           <span class="i">DESK 02</span>
-          <h3 data-zh="基建工程与矿业" data-en="Infrastructure, Engineering &amp; Mining">基建工程与矿业</h3>
+          <h3 data-zh="{{ c.sectors.f16.zh }}" data-en="{{ c.sectors.f16.en }}">{{ c.sectors.f16.zh }}</h3>
         </div>
         <div class="chips">
-          <span class="chip" data-zh="EPC 总承包" data-en="EPC contracting">EPC 总承包</span>
-          <span class="chip" data-zh="建筑与土木" data-en="Construction &amp; civil">建筑与土木</span>
-          <span class="chip" data-zh="矿业与资源" data-en="Mining &amp; resources">矿业与资源</span>
-          <span class="chip" data-zh="交通与市政" data-en="Transport &amp; utilities">交通与市政</span>
-          <span class="chip" data-zh="项目管理与造价" data-en="Project controls &amp; QS">项目管理与造价</span>
-          <span class="chip" data-zh="HSE 与合规" data-en="HSE &amp; compliance">HSE 与合规</span>
-          <span class="chip" data-zh="制造与工业" data-en="Manufacturing &amp; industrial">制造与工业</span>
+          <span class="chip" data-zh="{{ c.sectors.f17.zh }}" data-en="{{ c.sectors.f17.en }}">{{ c.sectors.f17.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f18.zh }}" data-en="{{ c.sectors.f18.en }}">{{ c.sectors.f18.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f19.zh }}" data-en="{{ c.sectors.f19.en }}">{{ c.sectors.f19.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f20.zh }}" data-en="{{ c.sectors.f20.en }}">{{ c.sectors.f20.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f21.zh }}" data-en="{{ c.sectors.f21.en }}">{{ c.sectors.f21.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f22.zh }}" data-en="{{ c.sectors.f22.en }}">{{ c.sectors.f22.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f23.zh }}" data-en="{{ c.sectors.f23.en }}">{{ c.sectors.f23.zh }}</span>
         </div>
       </div>
       <div class="desk">
         <div class="hd">
           <span class="i">DESK 03</span>
-          <h3 data-zh="科技与数字" data-en="Technology &amp; Digital">科技与数字</h3>
+          <h3 data-zh="{{ c.sectors.f24.zh }}" data-en="{{ c.sectors.f24.en }}">{{ c.sectors.f24.zh }}</h3>
         </div>
         <div class="chips">
-          <span class="chip" data-zh="SaaS 与平台" data-en="SaaS &amp; platforms">SaaS 与平台</span>
-          <span class="chip" data-zh="AI 与数据" data-en="AI &amp; data">AI 与数据</span>
-          <span class="chip" data-zh="电商与跨境" data-en="E-commerce &amp; cross-border">电商与跨境</span>
-          <span class="chip" data-zh="金融科技" data-en="Fintech">金融科技</span>
-          <span class="chip" data-zh="游戏与内容" data-en="Gaming &amp; content">游戏与内容</span>
-          <span class="chip" data-zh="智能硬件与 IoT" data-en="Hardware &amp; IoT">智能硬件与 IoT</span>
+          <span class="chip" data-zh="{{ c.sectors.f25.zh }}" data-en="{{ c.sectors.f25.en }}">{{ c.sectors.f25.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f26.zh }}" data-en="{{ c.sectors.f26.en }}">{{ c.sectors.f26.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f27.zh }}" data-en="{{ c.sectors.f27.en }}">{{ c.sectors.f27.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f28.zh }}" data-en="{{ c.sectors.f28.en }}">{{ c.sectors.f28.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f29.zh }}" data-en="{{ c.sectors.f29.en }}">{{ c.sectors.f29.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f30.zh }}" data-en="{{ c.sectors.f30.en }}">{{ c.sectors.f30.zh }}</span>
         </div>
       </div>
       <div class="desk">
         <div class="hd">
           <span class="i">DESK 04</span>
-          <h3 data-zh="金融与专业服务" data-en="Finance &amp; Professional Services">金融与专业服务</h3>
+          <h3 data-zh="{{ c.sectors.f31.zh }}" data-en="{{ c.sectors.f31.en }}">{{ c.sectors.f31.zh }}</h3>
         </div>
         <div class="chips">
-          <span class="chip" data-zh="基金与资产管理" data-en="Funds &amp; asset management">基金与资产管理</span>
-          <span class="chip" data-zh="地产投资与开发" data-en="Property investment &amp; development">地产投资与开发</span>
-          <span class="chip" data-zh="会计与税务" data-en="Accounting &amp; tax">会计与税务</span>
-          <span class="chip" data-zh="法律与咨询" data-en="Legal &amp; advisory">法律与咨询</span>
-          <span class="chip" data-zh="保险与风控" data-en="Insurance &amp; risk">保险与风控</span>
-          <span class="chip" data-zh="银行与支付" data-en="Banking &amp; payments">银行与支付</span>
+          <span class="chip" data-zh="{{ c.sectors.f32.zh }}" data-en="{{ c.sectors.f32.en }}">{{ c.sectors.f32.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f33.zh }}" data-en="{{ c.sectors.f33.en }}">{{ c.sectors.f33.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f34.zh }}" data-en="{{ c.sectors.f34.en }}">{{ c.sectors.f34.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f35.zh }}" data-en="{{ c.sectors.f35.en }}">{{ c.sectors.f35.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f36.zh }}" data-en="{{ c.sectors.f36.en }}">{{ c.sectors.f36.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f37.zh }}" data-en="{{ c.sectors.f37.en }}">{{ c.sectors.f37.zh }}</span>
         </div>
       </div>
       <div class="desk">
         <div class="hd">
           <span class="i">DESK 05</span>
-          <h3 data-zh="消费、零售与物流" data-en="Consumer, Retail &amp; Logistics">消费、零售与物流</h3>
+          <h3 data-zh="{{ c.sectors.f38.zh }}" data-en="{{ c.sectors.f38.en }}">{{ c.sectors.f38.zh }}</h3>
         </div>
         <div class="chips">
-          <span class="chip" data-zh="品牌出海与市场" data-en="Brand expansion &amp; marketing">品牌出海与市场</span>
-          <span class="chip" data-zh="连锁与门店运营" data-en="Retail chains &amp; store ops">连锁与门店运营</span>
-          <span class="chip" data-zh="餐饮与食品" data-en="F&amp;B and food">餐饮与食品</span>
-          <span class="chip" data-zh="仓储与配送" data-en="Warehousing &amp; delivery">仓储与配送</span>
-          <span class="chip" data-zh="供应链与关务" data-en="Supply chain &amp; customs">供应链与关务</span>
-          <span class="chip" data-zh="健康与教育服务" data-en="Health &amp; education services">健康与教育服务</span>
+          <span class="chip" data-zh="{{ c.sectors.f39.zh }}" data-en="{{ c.sectors.f39.en }}">{{ c.sectors.f39.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f40.zh }}" data-en="{{ c.sectors.f40.en }}">{{ c.sectors.f40.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f41.zh }}" data-en="{{ c.sectors.f41.en }}">{{ c.sectors.f41.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f42.zh }}" data-en="{{ c.sectors.f42.en }}">{{ c.sectors.f42.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f43.zh }}" data-en="{{ c.sectors.f43.en }}">{{ c.sectors.f43.zh }}</span>
+          <span class="chip" data-zh="{{ c.sectors.f44.zh }}" data-en="{{ c.sectors.f44.en }}">{{ c.sectors.f44.zh }}</span>
         </div>
       </div>
     </div>
@@ -857,39 +862,39 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section id="edge" class="band">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="eyebrow"><span data-zh="另外六项" data-en="Six more things">另外六项</span></div>
-      <h2 data-zh="另外六项常被忽略、但会影响成本的工作" data-en="Six more pieces of work that are easy to miss and show up in the cost">另外六项常被忽略、但会影响成本的工作</h2>
+      <div class="eyebrow"><span data-zh="{{ c.edge.f01.zh }}" data-en="{{ c.edge.f01.en }}">{{ c.edge.f01.zh }}</span></div>
+      <h2 data-zh="{{ c.edge.f02.zh }}" data-en="{{ c.edge.f02.en }}">{{ c.edge.f02.zh }}</h2>
     </div>
     <div class="grid g3 rv">
       <div class="card">
-        <div class="k" data-zh="薪酬定价" data-en="Pay benchmarking">薪酬定价</div>
-        <h3 data-zh="能解释得清的薪资区间" data-en="Salary ranges that can be explained">能解释得清的薪资区间</h3>
-        <p data-zh="结合公开薪酬数据、适用薪酬标准的最低要求，以及我们在实际招聘中看到的成交区间，给出一个能向总部解释来源的薪资区间。" data-en="We set the range from published salary data, the minimum under the applicable award, and what we actually see offers land at — so the source of the number can be explained to head office.">结合公开薪酬数据、适用薪酬标准的最低要求，以及我们在实际招聘中看到的成交区间，给出一个能向总部解释来源的薪资区间。</p>
+        <div class="k" data-zh="{{ c.edge.f03.zh }}" data-en="{{ c.edge.f03.en }}">{{ c.edge.f03.zh }}</div>
+        <h3 data-zh="{{ c.edge.f04.zh }}" data-en="{{ c.edge.f04.en }}">{{ c.edge.f04.zh }}</h3>
+        <p data-zh="{{ c.edge.f05.zh }}" data-en="{{ c.edge.f05.en }}">{{ c.edge.f05.zh }}</p>
       </div>
       <div class="card">
-        <div class="k" data-zh="文化桥梁" data-en="Culture bridge">文化桥梁</div>
-        <h3 data-zh="中澳双文化管理桥梁" data-en="The China–Australia management bridge">中澳双文化管理桥梁</h3>
-        <p data-zh="既向总部讲清楚为什么本地员工准点下班，也向本地团队讲清楚总部的节奏与决策方式，减少外派与本地员工之间的摩擦。" data-en="We explain to HQ why local staff leave on time, and to the local team how HQ makes decisions, reducing friction between expat and local colleagues.">既向总部讲清楚为什么本地员工准点下班，也向本地团队讲清楚总部的节奏与决策方式，减少外派与本地员工之间的摩擦。</p>
+        <div class="k" data-zh="{{ c.edge.f06.zh }}" data-en="{{ c.edge.f06.en }}">{{ c.edge.f06.zh }}</div>
+        <h3 data-zh="{{ c.edge.f07.zh }}" data-en="{{ c.edge.f07.en }}">{{ c.edge.f07.zh }}</h3>
+        <p data-zh="{{ c.edge.f08.zh }}" data-en="{{ c.edge.f08.en }}">{{ c.edge.f08.zh }}</p>
       </div>
       <div class="card">
-        <div class="k" data-zh="到期日程" data-en="Key dates">到期日程</div>
-        <h3 data-zh="到期日程与提前提醒" data-en="A tracked schedule of key dates">到期日程与提前提醒</h3>
-        <p data-zh="签证到期、保险续期、薪酬标准调薪、工伤险申报、许可证年检——我们维护一张到期日程表，在月度汇报里提前提示，免得因为漏掉一个日期产生罚款或断档。" data-en="Visa expiries, insurance renewals, award increases, workers-comp declarations, licence renewals — we keep a schedule of these dates and flag them ahead of time in the monthly report, so a missed date doesn’t turn into a penalty or a gap.">签证到期、保险续期、薪酬标准调薪、工伤险申报、许可证年检——我们维护一张到期日程表，在月度汇报里提前提示，免得因为漏掉一个日期产生罚款或断档。</p>
+        <div class="k" data-zh="{{ c.edge.f09.zh }}" data-en="{{ c.edge.f09.en }}">{{ c.edge.f09.zh }}</div>
+        <h3 data-zh="{{ c.edge.f10.zh }}" data-en="{{ c.edge.f10.en }}">{{ c.edge.f10.zh }}</h3>
+        <p data-zh="{{ c.edge.f11.zh }}" data-en="{{ c.edge.f11.en }}">{{ c.edge.f11.zh }}</p>
       </div>
       <div class="card">
-        <div class="k" data-zh="弹性" data-en="Flexible">弹性</div>
-        <h3 data-zh="分数制 HR 负责人" data-en="Fractional HR leadership">分数制 HR 负责人</h3>
-        <p data-zh="团队只有 5–30 人时，不值得养一个全职 HR 总监。我们按月提供一位可上会、可决策的 HR 负责人，需要时再移交给企业自建的团队。" data-en="At 5–30 people a full-time HR director isn’t worth it. We provide one on a monthly basis who sits in the leadership meetings, and hand over when the company is ready to build in-house.">团队只有 5–30 人时，不值得养一个全职 HR 总监。我们按月提供一位可上会、可决策的 HR 负责人，需要时再移交给企业自建的团队。</p>
+        <div class="k" data-zh="{{ c.edge.f12.zh }}" data-en="{{ c.edge.f12.en }}">{{ c.edge.f12.zh }}</div>
+        <h3 data-zh="{{ c.edge.f13.zh }}" data-en="{{ c.edge.f13.en }}">{{ c.edge.f13.zh }}</h3>
+        <p data-zh="{{ c.edge.f14.zh }}" data-en="{{ c.edge.f14.en }}">{{ c.edge.f14.zh }}</p>
       </div>
       <div class="card">
-        <div class="k" data-zh="承诺" data-en="Guarantee">承诺</div>
-        <h3 data-zh="保用期与替补机制" data-en="Guarantee period &amp; replacement">保用期与替补机制</h3>
-        <p data-zh="核心岗位设保用期，期内离职按服务协议约定由我们负责替补。我们希望赚的是留得下来的团队，不是被换掉的人。" data-en="Key roles carry a guarantee period; a departure inside it is replaced under the terms of the agreement. We would rather be paid for the team that stays than for the people who get replaced.">核心岗位设保用期，期内离职按服务协议约定由我们负责替补。我们希望赚的是留得下来的团队，不是被换掉的人。</p>
+        <div class="k" data-zh="{{ c.edge.f15.zh }}" data-en="{{ c.edge.f15.en }}">{{ c.edge.f15.zh }}</div>
+        <h3 data-zh="{{ c.edge.f16.zh }}" data-en="{{ c.edge.f16.en }}">{{ c.edge.f16.zh }}</h3>
+        <p data-zh="{{ c.edge.f17.zh }}" data-en="{{ c.edge.f17.en }}">{{ c.edge.f17.zh }}</p>
       </div>
       <div class="card">
-        <div class="k" data-zh="项目用工" data-en="Project workforce">项目用工</div>
-        <h3 data-zh="现场与门店用工方案" data-en="Site &amp; store workforce">现场与门店用工方案</h3>
-        <p data-zh="工地、仓库与门店的短期与季节性用工、labour hire 牌照与分包商合规审查，减少用工问题拖慢进度的可能。" data-en="Short-term and seasonal labour for sites, warehouses and stores, labour-hire licensing and subcontractor compliance checks, so workforce issues are less likely to hold up the schedule.">工地、仓库与门店的短期与季节性用工、labour hire 牌照与分包商合规审查，减少用工问题拖慢进度的可能。</p>
+        <div class="k" data-zh="{{ c.edge.f18.zh }}" data-en="{{ c.edge.f18.en }}">{{ c.edge.f18.zh }}</div>
+        <h3 data-zh="{{ c.edge.f19.zh }}" data-en="{{ c.edge.f19.en }}">{{ c.edge.f19.zh }}</h3>
+        <p data-zh="{{ c.edge.f20.zh }}" data-en="{{ c.edge.f20.en }}">{{ c.edge.f20.zh }}</p>
       </div>
     </div>
   </div>
@@ -900,29 +905,29 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
   <div class="wrap">
     <div class="contact rv">
       <div>
-        <div class="eyebrow"><span data-zh="开始" data-en="Start here">开始</span></div>
-        <h2 style="margin-top:16px" data-zh="先用 30 分钟把情况梳理一遍" data-en="Start with a 30-minute review of where the company stands">先用 30 分钟把情况梳理一遍</h2>
-        <p class="lede" style="margin-top:18px" data-zh="30 分钟，中文或英文。带上贵司的业务目标与首年编制设想，我们会给出实体结构、签证路径与人力成本的初步判断，以及我们看到的主要风险点。" data-en="Thirty minutes, in Chinese or English. Bring the business goals and first-year headcount plan, and we will set out an initial view on entity structure, visa pathway and workforce cost, along with the main risks we can see.">30 分钟，中文或英文。带上贵司的业务目标与首年编制设想，我们会给出实体结构、签证路径与人力成本的初步判断，以及我们看到的主要风险点。</p>
+        <div class="eyebrow"><span data-zh="{{ c.contact.f01.zh }}" data-en="{{ c.contact.f01.en }}">{{ c.contact.f01.zh }}</span></div>
+        <h2 style="margin-top:16px" data-zh="{{ c.contact.f02.zh }}" data-en="{{ c.contact.f02.en }}">{{ c.contact.f02.zh }}</h2>
+        <p class="lede" style="margin-top:18px" data-zh="{{ c.contact.f03.zh }}" data-en="{{ c.contact.f03.en }}">{{ c.contact.f03.zh }}</p>
         <div class="hero-btns">
-          <a class="cta" href="mailto:info@meridiantalent.au?subject=%E8%90%BD%E5%9C%B0%E5%92%A8%E8%AF%A2%20%7C%20Landing%20enquiry" data-zh="发送邮件预约" data-en="Email us">发送邮件预约</a>
+          <a class="cta" href="mailto:info@meridiantalent.au?subject=%E8%90%BD%E5%9C%B0%E5%92%A8%E8%AF%A2%20%7C%20Landing%20enquiry" data-zh="{{ c.contact.f04.zh }}" data-en="{{ c.contact.f04.en }}">{{ c.contact.f04.zh }}</a>
         </div>
       </div>
       <div class="info">
         <div>
-          <span class="lb" data-zh="办公地址" data-en="Office">办公地址</span>
-          <span class="vl" data-zh="Level 4, 191 Thomas Street<br>Haymarket NSW 2000, Australia" data-en="Level 4, 191 Thomas Street<br>Haymarket NSW 2000, Australia">Level 4, 191 Thomas Street<br>Haymarket NSW 2000, Australia</span>
+          <span class="lb" data-zh="{{ c.contact.f05.zh }}" data-en="{{ c.contact.f05.en }}">{{ c.contact.f05.zh }}</span>
+          <span class="vl" data-zh="{{ c.contact.f06.zh }}" data-en="{{ c.contact.f06.en }}">{{ c.contact.f06.zh }}</span>
         </div>
         <div>
-          <span class="lb" data-zh="公司主体" data-en="Entity">公司主体</span>
+          <span class="lb" data-zh="{{ c.contact.f07.zh }}" data-en="{{ c.contact.f07.en }}">{{ c.contact.f07.zh }}</span>
           <span class="vl"><span class="num">MERIDIAN TALENT PTY LTD</span><br>美瑞安人才服务<br><span class="num">ACN 701 340 409</span></span>
         </div>
         <div>
-          <span class="lb" data-zh="邮箱" data-en="Email">邮箱</span>
+          <span class="lb" data-zh="{{ c.contact.f08.zh }}" data-en="{{ c.contact.f08.en }}">{{ c.contact.f08.zh }}</span>
           <span class="vl num"><a href="mailto:info@meridiantalent.au?subject=%E8%90%BD%E5%9C%B0%E5%92%A8%E8%AF%A2%20%7C%20Landing%20enquiry" style="border-bottom:1px solid var(--line-strong)">info@meridiantalent.au</a></span>
         </div>
         <div>
-          <span class="lb" data-zh="服务语言" data-en="Languages">服务语言</span>
-          <span class="vl" data-zh="中文 · English" data-en="English · 中文">中文 · English</span>
+          <span class="lb" data-zh="{{ c.contact.f09.zh }}" data-en="{{ c.contact.f09.en }}">{{ c.contact.f09.zh }}</span>
+          <span class="vl" data-zh="{{ c.contact.f10.zh }}" data-en="{{ c.contact.f10.en }}">{{ c.contact.f10.zh }}</span>
         </div>
       </div>
     </div>
@@ -931,7 +936,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 
 <footer>
   <div class="wrap foot">
-    <span data-zh="© 2026 MERIDIAN TALENT PTY LTD 美瑞安人才服务　保留所有权利" data-en="© 2026 MERIDIAN TALENT PTY LTD　All rights reserved">© 2026 MERIDIAN TALENT PTY LTD 美瑞安人才服务　保留所有权利</span>
+    <span data-zh="{{ c.footer.f01.zh }}" data-en="{{ c.footer.f01.en }}">{{ c.footer.f01.zh }}</span>
     <span class="mono">ACN 701 340 409 · REGISTERED IN NEW SOUTH WALES · 12 AUG 2026</span>
   </div>
 </footer>
