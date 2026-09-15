@@ -1,104 +1,71 @@
-# ⑩ 六项细节 — Six details
-# 只改引号里面的文字。中文和英文要一起改。
-# Edit only the text inside the quotes. Change zh and en together.
-
-# 另外六项
 f01:
-  zh: "另外六项"
-  en: "Six more things"
-
-# 另外六项常被忽略、但会影响成本的工作
+  zh: 另外六项
+  en: Six more things
 f02:
-  zh: "另外六项容易被忽略、但会影响成本的工作"
-  en: "Six more pieces of work that are easy to miss and show up in the cost"
-
-# 薪酬定价
+  zh: 六项容易被忽略、但会影响成本的工作
+  en: Six more pieces of work that are easy to miss and show up in the cost
 f03:
-  zh: "薪酬定价"
-  en: "Pay benchmarking"
-
-# 能解释得清的薪资区间
+  zh: 薪酬定价
+  en: Pay benchmarking
 f04:
-  zh: "有据可依的薪资区间"
-  en: "Salary ranges with a traceable basis"
-
-# 结合公开薪酬数据、适用薪酬标准的最低要求，以及我们在…
+  zh: 有据可依的薪资区间
+  en: Salary ranges with a traceable basis
 f05:
-  zh: "结合公开薪酬数据、适用薪酬标准的最低要求，以及我们在实际招聘中看到的成交区间，给出一个能向总部解释来源的薪资区间。"
-  en: "We set the range from published salary data, the minimum under the applicable award, and what we actually see offers land at — so the source of the number can be explained to head office."
-
-# 文化桥梁
+  zh: 结合公开薪酬数据、适用薪酬标准的最低要求，以及我们在实际招聘中看到的成交区间，给出一个能向总部解释来源的薪资区间。
+  en: We set the range from published salary data, the minimum under the
+    applicable award, and what we actually see offers land at — so the source of
+    the number can be explained to head office.
 f06:
-  zh: "文化桥梁"
-  en: "Culture bridge"
-
-# 中澳双文化管理桥梁
+  zh: 文化桥梁
+  en: Culture bridge
 f07:
-  zh: "中澳双文化管理桥梁"
-  en: "The China–Australia management bridge"
-
-# 既向总部讲清楚为什么本地员工准点下班，也向本地团队讲…
+  zh: 中澳双文化管理桥梁
+  en: The China–Australia management bridge
 f08:
-  zh: "既向总部讲清楚为什么本地员工准点下班，也向本地团队讲清楚总部的节奏与决策方式，减少外派与本地员工之间的摩擦。"
-  en: "We explain to HQ why local staff leave on time, and to the local team how HQ makes decisions, reducing friction between expat and local colleagues."
-
-# 到期日程
+  zh: 既向总部讲清楚为什么本地员工准点下班，也向本地团队讲清楚总部的节奏与决策方式，减少外派与本地员工之间的摩擦。
+  en: We explain to HQ why local staff leave on time, and to the local team how HQ
+    makes decisions, reducing friction between expat and local colleagues.
 f09:
-  zh: "到期日程"
-  en: "Key dates"
-
-# 到期日程与提前提醒
+  zh: 到期日程
+  en: Key dates
 f10:
-  zh: "到期日程与提前提醒"
-  en: "A tracked schedule of key dates"
-
-# 签证到期、保险续期、薪酬标准调薪、工伤险申报、许可证…
+  zh: 到期日程与提前提醒
+  en: A tracked schedule of key dates
 f11:
-  zh: "签证到期、保险续期、薪酬标准调薪、工伤险申报、许可证年检——我们维护一张到期日程表，在月度汇报里提前提示，免得因为漏掉一个日期产生罚款或断档。"
-  en: "Visa expiries, insurance renewals, award increases, workers-comp declarations, licence renewals — we keep a schedule of these dates and flag them ahead of time in the monthly report, so a missed date doesn’t turn into a penalty or a gap."
-
-# 弹性
+  zh: 签证到期、保险续期、薪酬标准调薪、工伤险申报、许可证年检——我们维护一张到期日程表，在月度汇报里提前提示，免得因为漏掉一个日期产生罚款或断档。
+  en: Visa expiries, insurance renewals, award increases, workers-comp
+    declarations, licence renewals — we keep a schedule of these dates and flag
+    them ahead of time in the monthly report, so a missed date doesn’t turn into
+    a penalty or a gap.
 f12:
-  zh: "弹性"
-  en: "Flexible"
-
-# 分数制 HR 负责人
+  zh: 弹性
+  en: Flexible
 f13:
-  zh: "非全职 HR 负责人"
-  en: "Fractional HR leadership"
-
-# 团队只有 5–30 人时，不值得养一个全职 HR 总…
+  zh: 非全职 HR 负责人
+  en: Fractional HR leadership
 f14:
-  zh: "团队在 5–30 人阶段，通常尚不需要全职人力资源总监。我们按月提供一位可参与管理层会议、具备决策能力的 HR 负责人，待企业自建团队后完成移交。"
-  en: "At 5–30 people a full-time HR director is rarely warranted. We provide one on a monthly basis who sits in the leadership meetings, and hand over when the company is ready to build in-house."
-
-# 承诺
+  zh: 团队在 5–30 人阶段，通常尚不需要全职人力资源总监。我们按月提供一位可参与管理层会议、具备决策能力的 HR 负责人，待企业自建团队后完成移交。
+  en: At 5–30 people a full-time HR director is rarely warranted. We provide one
+    on a monthly basis who sits in the leadership meetings, and hand over when
+    the company is ready to build in-house.
 f15:
-  zh: "承诺"
-  en: "Guarantee"
-
-# 保用期与替补机制
+  zh: 承诺
+  en: Guarantee
 f16:
-  zh: "保用期与替补机制"
-  en: "Guarantee period &amp; replacement"
-
-# 核心岗位设保用期，期内离职按服务协议约定由我们负责替…
+  zh: 保用期与替补机制
+  en: Guarantee period &amp; replacement
 f17:
-  zh: "核心岗位设保用期，期内离职按服务协议约定由我们负责替补。"
-  en: "Key roles carry a guarantee period; a departure inside it is replaced under the terms of the agreement."
-
-# 项目用工
+  zh: 核心岗位设保用期，期内离职按服务协议约定由我们负责替补。
+  en: Key roles carry a guarantee period; a departure inside it is replaced under
+    the terms of the agreement.
 f18:
-  zh: "项目用工"
-  en: "Project workforce"
-
-# 现场与门店用工方案
+  zh: 项目用工
+  en: Project workforce
 f19:
-  zh: "现场与门店用工方案"
-  en: "Site &amp; store workforce"
-
-# 工地、仓库与门店的短期与季节性用工、labour h…
+  zh: 现场与门店用工方案
+  en: Site &amp; store workforce
 f20:
-  zh: "工地、仓库与门店的短期与季节性用工、labour hire 牌照与分包商合规审查，减少用工问题拖慢进度的可能。"
-  en: "Short-term and seasonal labour for sites, warehouses and stores, labour-hire licensing and subcontractor compliance checks, so workforce issues are less likely to hold up the schedule."
-
+  zh: 工地、仓库与门店的短期与季节性用工、labour hire 牌照与分包商合规审查，减少用工问题拖慢进度的可能。
+  en: Short-term and seasonal labour for sites, warehouses and stores, labour-hire
+    licensing and subcontractor compliance checks, so workforce issues are less
+    likely to hold up the schedule.
