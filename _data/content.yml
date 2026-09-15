@@ -1,1044 +1,878 @@
-# MERIDIAN TALENT — 网站文案 / site copy
-# 每一项都有 zh（中文）和 en（English）。只改引号里面的文字，不要改 key 名。
-# Edit only the text inside the quotes. Do not rename the keys.
-
 nav:
-  # 美瑞安人才服务 · ACN 701 340 409
   f01:
-    zh: "美瑞安人才服务 · ACN 701 340 409"
-    en: "ACN 701 340 409"
-  # 服务差异
+    zh: 美瑞安人才服务 · ACN 701 340 409
+    en: ACN 701 340 409
   f02:
-    zh: "服务差异"
-    en: "How we differ"
-  # 服务范围
+    zh: 服务差异
+    en: How we differ
   f03:
-    zh: "服务范围"
-    en: "Scope"
-  # 服务包
+    zh: 服务范围
+    en: Scope
   f04:
-    zh: "服务包"
-    en: "Packages"
-  # 出海专线
+    zh: 服务包
+    en: Packages
   f05:
-    zh: "出海专线"
-    en: "China Desk"
-  # 预约落地咨询
+    zh: 出海专线
+    en: China Desk
   f06:
-    zh: "预约落地咨询"
-    en: "Book a consultation"
-
+    zh: 预约落地咨询
+    en: Book a consultation
 hero:
-  # 澳洲团队搭建与 HR 运营
   f01:
-    zh: "澳洲落地与团队运营"
-    en: "Landing and running teams in Australia"
-  # 从组建澳洲团队，到持续的 HR 运营
+    zh: 澳洲落地与团队运营
+    en: Landing and running teams in Australia
   f02:
-    zh: "从落地澳洲，<br><span>到团队持续运营</span>"
-    en: "From landing in Australia<br><span>to running the team long term</span>"
-  # 我们帮海外企业在澳洲组建本地团队，并接手之后的日常 …
+    zh: 从落地澳洲，<br><span>到团队持续运营</span>
+    en: From landing in Australia<br><span>to running the team long term</span>
   f03:
-    zh: "我们帮海外企业在澳洲组建本地团队，并接手之后的日常 HR 运营。擅长领域包括新能源、教育与金融科技。"
-    en: "We build local teams in Australia for companies expanding from overseas, and run the HR that follows. Our depth is in new energy, education and fintech."
-  # 新能源 · 教育 · 金融科技 · 基建工程 · 专…
+    zh: 我们帮海外企业在澳洲组建本地团队，并提供日后的人力资源以及运营。擅长领域包括新能源、教育与金融科技。
+    en: We build local teams in Australia for companies expanding from overseas, and
+      run the HR that follows. Our depth is in new energy, education and
+      fintech.
   f04:
-    zh: "新能源 · 教育 · 金融科技 · 基建工程 · 专业服务"
-    en: "New Energy · Education · Fintech · Infrastructure · Professional Services"
-  # 预约 30 分钟落地诊断
+    zh: 新能源 · 教育 · 金融科技 · 基建工程 · 专业服务
+    en: New Energy · Education · Fintech · Infrastructure · Professional Services
   f05:
-    zh: "预约 30 分钟落地诊断"
-    en: "Book a 30-min landing review"
-  # 看服务全景
+    zh: 预约 30 分钟落地诊断
+    en: Book a 30-min landing review
   f06:
-    zh: "看服务全景"
-    en: "See the full scope"
-  # 服务覆盖 SYDNEY · MELBOURNE · …
+    zh: 看服务全景
+    en: See the full scope
   f07:
-    zh: "服务覆盖　<b>SYDNEY · MELBOURNE · BRISBANE · PERTH · ADELAIDE · CANBERRA</b>"
-    en: "Coverage　<b>SYDNEY · MELBOURNE · BRISBANE · PERTH · ADELAIDE · CANBERRA</b>"
-  # 总部 SYDNEY HAYMARKET · 对接 C…
+    zh: 服务覆盖　<b>SYDNEY · MELBOURNE · BRISBANE · PERTH · ADELAIDE · CANBERRA</b>
+    en: Coverage　<b>SYDNEY · MELBOURNE · BRISBANE · PERTH · ADELAIDE · CANBERRA</b>
   f08:
-    zh: "总部　<b>SYDNEY HAYMARKET</b>　·　对接　<b>CN / AU 双时区</b>"
-    en: "HQ　<b>SYDNEY HAYMARKET</b>　·　Coverage　<b>CN / AU dual time zone</b>"
-
+    zh: 总部　<b>SYDNEY HAYMARKET</b>　·　对接　<b>CN / AU 双时区</b>
+    en: HQ　<b>SYDNEY HAYMARKET</b>　·　Coverage　<b>CN / AU dual time zone</b>
 stats:
-  # 合伙人平均行业与人力资源从业年限（个人从业经历）
   f01:
-    zh: "合伙人平均行业与人力资源从业年限（个人从业经历）"
-    en: "Average years of sector and HR experience per partner (individual careers)"
-  # 环
+    zh: 合伙人平均行业与人力资源从业年限（个人从业经历）
+    en: Average years of sector and HR experience per partner (individual careers)
   f02:
-    zh: "环"
-    en: ""
-  # 实体 · 签证 · 招聘 · 合规 · 薪酬 · 留…
+    zh: 环
   f03:
-    zh: "实体 · 签证 · 招聘 · 合规 · 薪酬 · 留存，同一支团队交付"
-    en: "Entity · visas · hiring · compliance · payroll · retention — delivered by one team"
-  # 个
+    zh: 实体 · 签证 · 招聘 · 合规 · 薪酬 · 留存，同一支团队交付
+    en: Entity · visas · hiring · compliance · payroll · retention — delivered by
+      one team
   f04:
-    zh: "个"
-    en: ""
-  # 对接人统一协调全部落地环节与各专业承办方
+    zh: 个
   f05:
-    zh: "对接人统一协调全部落地环节与各专业承办方"
-    en: "One point of contact coordinating every workstream and every specialist provider"
-  # 语
+    zh: 对接人统一协调全部落地环节与各专业承办方
+    en: One point of contact coordinating every workstream and every specialist
+      provider
   f06:
-    zh: "语"
-    en: ""
-  # 中英双语交付：合同、员工手册、绩效表与月度汇报均出双…
+    zh: 语
   f07:
-    zh: "中英双语交付：合同、员工手册、绩效表与月度汇报均出双语版本"
-    en: "Bilingual delivery — contracts, handbook, performance forms and monthly reporting in both languages"
-
+    zh: 中英双语交付：合同、员工手册、绩效表与月度汇报均出双语版本
+    en: Bilingual delivery — contracts, handbook, performance forms and monthly
+      reporting in both languages
 why:
-  # 服务差异
   f01:
-    zh: "服务差异"
-    en: "How we differ"
-  # 把分散的环节，收在一条时间表上
+    zh: 服务差异
+    en: How we differ
   f02:
-    zh: "把分散的环节，收在一条时间表上"
-    en: "Bringing scattered workstreams onto one timeline"
-  # 赴澳落地出问题，往往不在招聘这一步，而在招到人之后：…
+    zh: 把分散的环节，收在一条时间表上
+    en: Bringing scattered workstreams onto one timeline
   f03:
-    zh: "赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同条款、薪酬分类、超年金与申报、外派与本地员工的工作习惯差异、核心岗位的留存。这些环节通常分散在不同供应商手里，衔接的责任最后落回企业自己身上。"
-    en: "Australian landings usually run into trouble after the hire, not before it: contract terms, award classification, superannuation and reporting, differences in working norms between expat and local staff, and retention in key roles. These pieces usually sit with different providers, and joining them up ends up falling to the company itself."
-  # 分别向多家供应商采购
+    zh: 赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同条款、薪酬分类、超年金与申报、外派与本地员工的工作习惯差异、核心岗位的留存。这些环节通常分散在不同供应商手里，衔接的责任最后落回企业自己身上。
+    en: "Australian landings usually run into trouble after the hire, not before it:
+      contract terms, award classification, superannuation and reporting,
+      differences in working norms between expat and local staff, and retention
+      in key roles. These pieces usually sit with different providers, and
+      joining them up ends up falling to the company itself."
   f04:
-    zh: "分别向多家供应商采购"
-    en: "Buying from several providers separately"
-  # 由 MERIDIAN TALENT 统一协调
+    zh: 分别向多家供应商采购
+    en: Buying from several providers separately
   f05:
-    zh: "由 MERIDIAN TALENT 统一协调"
-    en: "Coordinated by MERIDIAN TALENT"
-  # 服务起点
+    zh: 由 MERIDIAN TALENT 统一协调
+    en: Coordinated by MERIDIAN TALENT
   f06:
-    zh: "服务起点"
-    en: "Starting point"
-  # 通常在实体、岗位与预算都定好之后才介入
+    zh: 服务起点
+    en: Starting point
   f07:
-    zh: "通常在实体、岗位与预算都定好之后才介入"
-    en: "Usually engaged after the entity, the roles and the budget are already decided"
-  # 从实体结构与首年编制阶段就一起规划
+    zh: 通常在实体、岗位与预算都定好之后才介入
+    en: Usually engaged after the entity, the roles and the budget are already
+      decided
   f08:
-    zh: "从实体结构与首年编制阶段就一起规划"
-    en: "Involved from the entity-structure and first-year headcount stage"
-  # 行业理解
+    zh: 从实体结构与首年编制阶段就一起规划
+    en: Involved from the entity-structure and first-year headcount stage
   f09:
-    zh: "行业理解"
-    en: "Sector depth"
-  # 各方按自身专长推荐，行业口径不一定一致
+    zh: 行业理解
+    en: Sector depth
   f10:
-    zh: "各方按自身专长推荐，行业口径不一定一致"
-    en: "Each provider recommends from its own specialism; sector definitions may not line up"
-  # 按行业分组的顾问团队，能与候选人聊清楚项目、标准与资…
+    zh: 各方按自身专长推荐，行业口径不一定一致
+    en: Each provider recommends from its own specialism; sector definitions may not
+      line up
   f11:
-    zh: "按行业分组的顾问团队，能与候选人聊清楚项目、标准与资质"
-    en: "Consultants grouped by sector — we discuss projects, standards and licences with candidates"
-  # 合规责任
+    zh: 按行业分组的顾问团队，能与候选人聊清楚项目、标准与资质
+    en: Consultants grouped by sector — we discuss projects, standards and licences
+      with candidates
   f12:
-    zh: "合规责任"
-    en: "Compliance"
-  # 合同、薪酬分类与各项申报分散在不同方
+    zh: 合规责任
+    en: Compliance
   f13:
-    zh: "合同、薪酬分类与各项申报分散在不同方"
-    en: "Contracts, award classification and the various filings sit with different parties"
-  # 由同一支团队跟进并对接各承办方（承办分工见下方专业边…
+    zh: 合同、薪酬分类与各项申报分散在不同方
+    en: Contracts, award classification and the various filings sit with different
+      parties
   f14:
-    zh: "由同一支团队跟进并对接各承办方（承办分工见下方专业边界）"
-    en: "Tracked by one team and coordinated with each specialist provider (see the scope note below)"
-  # 签证
+    zh: 由同一支团队跟进并对接各承办方（承办分工见下方专业边界）
+    en: Tracked by one team and coordinated with each specialist provider (see the
+      scope note below)
   f15:
-    zh: "签证"
-    en: "Visas"
-  # 移民、招聘与薪酬各自推进，时间表需要企业自行对齐
+    zh: 签证
+    en: Visas
   f16:
-    zh: "移民、招聘与薪酬各自推进，时间表需要企业自行对齐"
-    en: "Migration, hiring and payroll advance separately; aligning the timeline falls to the company"
-  # 由我们协调 MARA 注册代理或律师，与招聘计划排在…
+    zh: 移民、招聘与薪酬各自推进，时间表需要企业自行对齐
+    en: Migration, hiring and payroll advance separately; aligning the timeline
+      falls to the company
   f17:
-    zh: "由我们协调 MARA 注册代理或律师，与招聘计划排在同一张时间表上"
-    en: "We coordinate the registered migration agent or lawyer and put it on the same timeline as hiring"
-  # 人才储备
+    zh: 由我们协调 MARA 注册代理或律师，与招聘计划排在同一张时间表上
+    en: We coordinate the registered migration agent or lawyer and put it on the
+      same timeline as hiring
   f18:
-    zh: "人才储备"
-    en: "Talent pipeline"
-  # 有岗位时才启动寻访
+    zh: 人才储备
+    en: Talent pipeline
   f19:
-    zh: "有岗位时才启动寻访"
-    en: "Search starts only once a role opens"
-  # 按行业长期跟进候选人，不是临门才开始找
+    zh: 有岗位时才启动寻访
+    en: Search starts only once a role opens
   f20:
-    zh: "按行业长期跟进候选人，不是临门才开始找"
-    en: "Candidates tracked by sector over time, not sourced from scratch when a role opens"
-  # 语言与文化
+    zh: 按行业长期跟进候选人，不是临门才开始找
+    en: Candidates tracked by sector over time, not sourced from scratch when a role
+      opens
   f21:
-    zh: "语言与文化"
-    en: "Language &amp; culture"
-  # 中英两侧的沟通往往要企业自行居中翻译
+    zh: 语言与文化
+    en: Language &amp; culture
   f22:
-    zh: "中英两侧的沟通往往要企业自行居中翻译"
-    en: "Communication between the two sides is left for the company to translate"
-  # 双语团队，同时面向总部与本地员工
+    zh: 中英两侧的沟通往往要企业自行居中翻译
+    en: Communication between the two sides is left for the company to translate
   f23:
-    zh: "双语团队，同时面向总部与本地员工"
-    en: "A bilingual team working with head office and local staff alike"
-  # 计费方式
+    zh: 双语团队，同时面向总部与本地员工
+    en: A bilingual team working with head office and local staff alike
   f24:
-    zh: "计费方式"
-    en: "Commercials"
-  # 各供应商分别计费，总成本到后期才看得清
+    zh: 计费方式
+    en: Commercials
   f25:
-    zh: "各供应商分别计费，总成本到后期才看得清"
-    en: "Each provider bills separately; the total only becomes clear late"
-  # 落地项目制 + 月度 HR 订阅，服务范围在服务协议…
+    zh: 各供应商分别计费，总成本到后期才看得清
+    en: Each provider bills separately; the total only becomes clear late
   f26:
-    zh: "落地项目制 + 月度 HR 订阅，服务范围在服务协议中列明"
-    en: "A project-based landing fee plus a monthly HR retainer, with the scope set out in the service agreement"
-
+    zh: 落地项目制 + 月度 HR 订阅，服务范围在服务协议中列明
+    en: A project-based landing fee plus a monthly HR retainer, with the scope set
+      out in the service agreement
 service:
-  # 一条龙
   f01:
-    zh: "一条龙"
-    en: "End to end"
-  # 六个环节，一个团队交付
+    zh: 一条龙
+    en: End to end
   f02:
-    zh: "六个环节，一个团队交付"
-    en: "Six workstreams. One team delivers all of them."
-  # 每一项单拿出来都能找到供应商；难的是把它们串成一条线…
+    zh: 六个环节，一个团队交付
+    en: Six workstreams. One team delivers all of them.
   f03:
-    zh: "每一项单拿出来都能找到供应商；难的是把它们串成一条线，并且有人为结果负责。"
-    en: "Each of these has vendors who will sell it separately. The hard part is joining them into one line with one party accountable for the outcome."
-  # 实体与架构落地
+    zh: 每一项单拿出来都能找到供应商；难的是把它们串成一条线，并且有人为结果负责。
+    en: Each of these has vendors who will sell it separately. The hard part is
+      joining them into one line with one party accountable for the outcome.
   f04:
-    zh: "实体与架构落地"
-    en: "Entity &amp; structure"
-  # 公司注册、ACN/ABN、GST 与税号
+    zh: 实体与架构落地
+    en: Entity &amp; structure
   f05:
-    zh: "公司注册、ACN/ABN、GST 与税号"
-    en: "Company registration, ACN/ABN, GST and tax registrations"
-  # 董事居住要求与公司秘书安排
+    zh: 公司注册、ACN/ABN、GST 与税号
+    en: Company registration, ACN/ABN, GST and tax registrations
   f06:
-    zh: "董事居住要求与公司秘书安排"
-    en: "Resident director requirements and company secretary"
-  # 注册地址、银行开户与保险配置
+    zh: 董事居住要求与公司秘书安排
+    en: Resident director requirements and company secretary
   f07:
-    zh: "注册地址、银行开户与保险配置"
-    en: "Registered address, bank accounts and insurance"
-  # 雇主担保与签证路径
+    zh: 注册地址、银行开户与保险配置
+    en: Registered address, bank accounts and insurance
   f08:
-    zh: "雇主担保与签证路径"
-    en: "Sponsorship &amp; visas"
-  # Standard Business Sponsors…
+    zh: 雇主担保与签证路径
+    en: Sponsorship &amp; visas
   f09:
-    zh: "Standard Business Sponsorship（SBS）雇主资质、提名与 482 / 186 路径设计（Accredited Sponsor 为另一独立资格）"
-    en: "Standard Business Sponsorship (SBS), nomination and 482 / 186 pathways (Accredited Sponsor is a separate status)"
-  # 外派人员与本地雇佣的成本比选
+    zh: Standard Business Sponsorship（SBS）雇主资质、提名与 482 / 186 路径设计（Accredited Sponsor
+      为另一独立资格）
+    en: Standard Business Sponsorship (SBS), nomination and 482 / 186 pathways
+      (Accredited Sponsor is a separate status)
   f10:
-    zh: "外派人员与本地雇佣的成本比选"
+    zh: 外派人员与本地雇佣的成本比选
     en: "Cost modelling: expat posting vs. local hire"
-  # LMT 招聘测试与合规留痕
   f11:
-    zh: "LMT 招聘测试与合规留痕"
-    en: "Labour market testing and compliant record-keeping"
-  # 分行业专项招聘
+    zh: LMT 招聘测试与合规留痕
+    en: Labour market testing and compliant record-keeping
   f12:
-    zh: "分行业专项招聘"
-    en: "Sector-specialist recruitment"
-  # 国家经理、项目总监、工程与技术、BD、运营与财务
+    zh: 分行业专项招聘
+    en: Sector-specialist recruitment
   f13:
-    zh: "国家经理、项目总监、工程与技术、BD、运营与财务"
-    en: "Country managers, project directors, engineering, BD, operations and finance"
-  # 白领、技术工种与门店/工地用工的混合方案
+    zh: 国家经理、项目总监、工程与技术、BD、运营与财务
+    en: Country managers, project directors, engineering, BD, operations and finance
   f14:
-    zh: "白领、技术工种与门店/工地用工的混合方案"
-    en: "Blended models across professional, trade and site or store workforces"
-  # 核心岗位保用期与替补承诺
+    zh: 白领、技术工种与门店/工地用工的混合方案
+    en: Blended models across professional, trade and site or store workforces
   f15:
-    zh: "核心岗位保用期与替补承诺"
-    en: "Guarantee period and replacement commitment on key roles"
-  # 雇佣合规
+    zh: 核心岗位保用期与替补承诺
+    en: Guarantee period and replacement commitment on key roles
   f16:
-    zh: "雇佣合规"
-    en: "Employment compliance"
-  # Fair Work、NES 与薪酬标准分类
+    zh: 雇佣合规
+    en: Employment compliance
   f17:
-    zh: "Fair Work、NES 与薪酬标准分类"
-    en: "Fair Work, NES and modern award classification"
-  # 超年金、工伤险、Payroll Tax 与 STP …
+    zh: Fair Work、NES 与薪酬标准分类
+    en: Fair Work, NES and modern award classification
   f18:
-    zh: "超年金、工伤险、Payroll Tax 与 STP 申报"
-    en: "Superannuation, workers comp, payroll tax and STP reporting"
-  # 员工手册、WHS 制度与解雇合规流程
+    zh: 超年金、工伤险、Payroll Tax 与 STP 申报
+    en: Superannuation, workers comp, payroll tax and STP reporting
   f19:
-    zh: "员工手册、WHS 制度与解雇合规流程"
-    en: "Handbooks, WHS policy and lawful termination process"
-  # 薪酬与人事运营
+    zh: 员工手册、WHS 制度与解雇合规流程
+    en: Handbooks, WHS policy and lawful termination process
   f20:
-    zh: "薪酬与人事运营"
-    en: "Payroll &amp; HR operations"
-  # 薪酬带宽设计与年度调薪测算
+    zh: 薪酬与人事运营
+    en: Payroll &amp; HR operations
   f21:
-    zh: "薪酬带宽设计与年度调薪测算"
-    en: "Salary banding and annual pay-review modelling"
-  # 发薪、休假、报销与人事系统搭建
+    zh: 薪酬带宽设计与年度调薪测算
+    en: Salary banding and annual pay-review modelling
   f22:
-    zh: "发薪、休假、报销与人事系统搭建"
-    en: "Payroll runs, leave, expenses and HRIS setup"
-  # 合规与签证到期日程表，月度汇报中提示
+    zh: 发薪、休假、报销与人事系统搭建
+    en: Payroll runs, leave, expenses and HRIS setup
   f23:
-    zh: "合规与签证到期日程表，月度汇报中提示"
-    en: "A schedule of compliance and visa expiry dates, flagged in the monthly report"
-  # 团队留存与绩效
+    zh: 合规与签证到期日程表，月度汇报中提示
+    en: A schedule of compliance and visa expiry dates, flagged in the monthly
+      report
   f24:
-    zh: "团队留存与绩效"
-    en: "Retention &amp; performance"
-  # 绩效制度与总部 KPI 的本地翻译
+    zh: 团队留存与绩效
+    en: Retention &amp; performance
   f25:
-    zh: "绩效制度与总部 KPI 的本地翻译"
-    en: "Translating HQ KPIs into a local performance framework"
-  # 外派主管的本地管理教练
+    zh: 绩效制度与总部 KPI 的本地翻译
+    en: Translating HQ KPIs into a local performance framework
   f26:
-    zh: "外派主管的本地管理教练"
-    en: "Coaching for expat managers leading local teams"
-  # 雇主品牌与 Seek / LinkedIn 主页运营
+    zh: 外派主管的本地管理教练
+    en: Coaching for expat managers leading local teams
   f27:
-    zh: "雇主品牌与 Seek / LinkedIn 主页运营"
-    en: "Employer brand and Seek / LinkedIn presence"
-  # 专业边界与审批权限
+    zh: 雇主品牌与 Seek / LinkedIn 主页运营
+    en: Employer brand and Seek / LinkedIn presence
   f28:
-    zh: "专业边界与审批权限"
-    en: "Scope, licensed providers and approvals"
-  # 我们负责统筹、协调与执行人力环节。以下事项由持牌专业…
+    zh: 专业边界与审批权限
+    en: Scope, licensed providers and approvals
   f29:
-    zh: "我们负责统筹、协调与执行人力环节。以下事项由持牌专业方承办，我们负责对接方案与跟进进度，不以自身名义出具相关意见。"
-    en: "We coordinate and run the workforce side of the work. The items below are carried out by licensed providers; we align the plan and track progress, and do not issue this advice ourselves."
-  # 移民与签证申请由 MARA 注册移民代理或执业律师承…
+    zh: 我们负责统筹、协调与执行人力环节。以下事项由持牌专业方承办，我们负责对接方案与跟进进度，不以自身名义出具相关意见。
+    en: We coordinate and run the workforce side of the work. The items below are
+      carried out by licensed providers; we align the plan and track progress,
+      and do not issue this advice ourselves.
   f30:
-    zh: "移民与签证申请由 MARA 注册移民代理或执业律师承办"
-    en: "Migration and visa applications are handled by a MARA-registered migration agent or a practising lawyer"
-  # BAS 与 STP 申报由注册 BAS 代理或税务代…
+    zh: 移民与签证申请由 MARA 注册移民代理或执业律师承办
+    en: Migration and visa applications are handled by a MARA-registered migration
+      agent or a practising lawyer
   f31:
-    zh: "BAS 与 STP 申报由注册 BAS 代理或税务代理承办"
-    en: "BAS and STP lodgements are handled by a registered BAS agent or tax agent"
-  # 公司设立、税务架构与法律意见由会计师或律师出具
+    zh: BAS 与 STP 申报由注册 BAS 代理或税务代理承办
+    en: BAS and STP lodgements are handled by a registered BAS agent or tax agent
   f32:
-    zh: "公司设立、税务架构与法律意见由会计师或律师出具"
-    en: "Company set-up, tax structuring and legal advice come from the company’s accountant or lawyer"
-  # 雇佣条件以 Fair Work 与适用的薪酬标准为准
+    zh: 公司设立、税务架构与法律意见由会计师或律师出具
+    en: Company set-up, tax structuring and legal advice come from the company’s
+      accountant or lawyer
   f33:
-    zh: "雇佣条件以 Fair Work 与适用的薪酬标准为准"
-    en: "Employment conditions are governed by the Fair Work Act and the applicable modern award"
-  # 录用、调薪、解雇与对外付款，由客户书面授权人审批后执…
+    zh: 雇佣条件以 Fair Work 与适用的薪酬标准为准
+    en: Employment conditions are governed by the Fair Work Act and the applicable
+      modern award
   f34:
-    zh: "录用、调薪、解雇与对外付款，由客户书面授权人审批后执行"
-    en: "Hiring, pay changes, terminations and outbound payments are executed only after approval by the company’s authorised signatory"
-  # 移民、税务与法律意见，均由上述持牌方以其名义出具
+    zh: 录用、调薪、解雇与对外付款，由客户书面授权人审批后执行
+    en: Hiring, pay changes, terminations and outbound payments are executed only
+      after approval by the company’s authorised signatory
   f35:
-    zh: "移民、税务与法律意见，均由上述持牌方以其名义出具"
-    en: "Migration, tax and legal advice is issued by those licensed providers in their own name"
-
+    zh: 移民、税务与法律意见，均由上述持牌方以其名义出具
+    en: Migration, tax and legal advice is issued by those licensed providers in
+      their own name
 packages:
-  # 服务包
   f01:
-    zh: "服务包"
-    en: "Packages"
-  # 三种合作方式，范围写进服务协议
+    zh: 服务包
+    en: Packages
   f02:
-    zh: "三种合作方式，范围写进服务协议"
-    en: "Three ways to work together, with scope written into the agreement"
-  # 主推的是整体落地服务：公司层面与员工层面由同一位负责…
+    zh: 三种合作方式，范围写进服务协议
+    en: Three ways to work together, with scope written into the agreement
   f03:
-    zh: "主推的是整体落地服务：公司层面与员工层面由同一位负责人统一安排。每个包都列明提供的服务、需要公司提供的前置资料与验收标准，可以组合，也可以单独采购，具体范围以服务协议为准。"
-    en: "Our lead product is the end-to-end landing service, where the company side and the employee side are run by one named lead. Each package sets out the services provided, what the company provides first, and how completion is signed off. They can be combined or taken separately, with the detailed scope set out in the service agreement."
-  # 主推
+    zh: 主推的是整体落地服务：公司层面与员工层面由同一位负责人统一安排。每个包都列明提供的服务、需要公司提供的前置资料与验收标准，可以组合，也可以单独采购，具体范围以服务协议为准。
+    en: Our lead product is the end-to-end landing service, where the company side
+      and the employee side are run by one named lead. Each package sets out the
+      services provided, what the company provides first, and how completion is
+      signed off. They can be combined or taken separately, with the detailed
+      scope set out in the service agreement.
   f04:
-    zh: "主推"
-    en: "Flagship"
-  # 整体落地服务（管家模式）
+    zh: 主推
+    en: Flagship
   f05:
-    zh: "整体落地服务（管家模式）"
-    en: "End-to-End Landing (Concierge)"
-  # 适合要把团队从海外派到澳洲的企业。公司这边的实体、用…
+    zh: 整体落地服务（管家模式）
+    en: End-to-End Landing (Concierge)
   f06:
-    zh: "适合要把团队从海外派到澳洲的企业。公司这边的实体、用工、合规与税务对接，员工这边的签证、接机、住处、子女入学、搬家与入职，由同一位负责人统一安排，全程单一对接窗口。"
-    en: "For companies moving a team from overseas to Australia. The entity, employment, compliance and tax side for the business, and the visa, arrival, housing, schooling, move and onboarding side for each person — all run by one named lead, as a single point of contact throughout."
-  # 公司层面提供的服务
+    zh: 适合要把团队从海外派到澳洲的企业。公司这边的实体、用工、合规与税务对接，员工这边的签证、接机、住处、子女入学、搬家与入职，由同一位负责人统一安排，全程单一对接窗口。
+    en: For companies moving a team from overseas to Australia. The entity,
+      employment, compliance and tax side for the business, and the visa,
+      arrival, housing, schooling, move and onboarding side for each person —
+      all run by one named lead, as a single point of contact throughout.
   f07:
-    zh: "公司层面提供的服务"
-    en: "What we provide for the company"
-  # 用工结构与实体落地方案（与贵司的会计师、律师共同确认…
+    zh: 公司层面提供的服务
+    en: What we provide for the company
   f08:
-    zh: "用工结构与实体落地方案（与贵司的会计师、律师共同确认）"
-    en: "Workforce structure and entity setup plan, confirmed with the company’s accountant and lawyer"
-  # 首年编制规划与人力成本模型（含派驻人员的整体成本）
+    zh: 用工结构与实体落地方案（与贵司的会计师、律师共同确认）
+    en: Workforce structure and entity setup plan, confirmed with the company’s
+      accountant and lawyer
   f09:
-    zh: "首年编制规划与人力成本模型（含派驻人员的整体成本）"
-    en: "First-year headcount plan and workforce cost model, including the full cost of each assignee"
-  # 雇佣合同模板与员工手册（中英双语）
+    zh: 首年编制规划与人力成本模型（含派驻人员的整体成本）
+    en: First-year headcount plan and workforce cost model, including the full cost
+      of each assignee
   f10:
-    zh: "雇佣合同模板与员工手册（中英双语）"
-    en: "Employment contract templates and employee handbook, in both languages"
-  # 薪酬分类意见与薪资区间
+    zh: 雇佣合同模板与员工手册（中英双语）
+    en: Employment contract templates and employee handbook, in both languages
   f11:
-    zh: "薪酬分类意见与薪资区间"
-    en: "Award classification assessment and salary ranges"
-  # 发薪、超年金（Super）、工伤保险与合规节点的开办…
+    zh: 薪酬分类意见与薪资区间
+    en: Award classification assessment and salary ranges
   f12:
-    zh: "发薪、超年金（Super）、工伤保险与合规节点的开办与移交"
-    en: "Payroll, superannuation, workers compensation and compliance milestones set up and handed over"
-  # 注册移民代理、税务师、律师与财务顾问的选定与统一对接
+    zh: 发薪、超年金（Super）、工伤保险与合规节点的开办与移交
+    en: Payroll, superannuation, workers compensation and compliance milestones set
+      up and handed over
   f13:
-    zh: "注册移民代理、税务师、律师与财务顾问的选定与统一对接"
-    en: "Registered migration agent, tax agent, lawyer and financial adviser selected and coordinated through one point of contact"
-  # 为员工与家属提供的服务
+    zh: 注册移民代理、税务师、律师与财务顾问的选定与统一对接
+    en: Registered migration agent, tax agent, lawyer and financial adviser selected
+      and coordinated through one point of contact
   f14:
-    zh: "为员工与家属提供的服务"
-    en: "What we provide for the employee and family"
-  # 签证路径时间表；移民申请由注册移民代理承办，我们全程…
+    zh: 为员工与家属提供的服务
+    en: What we provide for the employee and family
   f15:
-    zh: "签证路径时间表；移民申请由注册移民代理承办，我们全程对接与跟进"
-    en: "Visa pathway timeline; the application is lodged by the registered migration agent, with us coordinating and tracking it throughout"
-  # 行前说明与文件清单，接机与首周过渡住宿
+    zh: 签证路径时间表；移民申请由注册移民代理承办，我们全程对接与跟进
+    en: Visa pathway timeline; the application is lodged by the registered migration
+      agent, with us coordinating and tracking it throughout
   f16:
-    zh: "行前说明与文件清单，接机与首周过渡住宿"
-    en: "Pre-departure briefing and document checklist, airport pickup and first-week accommodation"
-  # 手机卡、银行开户、税号（TFN）与医疗登记的落地事项
+    zh: 行前说明与文件清单，接机与首周过渡住宿
+    en: Pre-departure briefing and document checklist, airport pickup and first-week
+      accommodation
   f17:
-    zh: "手机卡、银行开户、税号（TFN）与医疗登记的落地事项"
-    en: "SIM, bank account, tax file number and medical registration sorted on arrival"
-  # 选区看房、租约审阅与签约陪同
+    zh: 手机卡、银行开户、税号（TFN）与医疗登记的落地事项
+    en: SIM, bank account, tax file number and medical registration sorted on
+      arrival
   f18:
-    zh: "选区看房、租约审阅与签约陪同"
-    en: "Suburb selection, property viewings, lease review and accompaniment at signing"
-  # 子女入学：学区与学校范围、申请材料与面谈安排
+    zh: 选区看房、租约审阅与签约陪同
+    en: Suburb selection, property viewings, lease review and accompaniment at
+      signing
   f19:
-    zh: "子女入学：学区与学校范围、申请材料与面谈安排"
-    en: "Schooling: catchment and school options, application documents and interview scheduling"
-  # 国际搬家与宠物入境：承办方比价与全程安排
+    zh: 子女入学：学区与学校范围、申请材料与面谈安排
+    en: "Schooling: catchment and school options, application documents and
+      interview scheduling"
   f20:
-    zh: "国际搬家与宠物入境：承办方比价与全程安排"
-    en: "International removals and pet import: quotes compared and the whole process arranged"
-  # 租金、押金、学费、搬家与机票等第三方费用的比价、代办…
+    zh: 国际搬家与宠物入境：承办方比价与全程安排
+    en: "International removals and pet import: quotes compared and the whole
+      process arranged"
   f21:
-    zh: "租金、押金、学费、搬家与机票等第三方费用的比价、代办与台账"
-    en: "Rent, bonds, school fees, removals and airfares: quotes compared, arrangements made and a running cost record kept"
-  # 入职手续与到澳首月的安顿跟进
+    zh: 租金、押金、学费、搬家与机票等第三方费用的比价、代办与台账
+    en: "Rent, bonds, school fees, removals and airfares: quotes compared,
+      arrangements made and a running cost record kept"
   f22:
-    zh: "入职手续与到澳首月的安顿跟进"
-    en: "Onboarding paperwork and settling-in follow-up through the first month"
-  # 一位专属负责人，中英文随时对接
+    zh: 入职手续与到澳首月的安顿跟进
+    en: Onboarding paperwork and settling-in follow-up through the first month
   f23:
-    zh: "一位专属负责人，中英文随时对接"
-    en: "One named lead, reachable in Chinese and English"
-  # 需要公司提供
+    zh: 一位专属负责人，中英文随时对接
+    en: One named lead, reachable in Chinese and English
   f24:
-    zh: "需要公司提供"
-    en: "Required from the company"
-  # 派驻人员名单、家属情况与预计到澳时间
+    zh: 需要公司提供
+    en: Required from the company
   f25:
-    zh: "派驻人员名单、家属情况与预计到澳时间"
-    en: "The list of assignees, their family situation and expected arrival dates"
-  # 业务计划与首年编制设想
+    zh: 派驻人员名单、家属情况与预计到澳时间
+    en: The list of assignees, their family situation and expected arrival dates
   f26:
-    zh: "业务计划与首年编制设想"
-    en: "Business plan and first-year headcount intentions"
-  # 已有实体资料，或注册意向
+    zh: 业务计划与首年编制设想
+    en: Business plan and first-year headcount intentions
   f27:
-    zh: "已有实体资料，或注册意向"
-    en: "Existing entity details, or the intention to register"
-  # 人力与安置的预算区间
+    zh: 已有实体资料，或注册意向
+    en: Existing entity details, or the intention to register
   f28:
-    zh: "人力与安置的预算区间"
-    en: "A budget range for workforce and relocation"
-  # 验收
+    zh: 人力与安置的预算区间
+    en: A budget range for workforce and relocation
   f29:
-    zh: "验收"
-    en: "Sign-off"
-  # 公司层面的文件交付并经贵司书面确认；派驻人员完成入职…
+    zh: 验收
+    en: Sign-off
   f30:
-    zh: "公司层面的文件交付并经贵司书面确认；派驻人员完成入职，住处与子女入学落定"
-    en: "The company-side documents are delivered and confirmed in writing, and each assignee has started work with housing and schooling settled"
-  # 关键岗位招聘
+    zh: 公司层面的文件交付并经贵司书面确认；派驻人员完成入职，住处与子女入学落定
+    en: The company-side documents are delivered and confirmed in writing, and each
+      assignee has started work with housing and schooling settled
   f31:
-    zh: "关键岗位招聘"
-    en: "Key Hires"
-  # 适合已有实体，需要补齐国家经理、项目负责人或工程技术…
+    zh: 关键岗位招聘
+    en: Key Hires
   f32:
-    zh: "适合已有实体，需要补齐国家经理、项目负责人或工程技术岗位的企业。"
-    en: "For businesses with an entity in place that need a country manager, project lead or technical hires."
-  # 提供的服务包括
+    zh: 适合已有实体，需要补齐国家经理、项目负责人或工程技术岗位的企业。
+    en: For businesses with an entity in place that need a country manager, project
+      lead or technical hires.
   f33:
-    zh: "提供的服务包括"
-    en: "Services include"
-  # 岗位说明、汇报线与薪资区间
+    zh: 提供的服务包括
+    en: Services include
   f34:
-    zh: "岗位说明、汇报线与薪资区间"
-    en: "Role brief, reporting line and salary range"
-  # 候选人长名单与结构化评估
+    zh: 岗位说明、汇报线与薪资区间
+    en: Role brief, reporting line and salary range
   f35:
-    zh: "候选人长名单与结构化评估"
-    en: "A longlist with structured assessment"
-  # 技术面试安排与资质核实协调
+    zh: 候选人长名单与结构化评估
+    en: A longlist with structured assessment
   f36:
-    zh: "技术面试安排与资质核实协调"
-    en: "Technical interviews arranged and credential checks coordinated"
-  # offer 谈判与入职材料
+    zh: 技术面试安排与资质核实协调
+    en: Technical interviews arranged and credential checks coordinated
   f37:
-    zh: "offer 谈判与入职材料"
-    en: "Offer negotiation and onboarding paperwork"
-  # 候选人签证与雇主担保材料的对接与进度跟进
+    zh: offer 谈判与入职材料
+    en: Offer negotiation and onboarding paperwork
   f38:
-    zh: "候选人签证与雇主担保材料的对接与进度跟进"
-    en: "Candidate visa and sponsorship paperwork coordinated and tracked"
-  # 背景调查与测评的安排与结果解读
+    zh: 候选人签证与雇主担保材料的对接与进度跟进
+    en: Candidate visa and sponsorship paperwork coordinated and tracked
   f39:
-    zh: "背景调查与测评的安排与结果解读"
-    en: "Background checks and assessments arranged, with the results interpreted"
-  # 保用期内的替补（期限见服务协议）
+    zh: 背景调查与测评的安排与结果解读
+    en: Background checks and assessments arranged, with the results interpreted
   f40:
-    zh: "保用期内的替补（期限见服务协议）"
-    en: "Replacement within the guarantee period, on the terms set out in the service agreement"
-  # 需要公司提供
+    zh: 保用期内的替补（期限见服务协议）
+    en: Replacement within the guarantee period, on the terms set out in the service
+      agreement
   f41:
-    zh: "需要公司提供"
-    en: "Required from the company"
-  # 岗位需求与汇报关系
+    zh: 需要公司提供
+    en: Required from the company
   f42:
-    zh: "岗位需求与汇报关系"
-    en: "The role requirements and reporting relationships"
-  # 面试参与人与可用时间
+    zh: 岗位需求与汇报关系
+    en: The role requirements and reporting relationships
   f43:
-    zh: "面试参与人与可用时间"
-    en: "Who will interview, and when they are available"
-  # 书面的薪资授权区间
+    zh: 面试参与人与可用时间
+    en: Who will interview, and when they are available
   f44:
-    zh: "书面的薪资授权区间"
-    en: "An approved salary range in writing"
-  # 验收
+    zh: 书面的薪资授权区间
+    en: An approved salary range in writing
   f45:
-    zh: "验收"
-    en: "Sign-off"
-  # 候选人到岗，并通过服务协议约定的保用期
+    zh: 验收
+    en: Sign-off
   f46:
-    zh: "候选人到岗，并通过服务协议约定的保用期"
-    en: "The hire starts and completes the guarantee period set out in the agreement"
-  # 月度 HR 运营
+    zh: 候选人到岗，并通过服务协议约定的保用期
+    en: The hire starts and completes the guarantee period set out in the agreement
   f47:
-    zh: "月度 HR 运营"
-    en: "Monthly HR Operations"
-  # 适合 5–30 人规模、还不值得设全职 HR 总监的…
+    zh: 月度 HR 运营
+    en: Monthly HR Operations
   f48:
-    zh: "适合 5–30 人规模、还不值得设全职 HR 总监的本地团队。"
-    en: "For local teams of roughly 5–30 people, where a full-time HR director is not yet worth it."
-  # 提供的服务包括
+    zh: 适合 5–30 人规模、还不值得设全职 HR 总监的本地团队。
+    en: For local teams of roughly 5–30 people, where a full-time HR director is not
+      yet worth it.
   f49:
-    zh: "提供的服务包括"
-    en: "Services include"
-  # 发薪、休假与报销流程的日常运行
+    zh: 提供的服务包括
+    en: Services include
   f50:
-    zh: "发薪、休假与报销流程的日常运行"
-    en: "Running payroll, leave and expense processes"
-  # 合规与签证到期日程表
+    zh: 发薪、休假与报销流程的日常运行
+    en: Running payroll, leave and expense processes
   f51:
-    zh: "合规与签证到期日程表"
-    en: "A schedule of compliance and visa expiry dates"
-  # 员工关系与绩效流程支持
+    zh: 合规与签证到期日程表
+    en: A schedule of compliance and visa expiry dates
   f52:
-    zh: "员工关系与绩效流程支持"
-    en: "Support on employee relations and performance process"
-  # 月度中英双语汇报
+    zh: 员工关系与绩效流程支持
+    en: Support on employee relations and performance process
   f53:
-    zh: "月度中英双语汇报"
-    en: "Monthly reporting in both Chinese and English"
-  # BAS 与 STP 申报：由注册代理办理，我们负责数…
+    zh: 月度中英双语汇报
+    en: Monthly reporting in both Chinese and English
   f54:
-    zh: "BAS 与 STP 申报：由注册代理办理，我们负责数据、时点与进度对接"
-    en: "BAS and STP lodgements are made by the registered agent; we provide the data and manage timing and progress"
-  # 员工关系争议的流程处理，必要时对接执业律师
+    zh: BAS 与 STP 申报：由注册代理办理，我们负责数据、时点与进度对接
+    en: BAS and STP lodgements are made by the registered agent; we provide the data
+      and manage timing and progress
   f55:
-    zh: "员工关系争议的流程处理，必要时对接执业律师"
-    en: "Employee relations disputes run through the correct process, with a practising lawyer brought in where needed"
-  # 约定工时内的 HR 负责人参与，专项项目按需单独排期
+    zh: 员工关系争议的流程处理，必要时对接执业律师
+    en: Employee relations disputes run through the correct process, with a
+      practising lawyer brought in where needed
   f56:
-    zh: "约定工时内的 HR 负责人参与，专项项目按需单独排期"
-    en: "An HR lead’s time up to the hours agreed, with dedicated projects scheduled separately as needed"
-  # 需要公司提供
+    zh: 约定工时内的 HR 负责人参与，专项项目按需单独排期
+    en: An HR lead’s time up to the hours agreed, with dedicated projects scheduled
+      separately as needed
   f57:
-    zh: "需要公司提供"
-    en: "Required from the company"
-  # 现有员工名册与雇佣合同
+    zh: 需要公司提供
+    en: Required from the company
   f58:
-    zh: "现有员工名册与雇佣合同"
-    en: "The current staff list and employment contracts"
-  # 薪酬与福利现状
+    zh: 现有员工名册与雇佣合同
+    en: The current staff list and employment contracts
   f59:
-    zh: "薪酬与福利现状"
-    en: "Current pay and benefits arrangements"
-  # 相关系统的访问授权
+    zh: 薪酬与福利现状
+    en: Current pay and benefits arrangements
   f60:
-    zh: "相关系统的访问授权"
-    en: "Access to the relevant systems"
-  # 验收
+    zh: 相关系统的访问授权
+    en: Access to the relevant systems
   f61:
-    zh: "验收"
-    en: "Sign-off"
-  # 按月交付汇报，每季度复盘范围与工时
+    zh: 验收
+    en: Sign-off
   f62:
-    zh: "按月交付汇报，每季度复盘范围与工时"
-    en: "Monthly reporting delivered, with scope and hours reviewed each quarter"
-  # 价格按编制规模、服务期与所在州确定，签约前以书面报价…
+    zh: 按月交付汇报，每季度复盘范围与工时
+    en: Monthly reporting delivered, with scope and hours reviewed each quarter
   f63:
-    zh: "价格按编制规模、服务期与所在州确定，签约前以书面报价单为准，本页不列价格。保用期长度与替补次数、以及各包的工时上限，均在服务协议中写明。"
-    en: "Pricing depends on headcount, term and the state of operation, and is confirmed in a written quote before signing — this page does not list prices. Guarantee periods, replacement counts and the hours included in each package are all set out in the agreement."
-
+    zh: 价格按编制规模、服务期与所在州确定，签约前以书面报价单为准，本页不列价格。保用期长度与替补次数、以及各包的工时上限，均在服务协议中写明。
+    en: Pricing depends on headcount, term and the state of operation, and is
+      confirmed in a written quote before signing — this page does not list
+      prices. Guarantee periods, replacement counts and the hours included in
+      each package are all set out in the agreement.
 timeline:
-  # 落地路径
   f01:
-    zh: "落地路径"
-    en: "How it runs"
-  # 落地要按顺序推进
+    zh: 落地路径
+    en: How it runs
   f02:
-    zh: "落地要按顺序推进"
-    en: "The order of the work matters"
-  # 这些环节彼此依赖——签证方案要在招聘启动前定，薪酬分…
+    zh: 落地要按顺序推进
+    en: The order of the work matters
   f03:
-    zh: "这些环节彼此依赖——签证方案要在招聘启动前定，薪酬分类要在发出 offer 前定。顺序错了，返工和成本都会跟着上来。实际用时取决于签证审批进度与企业自身的业务节奏。"
-    en: "These steps depend on one another: the visa plan is settled before hiring starts, the award classification before any offer goes out. Get the order wrong and rework and cost follow. How long it takes depends on visa processing and the company’s own pace."
-  # 落地诊断
+    zh: 这些环节彼此依赖——签证方案要在招聘启动前定，薪酬分类要在发出 offer
+      前定。顺序错了，返工和成本都会跟着上来。实际用时取决于签证审批进度与企业自身的业务节奏。
+    en: "These steps depend on one another: the visa plan is settled before hiring
+      starts, the award classification before any offer goes out. Get the order
+      wrong and rework and cost follow. How long it takes depends on visa
+      processing and the company’s own pace."
   f04:
-    zh: "落地诊断"
-    en: "Landing review"
-  # 业务目标、首年编制、预算与风险清单，出具落地方案与成…
+    zh: 落地诊断
+    en: Landing review
   f05:
-    zh: "业务目标、首年编制、预算与风险清单，出具落地方案与成本模型。"
-    en: "Business goals, first-year headcount, budget and risk register — delivered as a plan and a cost model."
-  # 实体与合规底座
+    zh: 业务目标、首年编制、预算与风险清单，出具落地方案与成本模型。
+    en: Business goals, first-year headcount, budget and risk register — delivered
+      as a plan and a cost model.
   f06:
-    zh: "实体与合规底座"
-    en: "Entity &amp; compliance base"
-  # 公司与税务注册完成，保险、合同模板、员工手册与薪酬分…
+    zh: 实体与合规底座
+    en: Entity &amp; compliance base
   f07:
-    zh: "公司与税务注册完成，保险、合同模板、员工手册与薪酬分类就位。"
-    en: "Company and tax registrations done; insurance, contract templates, handbook and award classification in place."
-  # 首批关键岗位
+    zh: 公司与税务注册完成，保险、合同模板、员工手册与薪酬分类就位。
+    en: Company and tax registrations done; insurance, contract templates, handbook
+      and award classification in place.
   f08:
-    zh: "首批关键岗位"
-    en: "First key hires"
-  # 国家经理 / 项目负责人进入终面，签证路径与担保资质…
+    zh: 首批关键岗位
+    en: First key hires
   f09:
-    zh: "国家经理 / 项目负责人进入终面，签证路径与担保资质并行推进。"
-    en: "Country manager and project lead reach final interview; sponsorship runs in parallel."
-  # 团队成型
+    zh: 国家经理 / 项目负责人进入终面，签证路径与担保资质并行推进。
+    en: Country manager and project lead reach final interview; sponsorship runs in
+      parallel.
   f10:
-    zh: "团队成型"
-    en: "Team formed"
-  # 工程、BD 与运营岗位陆续入职，发薪与人事系统跑通第…
+    zh: 团队成型
+    en: Team formed
   f11:
-    zh: "工程、BD 与运营岗位陆续入职，发薪与人事系统跑通第一个完整周期。"
-    en: "Engineering, BD and ops roles onboard; payroll and HRIS complete a full cycle."
-  # 移交与持续运营
+    zh: 工程、BD 与运营岗位陆续入职，发薪与人事系统跑通第一个完整周期。
+    en: Engineering, BD and ops roles onboard; payroll and HRIS complete a full
+      cycle.
   f12:
-    zh: "移交与持续运营"
-    en: "Handover &amp; ongoing"
-  # 绩效制度上线，日常人事流程移交，转为月度 HR 订阅…
+    zh: 移交与持续运营
+    en: Handover &amp; ongoing
   f13:
-    zh: "绩效制度上线，日常人事流程移交，转为月度 HR 订阅持续运营。"
-    en: "Performance framework live, day-to-day HR processes handed over, and the engagement moves to the monthly retainer."
-
+    zh: 绩效制度上线，日常人事流程移交，转为月度 HR 订阅持续运营。
+    en: Performance framework live, day-to-day HR processes handed over, and the
+      engagement moves to the monthly retainer.
 chinadesk:
-  # 出海专线
   f01:
-    zh: "出海专线"
-    en: "China Desk"
-  # 一条专门服务中资企业出海的业务线
+    zh: 出海专线
+    en: China Desk
   f02:
-    zh: "一条专门服务中资企业出海的业务线"
-    en: "A dedicated desk for Chinese enterprises expanding abroad"
-  # 中资企业在澳洲遇到的问题，和一家欧美公司开分部完全不…
+    zh: 一条专门服务中资企业出海的业务线
+    en: A dedicated desk for Chinese enterprises expanding abroad
   f03:
-    zh: "中资企业在澳洲遇到的问题，和一家欧美公司开分部完全不同：董事居住要求、外派人员身份、总部审批链条、跨时区汇报、以及本地员工对管理方式的不适应。我们为此单设一条业务线，用中文与总部沟通，用英文与监管机构、律师和员工沟通。"
-    en: "What a Chinese-invested business runs into in Australia is not what a European or US company runs into: resident director requirements, expat status, HQ approval chains, cross-time-zone reporting, and local staff adjusting to a different management style. We run a separate desk for it — speaking Chinese to head office, and English to the regulator, the lawyers and local staff."
-  # 总部可读的中文汇报
+    zh: 中资企业在澳洲遇到的问题，和一家欧美公司开分部完全不同：董事居住要求、外派人员身份、总部审批链条、跨时区汇报、以及本地员工对管理方式的不适应。我们为此单设一条业务线，用中文与总部沟通，用英文与监管机构、律师和员工沟通。
+    en: "What a Chinese-invested business runs into in Australia is not what a
+      European or US company runs into: resident director requirements, expat
+      status, HQ approval chains, cross-time-zone reporting, and local staff
+      adjusting to a different management style. We run a separate desk for it —
+      speaking Chinese to head office, and English to the regulator, the lawyers
+      and local staff."
   f04:
-    zh: "总部可读的中文汇报"
-    en: "Reporting head office can read"
-  # 人力预算、编制进度、离职率与合规风险，按总部习惯的口…
+    zh: 总部可读的中文汇报
+    en: Reporting head office can read
   f05:
-    zh: "人力预算、编制进度、离职率与合规风险，按总部习惯的口径出中文月报，不用国家经理自己翻译。"
-    en: "Headcount budget, hiring progress, attrition and compliance risk — reported monthly in Chinese, in the format head office already uses, so the country manager isn’t translating it themselves."
-  # 外派人员安置
+    zh: 人力预算、编制进度、离职率与合规风险，按总部习惯的口径出中文月报，不用国家经理自己翻译。
+    en: Headcount budget, hiring progress, attrition and compliance risk — reported
+      monthly in Chinese, in the format head office already uses, so the country
+      manager isn’t translating it themselves.
   f06:
-    zh: "外派人员安置"
-    en: "Expat relocation"
-  # 签证、税务身份、住房、子女入学、医疗保险与落地手续，…
+    zh: 外派人员安置
+    en: Expat relocation
   f07:
-    zh: "签证、税务身份、住房、子女入学、医疗保险与落地手续，让派过来的人第一个月就能专心工作。"
-    en: "Visas, tax residency, housing, schooling, health cover and settling-in logistics — so the person sent over can focus on the job in month one."
-  # 中英文双语文件包
+    zh: 签证、税务身份、住房、子女入学、医疗保险与落地手续，让派过来的人第一个月就能专心工作。
+    en: Visas, tax residency, housing, schooling, health cover and settling-in
+      logistics — so the person sent over can focus on the job in month one.
   f08:
-    zh: "中英文双语文件包"
-    en: "Bilingual document pack"
-  # 雇佣合同、员工手册、绩效表、offer 与离职流程全…
+    zh: 中英文双语文件包
+    en: Bilingual document pack
   f09:
-    zh: "雇佣合同、员工手册、绩效表、offer 与离职流程全部中英对照；解释优先语言由合同约定并经律师审核，中文版便于总部理解与审批。"
-    en: "Contracts, handbook, performance forms, offers and exit process in parallel Chinese and English. Which language prevails is set in the agreement and reviewed by a lawyer; the Chinese version is there so head office can read and approve it."
-  # 与贵司的会计师、律师协同
+    zh: 雇佣合同、员工手册、绩效表、offer 与离职流程全部中英对照；解释优先语言由合同约定并经律师审核，中文版便于总部理解与审批。
+    en: Contracts, handbook, performance forms, offers and exit process in parallel
+      Chinese and English. Which language prevails is set in the agreement and
+      reviewed by a lawyer; the Chinese version is there so head office can read
+      and approve it.
   f10:
-    zh: "与贵司的会计师、律师协同"
-    en: "Working alongside the company’s accountants and lawyers"
-  # 人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司…
+    zh: 与贵司的会计师、律师协同
+    en: Working alongside the company’s accountants and lawyers
   f11:
-    zh: "人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司的会计师、税务顾问和移民代理／律师对齐，避免各自出方案、最后互相冲突。相关专业意见由各自持牌方出具。"
-    en: "A workforce plan doesn’t stand alone. We align employment structure and remuneration with the company’s accountants, tax advisers and migration agent or lawyer so the plans don’t contradict each other. The professional advice itself comes from each licensed provider."
-  # 落地执行的四个节点
+    zh: 人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司的会计师、税务顾问和移民代理／律师对齐，避免各自出方案、最后互相冲突。相关专业意见由各自持牌方出具。
+    en: A workforce plan doesn’t stand alone. We align employment structure and
+      remuneration with the company’s accountants, tax advisers and migration
+      agent or lawyer so the plans don’t contradict each other. The professional
+      advice itself comes from each licensed provider.
   f12:
-    zh: "落地执行的四个节点"
-    en: "The four checkpoints of a landing"
-  # 派驻人员带着家庭过来，第一个月多半在处理住房、学校和…
+    zh: 落地执行的四个节点
+    en: The four checkpoints of a landing
   f13:
-    zh: "派驻人员带着家庭过来，第一个月多半在处理住房、学校和银行，而不是工作。整体落地服务（Package A）按四个节点推进，每完成一段确认一段："
-    en: "When someone relocates with their family, most of month one goes on housing, schools and banks rather than the job. The end-to-end landing service (Package A) runs to four checkpoints, each confirmed as it is completed:"
-  # 出发前 —— 签证与体检节点确认、随行家属材料清单、…
+    zh: 派驻人员带着家庭过来，第一个月多半在处理住房、学校和银行，而不是工作。整体落地服务（Package A）按四个节点推进，每完成一段确认一段：
+    en: "When someone relocates with their family, most of month one goes on
+      housing, schools and banks rather than the job. The end-to-end landing
+      service (Package A) runs to four checkpoints, each confirmed as it is
+      completed:"
   f14:
-    zh: "出发前 —— 签证与体检节点确认、随行家属材料清单、住房与学区初选"
-    en: "Before departure — visa and medical milestones confirmed, dependant document checklist, shortlist of suburbs and schools"
-  # 抵达前 —— 临时住所、机场接送、银行开户与电话卡预…
+    zh: 出发前 —— 签证与体检节点确认、随行家属材料清单、住房与学区初选
+    en: Before departure — visa and medical milestones confirmed, dependant document
+      checklist, shortlist of suburbs and schools
   f15:
-    zh: "抵达前 —— 临时住所、机场接送、银行开户与电话卡预约"
-    en: "Before arrival — temporary accommodation, airport pick-up, bank account and SIM appointments booked"
-  # 首日 —— 入职材料、TFN 与超年金账户、办公与门…
+    zh: 抵达前 —— 临时住所、机场接送、银行开户与电话卡预约
+    en: Before arrival — temporary accommodation, airport pick-up, bank account and
+      SIM appointments booked
   f16:
-    zh: "首日 —— 入职材料、TFN 与超年金账户、办公与门禁安排"
-    en: "Day one — onboarding paperwork, tax file number and super account, desk and building access"
-  # 7 天 / 30 天 —— 长租与学校确认、家属安顿…
+    zh: 首日 —— 入职材料、TFN 与超年金账户、办公与门禁安排
+    en: Day one — onboarding paperwork, tax file number and super account, desk and
+      building access
   f17:
-    zh: "7 天 / 30 天 —— 长租与学校确认、家属安顿回访、留存风险预警"
-    en: "Day 7 and day 30 — lease and school confirmed, a check-in with the family, and an early flag on any retention risk"
-  # 同样适用于
+    zh: 7 天 / 30 天 —— 长租与学校确认、家属安顿回访、留存风险预警
+    en: Day 7 and day 30 — lease and school confirmed, a check-in with the family,
+      and an early flag on any retention risk
   f18:
-    zh: "同样适用于"
-    en: "Equally for"
-  # 任何第一次在澳洲雇人的公司
+    zh: 同样适用于
+    en: Equally for
   f19:
-    zh: "任何第一次在澳洲雇人的公司"
-    en: "Any company hiring in Australia for the first time"
-  # 出海专线是我们的一条业务线，不是我们的全部。欧美、东…
+    zh: 任何第一次在澳洲雇人的公司
+    en: Any company hiring in Australia for the first time
   f20:
-    zh: "出海专线是我们的一条业务线，不是我们的全部。欧美、东南亚、日韩企业的澳洲落地，以及本地企业的规模化扩张，走的是同一套流程与同一支团队——只是不需要中文那一层。"
-    en: "The China Desk is one of our lines, not all of them. European, US, Southeast Asian, Japanese and Korean businesses landing in Australia — and local companies scaling up — run through the same process and the same team, minus the Chinese-language layer."
-  # 预约初步沟通
+    zh: 出海专线是我们的一条业务线，不是我们的全部。欧美、东南亚、日韩企业的澳洲落地，以及本地企业的规模化扩张，走的是同一套流程与同一支团队——只是不需要中文那一层。
+    en: The China Desk is one of our lines, not all of them. European, US, Southeast
+      Asian, Japanese and Korean businesses landing in Australia — and local
+      companies scaling up — run through the same process and the same team,
+      minus the Chinese-language layer.
   f21:
-    zh: "预约初步沟通"
-    en: "Book an initial call"
-
+    zh: 预约初步沟通
+    en: Book an initial call
 sectors:
-  # 行业覆盖
   f01:
-    zh: "行业覆盖"
-    en: "Sector coverage"
-  # 五个行业组，新能源是我们最深的一条
+    zh: 行业覆盖
+    en: Sector coverage
   f02:
-    zh: "五个行业组，新能源是我们最深的一条"
-    en: "Five sector desks. New energy is the deepest of them."
-  # 同一个职位名称，在不同行业里是完全不同的人。所以顾问…
+    zh: 五个行业组，新能源是我们最深的一条
+    en: Five sector desks. New energy is the deepest of them.
   f03:
-    zh: "同一个职位名称，在不同行业里是完全不同的人。所以顾问按行业分组，而不是按职能分组——他们看得懂贵司的项目，也听得懂候选人在说什么。"
-    en: "The same job title means a different person in a different industry. So our consultants are grouped by sector, not by function — they understand the projects, and they understand what a candidate is actually telling them."
-  # 新能源与电力
+    zh: 同一个职位名称，在不同行业里是完全不同的人。所以顾问按行业分组，而不是按职能分组——他们看得懂贵司的项目，也听得懂候选人在说什么。
+    en: The same job title means a different person in a different industry. So our
+      consultants are grouped by sector, not by function — they understand the
+      projects, and they understand what a candidate is actually telling them.
   f04:
-    zh: "新能源与电力"
-    en: "New Energy &amp; Power"
-  # 重点赛道
+    zh: 新能源与电力
+    en: New Energy &amp; Power
   f05:
-    zh: "重点赛道"
-    en: "FLAGSHIP"
-  # 光伏电站开发
+    zh: 重点赛道
+    en: FLAGSHIP
   f06:
-    zh: "光伏电站开发"
-    en: "Utility-scale solar"
-  # 工商业分布式
+    zh: 光伏电站开发
+    en: Utility-scale solar
   f07:
-    zh: "工商业分布式"
-    en: "C&amp;I distributed solar"
-  # 储能 BESS
+    zh: 工商业分布式
+    en: C&amp;I distributed solar
   f08:
-    zh: "储能 BESS"
-    en: "Battery storage (BESS)"
-  # 风电开发与运维
+    zh: 储能 BESS
+    en: Battery storage (BESS)
   f09:
-    zh: "风电开发与运维"
-    en: "Wind development &amp; O&amp;M"
-  # 绿氢与电解槽
+    zh: 风电开发与运维
+    en: Wind development &amp; O&amp;M
   f10:
-    zh: "绿氢与电解槽"
-    en: "Green hydrogen &amp; electrolysers"
-  # 电池制造与回收
+    zh: 绿氢与电解槽
+    en: Green hydrogen &amp; electrolysers
   f11:
-    zh: "电池制造与回收"
-    en: "Battery manufacturing &amp; recycling"
-  # 充电桩与车网互动
+    zh: 电池制造与回收
+    en: Battery manufacturing &amp; recycling
   f12:
-    zh: "充电桩与车网互动"
-    en: "EV charging &amp; V2G"
-  # 电网与并网工程
+    zh: 充电桩与车网互动
+    en: EV charging &amp; V2G
   f13:
-    zh: "电网与并网工程"
-    en: "Grid &amp; connection engineering"
-  # 虚拟电厂 VPP
+    zh: 电网与并网工程
+    en: Grid &amp; connection engineering
   f14:
-    zh: "虚拟电厂 VPP"
-    en: "Virtual power plants"
-  # 绿证与碳资产
+    zh: 虚拟电厂 VPP
+    en: Virtual power plants
   f15:
-    zh: "绿证与碳资产"
-    en: "LGCs &amp; carbon assets"
-  # 基建工程与矿业
+    zh: 绿证与碳资产
+    en: LGCs &amp; carbon assets
   f16:
-    zh: "基建工程与矿业"
-    en: "Infrastructure, Engineering &amp; Mining"
-  # EPC 总承包
+    zh: 基建工程与矿业
+    en: Infrastructure, Engineering &amp; Mining
   f17:
-    zh: "EPC 总承包"
-    en: "EPC contracting"
-  # 建筑与土木
+    zh: EPC 总承包
+    en: EPC contracting
   f18:
-    zh: "建筑与土木"
-    en: "Construction &amp; civil"
-  # 矿业与资源
+    zh: 建筑与土木
+    en: Construction &amp; civil
   f19:
-    zh: "矿业与资源"
-    en: "Mining &amp; resources"
-  # 交通与市政
+    zh: 矿业与资源
+    en: Mining &amp; resources
   f20:
-    zh: "交通与市政"
-    en: "Transport &amp; utilities"
-  # 项目管理与造价
+    zh: 交通与市政
+    en: Transport &amp; utilities
   f21:
-    zh: "项目管理与造价"
-    en: "Project controls &amp; QS"
-  # HSE 与合规
+    zh: 项目管理与造价
+    en: Project controls &amp; QS
   f22:
-    zh: "HSE 与合规"
-    en: "HSE &amp; compliance"
-  # 制造与工业
+    zh: HSE 与合规
+    en: HSE &amp; compliance
   f23:
-    zh: "制造与工业"
-    en: "Manufacturing &amp; industrial"
-  # 科技与数字
+    zh: 制造与工业
+    en: Manufacturing &amp; industrial
   f24:
-    zh: "科技与数字"
-    en: "Technology &amp; Digital"
-  # SaaS 与平台
+    zh: 科技与数字
+    en: Technology &amp; Digital
   f25:
-    zh: "SaaS 与平台"
-    en: "SaaS &amp; platforms"
-  # AI 与数据
+    zh: SaaS 与平台
+    en: SaaS &amp; platforms
   f26:
-    zh: "AI 与数据"
-    en: "AI &amp; data"
-  # 电商与跨境
+    zh: AI 与数据
+    en: AI &amp; data
   f27:
-    zh: "电商与跨境"
-    en: "E-commerce &amp; cross-border"
-  # 金融科技
+    zh: 电商与跨境
+    en: E-commerce &amp; cross-border
   f28:
-    zh: "金融科技"
-    en: "Fintech"
-  # 游戏与内容
+    zh: 金融科技
+    en: Fintech
   f29:
-    zh: "游戏与内容"
-    en: "Gaming &amp; content"
-  # 智能硬件与 IoT
+    zh: 游戏与内容
+    en: Gaming &amp; content
   f30:
-    zh: "智能硬件与 IoT"
-    en: "Hardware &amp; IoT"
-  # 金融与专业服务
+    zh: 智能硬件与 IoT
+    en: Hardware &amp; IoT
   f31:
-    zh: "金融与专业服务"
-    en: "Finance &amp; Professional Services"
-  # 基金与资产管理
+    zh: 金融与专业服务
+    en: Finance &amp; Professional Services
   f32:
-    zh: "基金与资产管理"
-    en: "Funds &amp; asset management"
-  # 地产投资与开发
+    zh: 基金与资产管理
+    en: Funds &amp; asset management
   f33:
-    zh: "地产投资与开发"
-    en: "Property investment &amp; development"
-  # 会计与税务
+    zh: 地产投资与开发
+    en: Property investment &amp; development
   f34:
-    zh: "会计与税务"
-    en: "Accounting &amp; tax"
-  # 法律与咨询
+    zh: 会计与税务
+    en: Accounting &amp; tax
   f35:
-    zh: "法律与咨询"
-    en: "Legal &amp; advisory"
-  # 保险与风控
+    zh: 法律与咨询
+    en: Legal &amp; advisory
   f36:
-    zh: "保险与风控"
-    en: "Insurance &amp; risk"
-  # 银行与支付
+    zh: 保险与风控
+    en: Insurance &amp; risk
   f37:
-    zh: "银行与支付"
-    en: "Banking &amp; payments"
-  # 消费、零售与物流
+    zh: 银行与支付
+    en: Banking &amp; payments
   f38:
-    zh: "消费、零售与物流"
-    en: "Consumer, Retail &amp; Logistics"
-  # 品牌出海与市场
+    zh: 消费、零售与物流
+    en: Consumer, Retail &amp; Logistics
   f39:
-    zh: "品牌出海与市场"
-    en: "Brand expansion &amp; marketing"
-  # 连锁与门店运营
+    zh: 品牌出海与市场
+    en: Brand expansion &amp; marketing
   f40:
-    zh: "连锁与门店运营"
-    en: "Retail chains &amp; store ops"
-  # 餐饮与食品
+    zh: 连锁与门店运营
+    en: Retail chains &amp; store ops
   f41:
-    zh: "餐饮与食品"
-    en: "F&amp;B and food"
-  # 仓储与配送
+    zh: 餐饮与食品
+    en: F&amp;B and food
   f42:
-    zh: "仓储与配送"
-    en: "Warehousing &amp; delivery"
-  # 供应链与关务
+    zh: 仓储与配送
+    en: Warehousing &amp; delivery
   f43:
-    zh: "供应链与关务"
-    en: "Supply chain &amp; customs"
-  # 健康与教育服务
+    zh: 供应链与关务
+    en: Supply chain &amp; customs
   f44:
-    zh: "健康与教育服务"
-    en: "Health &amp; education services"
-
+    zh: 健康与教育服务
+    en: Health &amp; education services
 edge:
-  # 另外六项
   f01:
-    zh: "另外六项"
-    en: "Six more things"
-  # 另外六项常被忽略、但会影响成本的工作
+    zh: 另外六项
+    en: Six more things
   f02:
-    zh: "另外六项常被忽略、但会影响成本的工作"
-    en: "Six more pieces of work that are easy to miss and show up in the cost"
-  # 薪酬定价
+    zh: 另外六项常被忽略、但会影响成本的工作
+    en: Six more pieces of work that are easy to miss and show up in the cost
   f03:
-    zh: "薪酬定价"
-    en: "Pay benchmarking"
-  # 能解释得清的薪资区间
+    zh: 薪酬定价
+    en: Pay benchmarking
   f04:
-    zh: "能解释得清的薪资区间"
-    en: "Salary ranges that can be explained"
-  # 结合公开薪酬数据、适用薪酬标准的最低要求，以及我们在…
+    zh: 能解释得清的薪资区间
+    en: Salary ranges that can be explained
   f05:
-    zh: "结合公开薪酬数据、适用薪酬标准的最低要求，以及我们在实际招聘中看到的成交区间，给出一个能向总部解释来源的薪资区间。"
-    en: "We set the range from published salary data, the minimum under the applicable award, and what we actually see offers land at — so the source of the number can be explained to head office."
-  # 文化桥梁
+    zh: 结合公开薪酬数据、适用薪酬标准的最低要求，以及我们在实际招聘中看到的成交区间，给出一个能向总部解释来源的薪资区间。
+    en: We set the range from published salary data, the minimum under the
+      applicable award, and what we actually see offers land at — so the source
+      of the number can be explained to head office.
   f06:
-    zh: "文化桥梁"
-    en: "Culture bridge"
-  # 中澳双文化管理桥梁
+    zh: 文化桥梁
+    en: Culture bridge
   f07:
-    zh: "中澳双文化管理桥梁"
-    en: "The China–Australia management bridge"
-  # 既向总部讲清楚为什么本地员工准点下班，也向本地团队讲…
+    zh: 中澳双文化管理桥梁
+    en: The China–Australia management bridge
   f08:
-    zh: "既向总部讲清楚为什么本地员工准点下班，也向本地团队讲清楚总部的节奏与决策方式，减少外派与本地员工之间的摩擦。"
-    en: "We explain to HQ why local staff leave on time, and to the local team how HQ makes decisions, reducing friction between expat and local colleagues."
-  # 到期日程
+    zh: 既向总部讲清楚为什么本地员工准点下班，也向本地团队讲清楚总部的节奏与决策方式，减少外派与本地员工之间的摩擦。
+    en: We explain to HQ why local staff leave on time, and to the local team how HQ
+      makes decisions, reducing friction between expat and local colleagues.
   f09:
-    zh: "到期日程"
-    en: "Key dates"
-  # 到期日程与提前提醒
+    zh: 到期日程
+    en: Key dates
   f10:
-    zh: "到期日程与提前提醒"
-    en: "A tracked schedule of key dates"
-  # 签证到期、保险续期、薪酬标准调薪、工伤险申报、许可证…
+    zh: 到期日程与提前提醒
+    en: A tracked schedule of key dates
   f11:
-    zh: "签证到期、保险续期、薪酬标准调薪、工伤险申报、许可证年检——我们维护一张到期日程表，在月度汇报里提前提示，免得因为漏掉一个日期产生罚款或断档。"
-    en: "Visa expiries, insurance renewals, award increases, workers-comp declarations, licence renewals — we keep a schedule of these dates and flag them ahead of time in the monthly report, so a missed date doesn’t turn into a penalty or a gap."
-  # 弹性
+    zh: 签证到期、保险续期、薪酬标准调薪、工伤险申报、许可证年检——我们维护一张到期日程表，在月度汇报里提前提示，免得因为漏掉一个日期产生罚款或断档。
+    en: Visa expiries, insurance renewals, award increases, workers-comp
+      declarations, licence renewals — we keep a schedule of these dates and
+      flag them ahead of time in the monthly report, so a missed date doesn’t
+      turn into a penalty or a gap.
   f12:
-    zh: "弹性"
-    en: "Flexible"
-  # 分数制 HR 负责人
+    zh: 弹性
+    en: Flexible
   f13:
-    zh: "分数制 HR 负责人"
-    en: "Fractional HR leadership"
-  # 团队只有 5–30 人时，不值得养一个全职 HR 总…
+    zh: 分数制 HR 负责人
+    en: Fractional HR leadership
   f14:
-    zh: "团队只有 5–30 人时，不值得养一个全职 HR 总监。我们按月提供一位可上会、可决策的 HR 负责人，需要时再移交给企业自建的团队。"
-    en: "At 5–30 people a full-time HR director isn’t worth it. We provide one on a monthly basis who sits in the leadership meetings, and hand over when the company is ready to build in-house."
-  # 承诺
+    zh: 团队只有 5–30 人时，不值得养一个全职 HR 总监。我们按月提供一位可上会、可决策的 HR 负责人，需要时再移交给企业自建的团队。
+    en: At 5–30 people a full-time HR director isn’t worth it. We provide one on a
+      monthly basis who sits in the leadership meetings, and hand over when the
+      company is ready to build in-house.
   f15:
-    zh: "承诺"
-    en: "Guarantee"
-  # 保用期与替补机制
+    zh: 承诺
+    en: Guarantee
   f16:
-    zh: "保用期与替补机制"
-    en: "Guarantee period &amp; replacement"
-  # 核心岗位设保用期，期内离职按服务协议约定由我们负责替…
+    zh: 保用期与替补机制
+    en: Guarantee period &amp; replacement
   f17:
-    zh: "核心岗位设保用期，期内离职按服务协议约定由我们负责替补。我们希望赚的是留得下来的团队，不是被换掉的人。"
-    en: "Key roles carry a guarantee period; a departure inside it is replaced under the terms of the agreement. We would rather be paid for the team that stays than for the people who get replaced."
-  # 项目用工
+    zh: 核心岗位设保用期，期内离职按服务协议约定由我们负责替补。我们希望赚的是留得下来的团队，不是被换掉的人。
+    en: Key roles carry a guarantee period; a departure inside it is replaced under
+      the terms of the agreement. We would rather be paid for the team that
+      stays than for the people who get replaced.
   f18:
-    zh: "项目用工"
-    en: "Project workforce"
-  # 现场与门店用工方案
+    zh: 项目用工
+    en: Project workforce
   f19:
-    zh: "现场与门店用工方案"
-    en: "Site &amp; store workforce"
-  # 工地、仓库与门店的短期与季节性用工、labour h…
+    zh: 现场与门店用工方案
+    en: Site &amp; store workforce
   f20:
-    zh: "工地、仓库与门店的短期与季节性用工、labour hire 牌照与分包商合规审查，减少用工问题拖慢进度的可能。"
-    en: "Short-term and seasonal labour for sites, warehouses and stores, labour-hire licensing and subcontractor compliance checks, so workforce issues are less likely to hold up the schedule."
-
+    zh: 工地、仓库与门店的短期与季节性用工、labour hire 牌照与分包商合规审查，减少用工问题拖慢进度的可能。
+    en: Short-term and seasonal labour for sites, warehouses and stores, labour-hire
+      licensing and subcontractor compliance checks, so workforce issues are
+      less likely to hold up the schedule.
 contact:
-  # 开始
   f01:
-    zh: "开始"
-    en: "Start here"
-  # 先用 30 分钟把情况梳理一遍
+    zh: 开始
+    en: Start here
   f02:
-    zh: "先用 30 分钟把情况梳理一遍"
-    en: "Start with a 30-minute review of where the company stands"
-  # 30 分钟，中文或英文。带上贵司的业务目标与首年编制…
+    zh: 先用 30 分钟把情况梳理一遍
+    en: Start with a 30-minute review of where the company stands
   f03:
-    zh: "30 分钟，中文或英文。带上贵司的业务目标与首年编制设想，我们会给出实体结构、签证路径与人力成本的初步判断，以及我们看到的主要风险点。"
-    en: "Thirty minutes, in Chinese or English. Bring the business goals and first-year headcount plan, and we will set out an initial view on entity structure, visa pathway and workforce cost, along with the main risks we can see."
-  # 发送邮件预约
+    zh: 30 分钟，中文或英文。带上贵司的业务目标与首年编制设想，我们会给出实体结构、签证路径与人力成本的初步判断，以及我们看到的主要风险点。
+    en: Thirty minutes, in Chinese or English. Bring the business goals and
+      first-year headcount plan, and we will set out an initial view on entity
+      structure, visa pathway and workforce cost, along with the main risks we
+      can see.
   f04:
-    zh: "发送邮件预约"
-    en: "Email us"
-  # 办公地址
+    zh: 发送邮件预约
+    en: Email us
   f05:
-    zh: "办公地址"
-    en: "Office"
-  # Level 4, 191 Thomas Street…
+    zh: 办公地址
+    en: Office
   f06:
-    zh: "Level 4, 191 Thomas Street<br>Haymarket NSW 2000, Australia"
-    en: "Level 4, 191 Thomas Street<br>Haymarket NSW 2000, Australia"
-  # 公司主体
+    zh: Level 4, 191 Thomas Street<br>Haymarket NSW 2000, Australia
+    en: Level 4, 191 Thomas Street<br>Haymarket NSW 2000, Australia
   f07:
-    zh: "公司主体"
-    en: "Entity"
-  # 邮箱
+    zh: 公司主体
+    en: Entity
   f08:
-    zh: "邮箱"
-    en: "Email"
-  # 服务语言
+    zh: 邮箱
+    en: Email
   f09:
-    zh: "服务语言"
-    en: "Languages"
-  # 中文 · English
+    zh: 服务语言
+    en: Languages
   f10:
-    zh: "中文 · English"
-    en: "English · 中文"
-
+    zh: 中文 · English
+    en: English · 中文
 footer:
-  # © 2026 MERIDIAN TALENT PTY…
   f01:
-    zh: "© 2026 MERIDIAN TALENT PTY LTD 美瑞安人才服务　保留所有权利"
-    en: "© 2026 MERIDIAN TALENT PTY LTD　All rights reserved"
-
+    zh: © 2026 MERIDIAN TALENT PTY LTD 美瑞安人才服务　保留所有权利
+    en: © 2026 MERIDIAN TALENT PTY LTD　All rights reserved
