@@ -297,8 +297,11 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 /* ---------- china desk ---------- */
 .cd-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start}
 @media(max-width:880px){.cd-grid{grid-template-columns:1fr;gap:28px}}
-.cd-list{display:flex;flex-direction:column;gap:14px}
-.cd-item{display:grid;grid-template-columns:auto 1fr;gap:16px;align-items:start}
+.cd-grid>*{min-width:0}
+.cd-list{display:flex;flex-direction:column;gap:14px;min-width:0}
+.cd-item{display:grid;grid-template-columns:auto minmax(0,1fr);gap:16px;align-items:start}
+.cd-item>*{min-width:0}
+.cd-item h3,.cd-item p,.cd-item li{overflow-wrap:break-word}
 .cd-item .n{
   font-family:var(--mono);font-size:11px;color:var(--acc);letter-spacing:.1em;
   border:1px solid var(--line-strong);border-radius:4px;padding:4px 7px;line-height:1;margin-top:3px;
@@ -381,8 +384,8 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <div class="eyebrow"><span data-zh="澳洲团队搭建与 HR 运营" data-en="Building and running your Australian team">澳洲团队搭建与 HR 运营</span></div>
-      <h1 class="hero-sub" data-zh='在澳洲搭起团队，<br><span>并且运转下去</span>' data-en='Build your Australian team,<br><span>then keep it running</span>'>在澳洲搭起团队，<br><span>并且运转下去</span></h1>
+      <div class="eyebrow"><span data-zh="澳洲团队搭建与 HR 运营" data-en="Building and running Australian teams">澳洲团队搭建与 HR 运营</span></div>
+      <h1 class="hero-sub" data-zh='在澳洲搭起团队，<br><span>并且运转下去</span>' data-en='Build an Australian team,<br><span>then keep it running</span>'>在澳洲搭起团队，<br><span>并且运转下去</span></h1>
       <p class="lede" style="margin-top:22px" data-zh="我们帮海外企业在澳洲组建本地团队，并接手之后的日常 HR 运营。擅长领域包括新能源、教育与金融科技。" data-en="We build local teams in Australia for companies expanding from overseas, and run the HR that follows. Our depth is in new energy, education and fintech.">我们帮海外企业在澳洲组建本地团队，并接手之后的日常 HR 运营。擅长领域包括新能源、教育与金融科技。</p>
       <p class="hero-en" data-zh="New Energy · Education · Fintech · Infrastructure · Professional Services" data-en="新能源 · 教育 · 金融科技 · 基建工程 · 专业服务">New Energy · Education · Fintech · Infrastructure · Professional Services</p>
       <div class="hero-btns">
@@ -414,7 +417,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
     <div class="sec-head rv">
       <div class="eyebrow"><span data-zh="服务差异" data-en="How we differ">服务差异</span></div>
       <h2 data-zh="把分散的环节，收在一条时间表上" data-en="Bringing scattered workstreams onto one timeline">把分散的环节，收在一条时间表上</h2>
-      <p class="lede" data-zh="赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同条款、award 分类、超年金与申报、外派与本地员工的工作习惯差异、核心岗位的留存。这些环节通常分散在不同供应商手里，衔接的责任最后落回你自己身上。" data-en="Australian landings usually run into trouble after the hire, not before it: contract terms, award classification, superannuation and reporting, differences in working norms between expat and local staff, and retention in key roles. These pieces usually sit with different providers, and joining them up ends up being your job.">赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同条款、award 分类、超年金与申报、外派与本地员工的工作习惯差异、核心岗位的留存。这些环节通常分散在不同供应商手里，衔接的责任最后落回你自己身上。</p>
+      <p class="lede" data-zh="赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同条款、award 分类、超年金与申报、外派与本地员工的工作习惯差异、核心岗位的留存。这些环节通常分散在不同供应商手里，衔接的责任最后落回企业自己身上。" data-en="Australian landings usually run into trouble after the hire, not before it: contract terms, award classification, superannuation and reporting, differences in working norms between expat and local staff, and retention in key roles. These pieces usually sit with different providers, and joining them up ends up falling to the company itself.">赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同条款、award 分类、超年金与申报、外派与本地员工的工作习惯差异、核心岗位的留存。这些环节通常分散在不同供应商手里，衔接的责任最后落回企业自己身上。</p>
     </div>
     <div class="cmp-scroll rv">
       <table class="cmp">
@@ -443,7 +446,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
           </tr>
           <tr>
             <th data-zh="签证" data-en="Visas">签证</th>
-            <td class="them" data-zh="移民、招聘与薪酬各自推进，时间表需要你自己对齐" data-en="Migration, hiring and payroll advance separately; aligning the timeline is on you">移民、招聘与薪酬各自推进，时间表需要你自己对齐</td>
+            <td class="them" data-zh="移民、招聘与薪酬各自推进，时间表需要企业自行对齐" data-en="Migration, hiring and payroll advance separately; aligning the timeline falls to the company">移民、招聘与薪酬各自推进，时间表需要企业自行对齐</td>
             <td class="us" data-zh="由我们协调 MARA 注册代理或律师，与招聘计划排在同一张时间表上" data-en="We coordinate the registered migration agent or lawyer and put it on the same timeline as hiring">由我们协调 MARA 注册代理或律师，与招聘计划排在同一张时间表上</td>
           </tr>
           <tr>
@@ -453,7 +456,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
           </tr>
           <tr>
             <th data-zh="语言与文化" data-en="Language &amp; culture">语言与文化</th>
-            <td class="them" data-zh="中英两侧的沟通往往要你自己居中翻译" data-en="Communication between the two sides often ends up being translated by you">中英两侧的沟通往往要你自己居中翻译</td>
+            <td class="them" data-zh="中英两侧的沟通往往要企业自行居中翻译" data-en="Communication between the two sides is left for the company to translate">中英两侧的沟通往往要企业自行居中翻译</td>
             <td class="us" data-zh="双语团队，同时面向总部与本地员工" data-en="A bilingual team working with head office and local staff alike">双语团队，同时面向总部与本地员工</td>
           </tr>
           <tr>
@@ -473,7 +476,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
     <div class="sec-head rv">
       <div class="eyebrow"><span data-zh="一条龙" data-en="End to end">一条龙</span></div>
       <h2 data-zh="六个环节，一个团队交付" data-en="Six workstreams. One team delivers all of them.">六个环节，一个团队交付</h2>
-      <p class="lede" data-zh="每一项单拿出来都能找到供应商；难的是把它们串成一条线，并且有人为结果负责。" data-en="Each of these has vendors who will sell it to you. The hard part is joining them into one line with one party accountable for the outcome.">每一项单拿出来都能找到供应商；难的是把它们串成一条线，并且有人为结果负责。</p>
+      <p class="lede" data-zh="每一项单拿出来都能找到供应商；难的是把它们串成一条线，并且有人为结果负责。" data-en="Each of these has vendors who will sell it separately. The hard part is joining them into one line with one party accountable for the outcome.">每一项单拿出来都能找到供应商；难的是把它们串成一条线，并且有人为结果负责。</p>
     </div>
     <div class="grid g3 rv">
       <div class="card">
@@ -537,9 +540,9 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
       <ul>
         <li data-zh="移民与签证申请由 MARA 注册移民代理或执业律师承办" data-en="Migration and visa applications are handled by a MARA-registered migration agent or a practising lawyer">移民与签证申请由 MARA 注册移民代理或执业律师承办</li>
         <li data-zh="BAS 与 STP 申报由注册 BAS 代理或税务代理承办" data-en="BAS and STP lodgements are handled by a registered BAS agent or tax agent">BAS 与 STP 申报由注册 BAS 代理或税务代理承办</li>
-        <li data-zh="公司设立、税务架构与法律意见由会计师或律师出具" data-en="Company set-up, tax structuring and legal advice come from your accountant or lawyer">公司设立、税务架构与法律意见由会计师或律师出具</li>
+        <li data-zh="公司设立、税务架构与法律意见由会计师或律师出具" data-en="Company set-up, tax structuring and legal advice come from the company’s accountant or lawyer">公司设立、税务架构与法律意见由会计师或律师出具</li>
         <li data-zh="雇佣条件以 Fair Work 与适用 Modern Award 为准" data-en="Employment conditions are governed by the Fair Work Act and the applicable modern award">雇佣条件以 Fair Work 与适用 Modern Award 为准</li>
-        <li data-zh="录用、调薪、解雇与对外付款，由客户书面授权人审批后执行" data-en="Hiring, pay changes, terminations and outbound payments are executed only after approval by your authorised signatory">录用、调薪、解雇与对外付款，由客户书面授权人审批后执行</li>
+        <li data-zh="录用、调薪、解雇与对外付款，由客户书面授权人审批后执行" data-en="Hiring, pay changes, terminations and outbound payments are executed only after approval by the company’s authorised signatory">录用、调薪、解雇与对外付款，由客户书面授权人审批后执行</li>
         <li data-zh="我们不提供移民建议、税务意见或法律意见" data-en="We do not provide migration, tax or legal advice">我们不提供移民建议、税务意见或法律意见</li>
       </ul>
     </div>
@@ -552,18 +555,18 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
     <div class="sec-head rv">
       <div class="eyebrow"><span data-zh="服务包" data-en="Packages">服务包</span></div>
       <h2 data-zh="三种合作方式，范围写进合同" data-en="Three ways to work together, with scope written into the agreement">三种合作方式，范围写进合同</h2>
-      <p class="lede" data-zh="主推的是整体落地服务：公司侧与员工侧由同一位负责人统一安排。每个包都列明交付物、需要你提供的前置资料、不包含的事项与验收标准，可以组合，也可以单独采购。" data-en="Our lead product is the end-to-end landing service, where the company side and the employee side are run by one named lead. Each package sets out what is delivered, what we need from you first, what is not included, and how completion is signed off. They can be combined or taken separately.">主推的是整体落地服务：公司侧与员工侧由同一位负责人统一安排。每个包都列明交付物、需要你提供的前置资料、不包含的事项与验收标准，可以组合，也可以单独采购。</p>
+      <p class="lede" data-zh="主推的是整体落地服务：公司侧与员工侧由同一位负责人统一安排。每个包都列明交付物、需要公司提供的前置资料、不包含的事项与验收标准，可以组合，也可以单独采购。" data-en="Our lead product is the end-to-end landing service, where the company side and the employee side are run by one named lead. Each package sets out what is delivered, what the company provides first, what is not included, and how completion is signed off. They can be combined or taken separately.">主推的是整体落地服务：公司侧与员工侧由同一位负责人统一安排。每个包都列明交付物、需要公司提供的前置资料、不包含的事项与验收标准，可以组合，也可以单独采购。</p>
     </div>
     <div class="pkgs rv">
 
       <div class="pkg flag">
         <div class="pk">PACKAGE A <span class="flagtag" data-zh="主推" data-en="Flagship">主推</span></div>
         <h3 data-zh="整体落地服务（管家模式）" data-en="End-to-End Landing (Concierge)">整体落地服务（管家模式）</h3>
-        <p class="sub" data-zh="适合要把团队从海外派到澳洲的企业。公司这边的实体、用工、合规与税务对接，员工这边的签证、接机、住处、子女入学、搬家与入职，由同一位负责人统一安排，你只对接一个人。" data-en="For companies moving a team from overseas to Australia. The entity, employment, compliance and tax side for the business, and the visa, arrival, housing, schooling, move and onboarding side for each person — all run by one named lead, so you deal with one contact.">适合要把团队从海外派到澳洲的企业。公司这边的实体、用工、合规与税务对接，员工这边的签证、接机、住处、子女入学、搬家与入职，由同一位负责人统一安排，你只对接一个人。</p>
+        <p class="sub" data-zh="适合要把团队从海外派到澳洲的企业。公司这边的实体、用工、合规与税务对接，员工这边的签证、接机、住处、子女入学、搬家与入职，由同一位负责人统一安排，公司只需对接一个人。" data-en="For companies moving a team from overseas to Australia. The entity, employment, compliance and tax side for the business, and the visa, arrival, housing, schooling, move and onboarding side for each person — all run by one named lead, so the company deals with a single contact.">适合要把团队从海外派到澳洲的企业。公司这边的实体、用工、合规与税务对接，员工这边的签证、接机、住处、子女入学、搬家与入职，由同一位负责人统一安排，公司只需对接一个人。</p>
         <div class="fgrid">
           <div class="grp"><span class="gt" data-zh="交付物 · 公司侧" data-en="Deliverables — company">交付物 · 公司侧</span>
             <ul>
-              <li data-zh="用工结构与实体落地方案（与你的会计师、律师共同确认）" data-en="Workforce structure and entity setup plan, confirmed with your accountant and lawyer">用工结构与实体落地方案（与你的会计师、律师共同确认）</li>
+              <li data-zh="用工结构与实体落地方案（与贵司的会计师、律师共同确认）" data-en="Workforce structure and entity setup plan, confirmed with the company’s accountant and lawyer">用工结构与实体落地方案（与贵司的会计师、律师共同确认）</li>
               <li data-zh="首年编制规划与人力成本模型（含派驻人员的整体成本）" data-en="First-year headcount plan and workforce cost model, including the full cost of each assignee">首年编制规划与人力成本模型（含派驻人员的整体成本）</li>
               <li data-zh="雇佣合同模板与员工手册（中英双语）" data-en="Employment contract templates and employee handbook, in both languages">雇佣合同模板与员工手册（中英双语）</li>
               <li data-zh="Award 分类意见与薪资区间" data-en="Award classification assessment and salary ranges">Award 分类意见与薪资区间</li>
@@ -583,11 +586,11 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
               <li data-zh="一位专属负责人，中英文随时对接" data-en="One named lead, reachable in Chinese and English">一位专属负责人，中英文随时对接</li>
             </ul>
           </div>
-          <div class="grp"><span class="gt" data-zh="需要你先提供" data-en="What we need first">需要你先提供</span>
+          <div class="grp"><span class="gt" data-zh="需要公司提供" data-en="Required from the company">需要公司提供</span>
             <ul>
               <li data-zh="派驻人员名单、家属情况与预计到澳时间" data-en="The list of assignees, their family situation and expected arrival dates">派驻人员名单、家属情况与预计到澳时间</li>
               <li data-zh="业务计划与首年编制设想" data-en="Business plan and first-year headcount intentions">业务计划与首年编制设想</li>
-              <li data-zh="已有实体资料，或注册意向" data-en="Existing entity details, or your intention to register">已有实体资料，或注册意向</li>
+              <li data-zh="已有实体资料，或注册意向" data-en="Existing entity details, or the intention to register">已有实体资料，或注册意向</li>
               <li data-zh="人力与安置的预算区间" data-en="A budget range for workforce and relocation">人力与安置的预算区间</li>
             </ul>
           </div>
@@ -599,7 +602,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
             </ul>
           </div>
           <div class="grp wide"><span class="gt" data-zh="验收" data-en="Sign-off">验收</span>
-            <ul><li data-zh="公司侧文件交付并经你书面确认；派驻人员完成入职，住处与子女入学落定" data-en="The company-side documents are delivered and confirmed by you in writing, and each assignee has started work with housing and schooling settled">公司侧文件交付并经你书面确认；派驻人员完成入职，住处与子女入学落定</li></ul>
+            <ul><li data-zh="公司侧文件交付并经贵司书面确认；派驻人员完成入职，住处与子女入学落定" data-en="The company-side documents are delivered and confirmed by the company in writing, and each assignee has started work with housing and schooling settled">公司侧文件交付并经贵司书面确认；派驻人员完成入职，住处与子女入学落定</li></ul>
           </div>
         </div>
       </div>
@@ -617,7 +620,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
             <li data-zh="保用期内的替补（次数与期限见合同）" data-en="Replacement within the guarantee period, on the terms set out in the agreement">保用期内的替补（次数与期限见合同）</li>
           </ul>
         </div>
-        <div class="grp"><span class="gt" data-zh="需要你先提供" data-en="What we need first">需要你先提供</span>
+        <div class="grp"><span class="gt" data-zh="需要公司提供" data-en="Required from the company">需要公司提供</span>
           <ul>
             <li data-zh="岗位需求与汇报关系" data-en="The role requirements and reporting relationships">岗位需求与汇报关系</li>
             <li data-zh="面试参与人与可用时间" data-en="Who will interview, and when they are available">面试参与人与可用时间</li>
@@ -648,9 +651,9 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
             <li data-zh="约定工时内的 HR 负责人参与（工时写入合同）" data-en="An HR lead’s time up to the hours agreed, with the hours set out in the agreement">约定工时内的 HR 负责人参与（工时写入合同）</li>
           </ul>
         </div>
-        <div class="grp"><span class="gt" data-zh="需要你先提供" data-en="What we need first">需要你先提供</span>
+        <div class="grp"><span class="gt" data-zh="需要公司提供" data-en="Required from the company">需要公司提供</span>
           <ul>
-            <li data-zh="现有员工名册与雇佣合同" data-en="Your current staff list and employment contracts">现有员工名册与雇佣合同</li>
+            <li data-zh="现有员工名册与雇佣合同" data-en="The current staff list and employment contracts">现有员工名册与雇佣合同</li>
             <li data-zh="薪酬与福利现状" data-en="Current pay and benefits arrangements">薪酬与福利现状</li>
             <li data-zh="相关系统的访问授权" data-en="Access to the relevant systems">相关系统的访问授权</li>
           </ul>
@@ -668,7 +671,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
       </div>
 
     </div>
-    <p class="pricenote rv" data-zh="价格按编制规模、服务期与所在州确定，签约前以书面报价单为准，本页不列价格。保用期长度与替补次数、以及各包的工时上限，均在合同中写明。" data-en="Pricing depends on headcount, term and the state you operate in, and is confirmed in a written quote before signing — this page does not list prices. Guarantee periods, replacement counts and the hours included in each package are all set out in the agreement.">价格按编制规模、服务期与所在州确定，签约前以书面报价单为准，本页不列价格。保用期长度与替补次数、以及各包的工时上限，均在合同中写明。</p>
+    <p class="pricenote rv" data-zh="价格按编制规模、服务期与所在州确定，签约前以书面报价单为准，本页不列价格。保用期长度与替补次数、以及各包的工时上限，均在合同中写明。" data-en="Pricing depends on headcount, term and the state of operation, and is confirmed in a written quote before signing — this page does not list prices. Guarantee periods, replacement counts and the hours included in each package are all set out in the agreement.">价格按编制规模、服务期与所在州确定，签约前以书面报价单为准，本页不列价格。保用期长度与替补次数、以及各包的工时上限，均在合同中写明。</p>
   </div>
 </section>
 
@@ -678,7 +681,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
     <div class="sec-head rv">
       <div class="eyebrow"><span data-zh="落地路径" data-en="How it runs">落地路径</span></div>
       <h2 data-zh="落地要按顺序推进" data-en="The order of the work matters">落地要按顺序推进</h2>
-      <p class="lede" data-zh="这些环节彼此依赖——签证方案要在招聘启动前定，award 分类要在发出 offer 前定。顺序错了，返工和成本都会跟着上来。实际用时取决于签证审批进度与你自己的业务节奏。" data-en="These steps depend on one another: the visa plan is settled before hiring starts, the award classification before any offer goes out. Get the order wrong and rework and cost follow. How long it takes depends on visa processing and your own pace.">这些环节彼此依赖——签证方案要在招聘启动前定，award 分类要在发出 offer 前定。顺序错了，返工和成本都会跟着上来。实际用时取决于签证审批进度与你自己的业务节奏。</p>
+      <p class="lede" data-zh="这些环节彼此依赖——签证方案要在招聘启动前定，award 分类要在发出 offer 前定。顺序错了，返工和成本都会跟着上来。实际用时取决于签证审批进度与企业自身的业务节奏。" data-en="These steps depend on one another: the visa plan is settled before hiring starts, the award classification before any offer goes out. Get the order wrong and rework and cost follow. How long it takes depends on visa processing and the company’s own pace.">这些环节彼此依赖——签证方案要在招聘启动前定，award 分类要在发出 offer 前定。顺序错了，返工和成本都会跟着上来。实际用时取决于签证审批进度与企业自身的业务节奏。</p>
     </div>
     <div class="tl rv">
       <div class="tl-step">
@@ -716,22 +719,22 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
     <div class="sec-head rv">
       <div class="eyebrow"><span data-zh="出海专线" data-en="China Desk">出海专线</span></div>
       <h2 data-zh="一条专门服务中资企业出海的业务线" data-en="A dedicated desk for Chinese enterprises expanding abroad">一条专门服务中资企业出海的业务线</h2>
-      <p class="lede" data-zh="中资企业在澳洲遇到的问题，和一家欧美公司开分部完全不同：董事居住要求、外派人员身份、总部审批链条、跨时区汇报、以及本地员工对管理方式的不适应。我们为此单设一条业务线，用中文和你的总部沟通，用英文和监管、律师、员工沟通。" data-en="What a Chinese-invested business runs into in Australia is not what a European or US company runs into: resident director requirements, expat status, HQ approval chains, cross-time-zone reporting, and local staff adjusting to a different management style. We run a separate desk for it — speaking Chinese to your head office, and English to the regulator, the lawyers and your staff.">中资企业在澳洲遇到的问题，和一家欧美公司开分部完全不同：董事居住要求、外派人员身份、总部审批链条、跨时区汇报、以及本地员工对管理方式的不适应。我们为此单设一条业务线，用中文和你的总部沟通，用英文和监管、律师、员工沟通。</p>
+      <p class="lede" data-zh="中资企业在澳洲遇到的问题，和一家欧美公司开分部完全不同：董事居住要求、外派人员身份、总部审批链条、跨时区汇报、以及本地员工对管理方式的不适应。我们为此单设一条业务线，用中文与总部沟通，用英文与监管机构、律师和员工沟通。" data-en="What a Chinese-invested business runs into in Australia is not what a European or US company runs into: resident director requirements, expat status, HQ approval chains, cross-time-zone reporting, and local staff adjusting to a different management style. We run a separate desk for it — speaking Chinese to head office, and English to the regulator, the lawyers and local staff.">中资企业在澳洲遇到的问题，和一家欧美公司开分部完全不同：董事居住要求、外派人员身份、总部审批链条、跨时区汇报、以及本地员工对管理方式的不适应。我们为此单设一条业务线，用中文与总部沟通，用英文与监管机构、律师和员工沟通。</p>
     </div>
     <div class="cd-grid rv">
       <div class="cd-list">
         <div class="cd-item">
           <span class="n">01</span>
           <div>
-            <h3 data-zh="总部可读的中文汇报" data-en="Reporting your head office can read">总部可读的中文汇报</h3>
-            <p data-zh="人力预算、编制进度、离职率与合规风险，按总部习惯的口径出中文月报，不用你的国家经理自己翻译。" data-en="Headcount budget, hiring progress, attrition and compliance risk — reported monthly in Chinese, in the format your head office already uses, so your country manager isn’t translating it themselves.">人力预算、编制进度、离职率与合规风险，按总部习惯的口径出中文月报，不用你的国家经理自己翻译。</p>
+            <h3 data-zh="总部可读的中文汇报" data-en="Reporting head office can read">总部可读的中文汇报</h3>
+            <p data-zh="人力预算、编制进度、离职率与合规风险，按总部习惯的口径出中文月报，不用国家经理自己翻译。" data-en="Headcount budget, hiring progress, attrition and compliance risk — reported monthly in Chinese, in the format head office already uses, so the country manager isn’t translating it themselves.">人力预算、编制进度、离职率与合规风险，按总部习惯的口径出中文月报，不用国家经理自己翻译。</p>
           </div>
         </div>
         <div class="cd-item">
           <span class="n">02</span>
           <div>
             <h3 data-zh="外派人员安置" data-en="Expat relocation">外派人员安置</h3>
-            <p data-zh="签证、税务身份、住房、子女入学、医疗保险与落地手续，让派过来的人第一个月就能专心工作。" data-en="Visas, tax residency, housing, schooling, health cover and settling-in logistics — so the person you sent can focus on the job in month one.">签证、税务身份、住房、子女入学、医疗保险与落地手续，让派过来的人第一个月就能专心工作。</p>
+            <p data-zh="签证、税务身份、住房、子女入学、医疗保险与落地手续，让派过来的人第一个月就能专心工作。" data-en="Visas, tax residency, housing, schooling, health cover and settling-in logistics — so the person sent over can focus on the job in month one.">签证、税务身份、住房、子女入学、医疗保险与落地手续，让派过来的人第一个月就能专心工作。</p>
           </div>
         </div>
         <div class="cd-item">
@@ -744,8 +747,8 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
         <div class="cd-item">
           <span class="n">04</span>
           <div>
-            <h3 data-zh="与你的会计师、律师协同" data-en="Working alongside your accountants and lawyers">与你的会计师、律师协同</h3>
-            <p data-zh="人力方案不是孤立的：我们把雇佣结构与薪酬安排，与你的会计师、税务顾问和移民代理/律师对齐，避免各自出方案、最后互相冲突。相关专业意见由各自持牌方出具。" data-en="A workforce plan doesn’t stand alone. We align employment structure and remuneration with your accountants, tax advisers and migration agent or lawyer so the plans don’t contradict each other. The professional advice itself comes from each licensed provider.">人力方案不是孤立的：我们把雇佣结构与薪酬安排，与你的会计师、税务顾问和移民代理/律师对齐，避免各自出方案、最后互相冲突。相关专业意见由各自持牌方出具。</p>
+            <h3 data-zh="与贵司的会计师、律师协同" data-en="Working alongside the company’s accountants and lawyers">与贵司的会计师、律师协同</h3>
+            <p data-zh="人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司的会计师、税务顾问和移民代理／律师对齐，避免各自出方案、最后互相冲突。相关专业意见由各自持牌方出具。" data-en="A workforce plan doesn’t stand alone. We align employment structure and remuneration with the company’s accountants, tax advisers and migration agent or lawyer so the plans don’t contradict each other. The professional advice itself comes from each licensed provider.">人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司的会计师、税务顾问和移民代理／律师对齐，避免各自出方案、最后互相冲突。相关专业意见由各自持牌方出具。</p>
           </div>
         </div>
         <div class="cd-item">
@@ -768,7 +771,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
             <div class="eyebrow"><span data-zh="同样适用于" data-en="Equally for">同样适用于</span></div>
             <h3 style="margin-top:14px;font-size:20px" data-zh="任何第一次在澳洲雇人的公司" data-en="Any company hiring in Australia for the first time">任何第一次在澳洲雇人的公司</h3>
             <p class="lede" style="margin-top:12px;font-size:15px" data-zh="出海专线是我们的一条业务线，不是我们的全部。欧美、东南亚、日韩企业的澳洲落地，以及本地企业的规模化扩张，走的是同一套流程与同一支团队——只是不需要中文那一层。" data-en="The China Desk is one of our lines, not all of them. European, US, Southeast Asian, Japanese and Korean businesses landing in Australia — and local companies scaling up — run through the same process and the same team, minus the Chinese-language layer.">出海专线是我们的一条业务线，不是我们的全部。欧美、东南亚、日韩企业的澳洲落地，以及本地企业的规模化扩张，走的是同一套流程与同一支团队——只是不需要中文那一层。</p>
-            <div class="hero-btns"><a class="cta ghost" href="#contact" data-zh="说说你的情况" data-en="Tell us your situation">说说你的情况</a></div>
+            <div class="hero-btns"><a class="cta ghost" href="#contact" data-zh="先了解贵司的情况" data-en="Start with the company’s situation">先了解贵司的情况</a></div>
           </div>
         </div>
       </div>
@@ -782,7 +785,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
     <div class="sec-head rv">
       <div class="eyebrow"><span data-zh="行业覆盖" data-en="Sector coverage">行业覆盖</span></div>
       <h2 data-zh="五个行业组，新能源是我们最深的一条" data-en="Five sector desks. New energy is the deepest of them.">五个行业组，新能源是我们最深的一条</h2>
-      <p class="lede" data-zh="同一个职位名称，在不同行业里是完全不同的人。所以顾问按行业分组，而不是按职能分组——他们看得懂你的项目，也听得懂候选人在说什么。" data-en="The same job title means a different person in a different industry. So our consultants are grouped by sector, not by function — they understand your projects, and they understand what a candidate is actually telling them.">同一个职位名称，在不同行业里是完全不同的人。所以顾问按行业分组，而不是按职能分组——他们看得懂你的项目，也听得懂候选人在说什么。</p>
+      <p class="lede" data-zh="同一个职位名称，在不同行业里是完全不同的人。所以顾问按行业分组，而不是按职能分组——他们看得懂贵司的项目，也听得懂候选人在说什么。" data-en="The same job title means a different person in a different industry. So our consultants are grouped by sector, not by function — they understand the projects, and they understand what a candidate is actually telling them.">同一个职位名称，在不同行业里是完全不同的人。所以顾问按行业分组，而不是按职能分组——他们看得懂贵司的项目，也听得懂候选人在说什么。</p>
     </div>
     <div class="desks rv">
       <div class="desk flag">
@@ -875,8 +878,8 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
     <div class="grid g3 rv">
       <div class="card">
         <div class="k" data-zh="薪酬定价" data-en="Pay benchmarking">薪酬定价</div>
-        <h3 data-zh="能解释得清的薪资区间" data-en="Salary ranges you can explain">能解释得清的薪资区间</h3>
-        <p data-zh="结合公开薪酬数据、适用 Award 的最低标准，以及我们在实际招聘中看到的成交区间，给出一个能向总部解释来源的薪资区间。" data-en="We set the range from published salary data, the minimum under the applicable award, and what we actually see offers land at — so you can explain to head office where the number came from.">结合公开薪酬数据、适用 Award 的最低标准，以及我们在实际招聘中看到的成交区间，给出一个能向总部解释来源的薪资区间。</p>
+        <h3 data-zh="能解释得清的薪资区间" data-en="Salary ranges that can be explained">能解释得清的薪资区间</h3>
+        <p data-zh="结合公开薪酬数据、适用 Award 的最低标准，以及我们在实际招聘中看到的成交区间，给出一个能向总部解释来源的薪资区间。" data-en="We set the range from published salary data, the minimum under the applicable award, and what we actually see offers land at — so the source of the number can be explained to head office.">结合公开薪酬数据、适用 Award 的最低标准，以及我们在实际招聘中看到的成交区间，给出一个能向总部解释来源的薪资区间。</p>
       </div>
       <div class="card">
         <div class="k" data-zh="文化桥梁" data-en="Culture bridge">文化桥梁</div>
@@ -891,12 +894,12 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
       <div class="card">
         <div class="k" data-zh="弹性" data-en="Flexible">弹性</div>
         <h3 data-zh="分数制 HR 负责人" data-en="Fractional HR leadership">分数制 HR 负责人</h3>
-        <p data-zh="团队只有 5–30 人时，不值得养一个全职 HR 总监。我们按月提供一位可上会、可决策的 HR 负责人，需要时再移交给你自建的团队。" data-en="At 5–30 people a full-time HR director isn’t worth it. We provide one on a monthly basis who sits in your leadership meetings, and hand over when you’re ready to build in-house.">团队只有 5–30 人时，不值得养一个全职 HR 总监。我们按月提供一位可上会、可决策的 HR 负责人，需要时再移交给你自建的团队。</p>
+        <p data-zh="团队只有 5–30 人时，不值得养一个全职 HR 总监。我们按月提供一位可上会、可决策的 HR 负责人，需要时再移交给企业自建的团队。" data-en="At 5–30 people a full-time HR director isn’t worth it. We provide one on a monthly basis who sits in the leadership meetings, and hand over when the company is’re ready to build in-house.">团队只有 5–30 人时，不值得养一个全职 HR 总监。我们按月提供一位可上会、可决策的 HR 负责人，需要时再移交给企业自建的团队。</p>
       </div>
       <div class="card">
         <div class="k" data-zh="承诺" data-en="Guarantee">承诺</div>
         <h3 data-zh="保用期与替补机制" data-en="Guarantee period &amp; replacement">保用期与替补机制</h3>
-        <p data-zh="核心岗位设保用期，期内离职按合同约定由我们负责替补。我们希望赚的是你留下来的团队，不是你换掉的人。" data-en="Key roles carry a guarantee period; a departure inside it is replaced under the terms of the agreement. We would rather be paid for the team that stays than the people you replace.">核心岗位设保用期，期内离职按合同约定由我们负责替补。我们希望赚的是你留下来的团队，不是你换掉的人。</p>
+        <p data-zh="核心岗位设保用期，期内离职按合同约定由我们负责替补。我们希望赚的是留得下来的团队，不是被换掉的人。" data-en="Key roles carry a guarantee period; a departure inside it is replaced under the terms of the agreement. We would rather be paid for the team that stays than for the people who get replaced.">核心岗位设保用期，期内离职按合同约定由我们负责替补。我们希望赚的是留得下来的团队，不是被换掉的人。</p>
       </div>
       <div class="card">
         <div class="k" data-zh="项目用工" data-en="Project workforce">项目用工</div>
@@ -913,8 +916,8 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
     <div class="contact rv">
       <div>
         <div class="eyebrow"><span data-zh="开始" data-en="Start here">开始</span></div>
-        <h2 style="margin-top:16px" data-zh="先用 30 分钟把情况梳理一遍" data-en="Start with a 30-minute review of where you stand">先用 30 分钟把情况梳理一遍</h2>
-        <p class="lede" style="margin-top:18px" data-zh="30 分钟，中文或英文。带上你的业务目标与首年编制设想，我们会给出实体结构、签证路径与人力成本的初步判断，以及我们看到的主要风险点。" data-en="Thirty minutes, in Chinese or English. Bring your business goals and first-year headcount plan; you’ll leave with an initial view on entity structure, visa pathway and workforce cost, and the main risks we can see.">30 分钟，中文或英文。带上你的业务目标与首年编制设想，我们会给出实体结构、签证路径与人力成本的初步判断，以及我们看到的主要风险点。</p>
+        <h2 style="margin-top:16px" data-zh="先用 30 分钟把情况梳理一遍" data-en="Start with a 30-minute review of where the company stands">先用 30 分钟把情况梳理一遍</h2>
+        <p class="lede" style="margin-top:18px" data-zh="30 分钟，中文或英文。带上贵司的业务目标与首年编制设想，我们会给出实体结构、签证路径与人力成本的初步判断，以及我们看到的主要风险点。" data-en="Thirty minutes, in Chinese or English. Bring the business goals and first-year headcount plan, and we will set out an initial view on entity structure, visa pathway and workforce cost, along with the main risks we can see.">30 分钟，中文或英文。带上贵司的业务目标与首年编制设想，我们会给出实体结构、签证路径与人力成本的初步判断，以及我们看到的主要风险点。</p>
         <div class="hero-btns">
           <a class="cta" href="mailto:info@meridiantalent.au?subject=%E8%90%BD%E5%9C%B0%E5%92%A8%E8%AF%A2%20%7C%20Landing%20enquiry" data-zh="发送邮件预约" data-en="Email us">发送邮件预约</a>
         </div>
