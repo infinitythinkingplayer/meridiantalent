@@ -1,3 +1,6 @@
+# Pages CMS —— MERIDIAN TALENT
+# 左侧每一项对应网站的一个板块。
+
 content:
   - name: nav
     label: "1 顶部导航"
@@ -6,7 +9,2603 @@ content:
     path: _data/copy/nav.yml
     fields:
       - name: f01
-        label: "标识行"
+        label: "美瑞安人才服务 · ACN 701 340 409"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f02
+        label: "服务差异"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f03
+        label: "服务范围"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f04
+        label: "服务包"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f05
+        label: "出海专线"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f06
+        label: "预约落地咨询"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+  - name: hero
+    label: "2 首页头部"
+    type: file
+    format: yaml
+    path: _data/copy/hero.yml
+    fields:
+      - name: f01
+        label: "澳洲团队搭建与 HR 运营"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f02
+        label: "在澳洲搭起团队，并且运转下去"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f03
+        label: "我们帮海外企业在澳洲组建本地团队，并接手之后的日常 …"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f04
+        label: "新能源 · 教育 · 金融科技 · 基建工程 · 专…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f05
+        label: "预约 30 分钟落地诊断"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f06
+        label: "看服务全景"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f07
+        label: "服务覆盖 SYDNEY · MELBOURNE · …"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f08
+        label: "总部 SYDNEY HAYMARKET · 对接 C…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+  - name: stats
+    label: "3 首页数据条"
+    type: file
+    format: yaml
+    path: _data/copy/stats.yml
+    fields:
+      - name: f01
+        label: "合伙人平均行业与人力资源从业年限（个人从业经历）"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f02
+        label: "环"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f03
+        label: "实体 · 签证 · 招聘 · 合规 · 薪酬 · 留…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f04
+        label: "个"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f05
+        label: "对接人统一协调全部落地环节与各专业承办方"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f06
+        label: "语"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f07
+        label: "中英双语交付：合同、员工手册、绩效表与月度汇报均出双…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+  - name: why
+    label: "4 服务差异 对比表"
+    type: file
+    format: yaml
+    path: _data/copy/why.yml
+    fields:
+      - name: f01
+        label: "服务差异"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f02
+        label: "把分散的环节，收在一条时间表上"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f03
+        label: "赴澳落地出问题，往往不在招聘这一步，而在招到人之后：…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f04
+        label: "分别向多家供应商采购"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f05
+        label: "由 MERIDIAN TALENT 统一协调"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f06
+        label: "服务起点"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f07
+        label: "通常在实体、岗位与预算都定好之后才介入"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f08
+        label: "从实体结构与首年编制阶段就一起规划"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f09
+        label: "行业理解"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f10
+        label: "各方按自身专长推荐，行业口径不一定一致"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f11
+        label: "按行业分组的顾问团队，能与候选人聊清楚项目、标准与资…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f12
+        label: "合规责任"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f13
+        label: "合同、薪酬分类与各项申报分散在不同方"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f14
+        label: "由同一支团队跟进并对接各承办方（承办分工见下方专业边…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f15
+        label: "签证"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f16
+        label: "移民、招聘与薪酬各自推进，时间表需要企业自行对齐"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f17
+        label: "由我们协调 MARA 注册代理或律师，与招聘计划排在…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f18
+        label: "人才储备"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f19
+        label: "有岗位时才启动寻访"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f20
+        label: "按行业长期跟进候选人，不是临门才开始找"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f21
+        label: "语言与文化"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f22
+        label: "中英两侧的沟通往往要企业自行居中翻译"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f23
+        label: "双语团队，同时面向总部与本地员工"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f24
+        label: "计费方式"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f25
+        label: "各供应商分别计费，总成本到后期才看得清"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f26
+        label: "落地项目制 + 月度 HR 订阅，服务范围在服务协议…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+  - name: service
+    label: "5 服务范围"
+    type: file
+    format: yaml
+    path: _data/copy/service.yml
+    fields:
+      - name: f01
+        label: "一条龙"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f02
+        label: "六个环节，一个团队交付"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f03
+        label: "每一项单拿出来都能找到供应商；难的是把它们串成一条线…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f04
+        label: "实体与架构落地"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f05
+        label: "公司注册、ACN/ABN、GST 与税号"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f06
+        label: "董事居住要求与公司秘书安排"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f07
+        label: "注册地址、银行开户与保险配置"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f08
+        label: "雇主担保与签证路径"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f09
+        label: "Standard Business Sponsors…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f10
+        label: "外派人员与本地雇佣的成本比选"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f11
+        label: "LMT 招聘测试与合规留痕"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f12
+        label: "分行业专项招聘"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f13
+        label: "国家经理、项目总监、工程与技术、BD、运营与财务"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f14
+        label: "白领、技术工种与门店/工地用工的混合方案"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f15
+        label: "核心岗位保用期与替补承诺"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f16
+        label: "雇佣合规"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f17
+        label: "Fair Work、NES 与薪酬标准分类"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f18
+        label: "超年金、工伤险、Payroll Tax 与 STP …"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f19
+        label: "员工手册、WHS 制度与解雇合规流程"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f20
+        label: "薪酬与人事运营"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f21
+        label: "薪酬带宽设计与年度调薪测算"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f22
+        label: "发薪、休假、报销与人事系统搭建"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f23
+        label: "合规与签证到期日程表，月度汇报中提示"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f24
+        label: "团队留存与绩效"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f25
+        label: "绩效制度与总部 KPI 的本地翻译"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f26
+        label: "外派主管的本地管理教练"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f27
+        label: "雇主品牌与 Seek / LinkedIn 主页运营"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f28
+        label: "专业边界与审批权限"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f29
+        label: "我们负责统筹、协调与执行人力环节。以下事项由持牌专业…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f30
+        label: "移民与签证申请由 MARA 注册移民代理或执业律师承…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f31
+        label: "BAS 与 STP 申报由注册 BAS 代理或税务代…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f32
+        label: "公司设立、税务架构与法律意见由会计师或律师出具"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f33
+        label: "雇佣条件以 Fair Work 与适用的薪酬标准为准"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f34
+        label: "录用、调薪、解雇与对外付款，由客户书面授权人审批后执…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f35
+        label: "移民、税务与法律意见，均由上述持牌方以其名义出具"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+  - name: packages
+    label: "6 服务包 A B C"
+    type: file
+    format: yaml
+    path: _data/copy/packages.yml
+    fields:
+      - name: f01
+        label: "服务包"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f02
+        label: "三种合作方式，范围写进服务协议"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f03
+        label: "主推的是整体落地服务：公司层面与员工层面由同一位负责…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f04
+        label: "主推"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f05
+        label: "整体落地服务（管家模式）"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f06
+        label: "适合要把团队从海外派到澳洲的企业。公司这边的实体、用…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f07
+        label: "公司层面提供的服务"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f08
+        label: "用工结构与实体落地方案（与贵司的会计师、律师共同确认…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f09
+        label: "首年编制规划与人力成本模型（含派驻人员的整体成本）"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f10
+        label: "雇佣合同模板与员工手册（中英双语）"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f11
+        label: "薪酬分类意见与薪资区间"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f12
+        label: "发薪、超年金（Super）、工伤保险与合规节点的开办…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f13
+        label: "注册移民代理、税务师、律师与财务顾问的选定与统一对接"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f14
+        label: "为员工与家属提供的服务"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f15
+        label: "签证路径时间表；移民申请由注册移民代理承办，我们全程…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f16
+        label: "行前说明与文件清单，接机与首周过渡住宿"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f17
+        label: "手机卡、银行开户、税号（TFN）与医疗登记的落地事项"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f18
+        label: "选区看房、租约审阅与签约陪同"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f19
+        label: "子女入学：学区与学校范围、申请材料与面谈安排"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f20
+        label: "国际搬家与宠物入境：承办方比价与全程安排"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f21
+        label: "租金、押金、学费、搬家与机票等第三方费用的比价、代办…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f22
+        label: "入职手续与到澳首月的安顿跟进"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f23
+        label: "一位专属负责人，中英文随时对接"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f24
+        label: "需要公司提供"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f25
+        label: "派驻人员名单、家属情况与预计到澳时间"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f26
+        label: "业务计划与首年编制设想"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f27
+        label: "已有实体资料，或注册意向"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f28
+        label: "人力与安置的预算区间"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f29
+        label: "验收"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f30
+        label: "公司层面的文件交付并经贵司书面确认；派驻人员完成入职…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f31
+        label: "关键岗位招聘"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f32
+        label: "适合已有实体，需要补齐国家经理、项目负责人或工程技术…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f33
+        label: "提供的服务包括"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f34
+        label: "岗位说明、汇报线与薪资区间"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f35
+        label: "候选人长名单与结构化评估"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f36
+        label: "技术面试安排与资质核实协调"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f37
+        label: "offer 谈判与入职材料"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f38
+        label: "候选人签证与雇主担保材料的对接与进度跟进"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f39
+        label: "背景调查与测评的安排与结果解读"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f40
+        label: "保用期内的替补（期限见服务协议）"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f41
+        label: "需要公司提供"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f42
+        label: "岗位需求与汇报关系"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f43
+        label: "面试参与人与可用时间"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f44
+        label: "书面的薪资授权区间"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f45
+        label: "验收"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f46
+        label: "候选人到岗，并通过服务协议约定的保用期"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f47
+        label: "月度 HR 运营"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f48
+        label: "适合 5–30 人规模、还不值得设全职 HR 总监的…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f49
+        label: "提供的服务包括"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f50
+        label: "发薪、休假与报销流程的日常运行"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f51
+        label: "合规与签证到期日程表"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f52
+        label: "员工关系与绩效流程支持"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f53
+        label: "月度中英双语汇报"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f54
+        label: "BAS 与 STP 申报：由注册代理办理，我们负责数…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f55
+        label: "员工关系争议的流程处理，必要时对接执业律师"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f56
+        label: "约定工时内的 HR 负责人参与，专项项目按需单独排期"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f57
+        label: "需要公司提供"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f58
+        label: "现有员工名册与雇佣合同"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f59
+        label: "薪酬与福利现状"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f60
+        label: "相关系统的访问授权"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f61
+        label: "验收"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f62
+        label: "按月交付汇报，每季度复盘范围与工时"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f63
+        label: "价格按编制规模、服务期与所在州确定，签约前以书面报价…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+  - name: timeline
+    label: "7 落地节奏"
+    type: file
+    format: yaml
+    path: _data/copy/timeline.yml
+    fields:
+      - name: f01
+        label: "落地路径"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f02
+        label: "落地要按顺序推进"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f03
+        label: "这些环节彼此依赖——签证方案要在招聘启动前定，薪酬分…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f04
+        label: "落地诊断"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f05
+        label: "业务目标、首年编制、预算与风险清单，出具落地方案与成…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f06
+        label: "实体与合规底座"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f07
+        label: "公司与税务注册完成，保险、合同模板、员工手册与薪酬分…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f08
+        label: "首批关键岗位"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f09
+        label: "国家经理 / 项目负责人进入终面，签证路径与担保资质…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f10
+        label: "团队成型"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f11
+        label: "工程、BD 与运营岗位陆续入职，发薪与人事系统跑通第…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f12
+        label: "移交与持续运营"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f13
+        label: "绩效制度上线，日常人事流程移交，转为月度 HR 订阅…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+  - name: chinadesk
+    label: "8 出海专线"
+    type: file
+    format: yaml
+    path: _data/copy/chinadesk.yml
+    fields:
+      - name: f01
+        label: "出海专线"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f02
+        label: "一条专门服务中资企业出海的业务线"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f03
+        label: "中资企业在澳洲遇到的问题，和一家欧美公司开分部完全不…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f04
+        label: "总部可读的中文汇报"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f05
+        label: "人力预算、编制进度、离职率与合规风险，按总部习惯的口…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f06
+        label: "外派人员安置"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f07
+        label: "签证、税务身份、住房、子女入学、医疗保险与落地手续，…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f08
+        label: "中英文双语文件包"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f09
+        label: "雇佣合同、员工手册、绩效表、offer 与离职流程全…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f10
+        label: "与贵司的会计师、律师协同"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f11
+        label: "人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f12
+        label: "落地执行的四个节点"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f13
+        label: "派驻人员带着家庭过来，第一个月多半在处理住房、学校和…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f14
+        label: "出发前 —— 签证与体检节点确认、随行家属材料清单、…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f15
+        label: "抵达前 —— 临时住所、机场接送、银行开户与电话卡预…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f16
+        label: "首日 —— 入职材料、TFN 与超年金账户、办公与门…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f17
+        label: "7 天 / 30 天 —— 长租与学校确认、家属安顿…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f18
+        label: "同样适用于"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f19
+        label: "任何第一次在澳洲雇人的公司"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f20
+        label: "出海专线是我们的一条业务线，不是我们的全部。欧美、东…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f21
+        label: "预约初步沟通"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+  - name: sectors
+    label: "9 行业分组"
+    type: file
+    format: yaml
+    path: _data/copy/sectors.yml
+    fields:
+      - name: f01
+        label: "行业覆盖"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f02
+        label: "五个行业组，新能源是我们最深的一条"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f03
+        label: "同一个职位名称，在不同行业里是完全不同的人。所以顾问…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f04
+        label: "新能源与电力"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f05
+        label: "重点赛道"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f06
+        label: "光伏电站开发"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f07
+        label: "工商业分布式"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f08
+        label: "储能 BESS"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f09
+        label: "风电开发与运维"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f10
+        label: "绿氢与电解槽"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f11
+        label: "电池制造与回收"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f12
+        label: "充电桩与车网互动"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f13
+        label: "电网与并网工程"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f14
+        label: "虚拟电厂 VPP"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f15
+        label: "绿证与碳资产"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f16
+        label: "基建工程与矿业"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f17
+        label: "EPC 总承包"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f18
+        label: "建筑与土木"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f19
+        label: "矿业与资源"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f20
+        label: "交通与市政"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f21
+        label: "项目管理与造价"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f22
+        label: "HSE 与合规"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f23
+        label: "制造与工业"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f24
+        label: "科技与数字"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f25
+        label: "SaaS 与平台"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f26
+        label: "AI 与数据"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f27
+        label: "电商与跨境"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f28
+        label: "金融科技"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f29
+        label: "游戏与内容"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f30
+        label: "智能硬件与 IoT"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f31
+        label: "金融与专业服务"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f32
+        label: "基金与资产管理"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f33
+        label: "地产投资与开发"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f34
+        label: "会计与税务"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f35
+        label: "法律与咨询"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f36
+        label: "保险与风控"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f37
+        label: "银行与支付"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f38
+        label: "消费、零售与物流"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f39
+        label: "品牌出海与市场"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f40
+        label: "连锁与门店运营"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f41
+        label: "餐饮与食品"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f42
+        label: "仓储与配送"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f43
+        label: "供应链与关务"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f44
+        label: "健康与教育服务"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+  - name: edge
+    label: "10 六项细节"
+    type: file
+    format: yaml
+    path: _data/copy/edge.yml
+    fields:
+      - name: f01
+        label: "另外六项"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f02
+        label: "另外六项常被忽略、但会影响成本的工作"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f03
+        label: "薪酬定价"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f04
+        label: "能解释得清的薪资区间"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f05
+        label: "结合公开薪酬数据、适用薪酬标准的最低要求，以及我们在…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f06
+        label: "文化桥梁"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f07
+        label: "中澳双文化管理桥梁"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f08
+        label: "既向总部讲清楚为什么本地员工准点下班，也向本地团队讲…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f09
+        label: "到期日程"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f10
+        label: "到期日程与提前提醒"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f11
+        label: "签证到期、保险续期、薪酬标准调薪、工伤险申报、许可证…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f12
+        label: "弹性"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f13
+        label: "分数制 HR 负责人"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f14
+        label: "团队只有 5–30 人时，不值得养一个全职 HR 总…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f15
+        label: "承诺"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f16
+        label: "保用期与替补机制"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f17
+        label: "核心岗位设保用期，期内离职按服务协议约定由我们负责替…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f18
+        label: "项目用工"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f19
+        label: "现场与门店用工方案"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f20
+        label: "工地、仓库与门店的短期与季节性用工、labour h…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+  - name: contact
+    label: "11 联系方式"
+    type: file
+    format: yaml
+    path: _data/copy/contact.yml
+    fields:
+      - name: f01
+        label: "开始"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f02
+        label: "先用 30 分钟把情况梳理一遍"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f03
+        label: "30 分钟，中文或英文。带上贵司的业务目标与首年编制…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: text
+          - name: en
+            label: "English"
+            type: text
+      - name: f04
+        label: "发送邮件预约"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f05
+        label: "办公地址"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f06
+        label: "Level 4, 191 Thomas Street…"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f07
+        label: "公司主体"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f08
+        label: "邮箱"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f09
+        label: "服务语言"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+      - name: f10
+        label: "中文 · English"
+        type: object
+        fields:
+          - name: zh
+            label: "中文"
+            type: string
+          - name: en
+            label: "English"
+            type: string
+  - name: footer
+    label: "12 页脚"
+    type: file
+    format: yaml
+    path: _data/copy/footer.yml
+    fields:
+      - name: f01
+        label: "© 2026 MERIDIAN TALENT PTY…"
         type: object
         fields:
           - name: zh
