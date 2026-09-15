@@ -14,13 +14,13 @@ f02:
 
 # 这些环节彼此依赖——签证方案要在招聘启动前定，薪酬分…
 f03:
-  zh: "这些环节彼此依赖——签证方案要在招聘启动前定，薪酬分类要在发出 offer 前定。顺序错了，返工和成本都会跟着上来。实际用时取决于签证审批进度与企业自身的业务节奏。"
-  en: "These steps depend on one another: the visa plan is settled before hiring starts, the award classification before any offer goes out. Get the order wrong and rework and cost follow. How long it takes depends on visa processing and the company’s own pace."
+  zh: "这些环节彼此依赖——签证方案要在招聘启动前定，薪酬分类要在发出合同之前定。顺序错了，返工和成本都会跟着上来。实际用时取决于签证审批进度与企业自身的业务节奏。"
+  en: "These steps depend on one another: the visa plan is settled before hiring starts, the award classification before any contract is issued. Get the order wrong and rework and cost follow. How long it takes depends on visa processing and the company’s own pace."
 
 # 落地诊断
 f04:
-  zh: "落地诊断"
-  en: "Landing review"
+  zh: "落地评估"
+  en: "Initial assessment"
 
 # 业务目标、首年编制、预算与风险清单，出具落地方案与成…
 f05:
@@ -54,7 +54,7 @@ f10:
 
 # 工程、BD 与运营岗位陆续入职，发薪与人事系统跑通第…
 f11:
-  zh: "工程、BD 与运营岗位陆续入职，发薪与人事系统跑通第一个完整周期。"
+  zh: "工程、BD 与运营岗位陆续入职，薪资发放与人事系统完成首个完整周期。"
   en: "Engineering, BD and ops roles onboard; payroll and HRIS complete a full cycle."
 
 # 移交与持续运营

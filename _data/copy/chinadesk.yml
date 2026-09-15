@@ -34,8 +34,8 @@ f06:
 
 # 签证、税务身份、住房、子女入学、医疗保险与落地手续，…
 f07:
-  zh: "签证、税务身份、住房、子女入学、医疗保险与落地手续，让派过来的人第一个月就能专心工作。"
-  en: "Visas, tax residency, housing, schooling, health cover and settling-in logistics — so the person sent over can focus on the job in month one."
+  zh: "签证、税务身份、住房、子女入学、医疗保险与落地手续，使派驻人员到岗后即可专注工作。"
+  en: "Visas, tax residency, housing, schooling, health cover and settling-in logistics — so staff can focus on the job from arrival."
 
 # 中英文双语文件包
 f08:
@@ -44,7 +44,7 @@ f08:
 
 # 雇佣合同、员工手册、绩效表、offer 与离职流程全…
 f09:
-  zh: "雇佣合同、员工手册、绩效表、offer 与离职流程全部中英对照；解释优先语言由合同约定并经律师审核，中文版便于总部理解与审批。"
+  zh: "雇佣合同、员工手册、绩效表、录用通知与离职流程全部中英对照；解释优先语言由合同约定并经律师审核，中文版便于总部理解与审批。"
   en: "Contracts, handbook, performance forms, offers and exit process in parallel Chinese and English. Which language prevails is set in the agreement and reviewed by a lawyer; the Chinese version is there so head office can read and approve it."
 
 # 与贵司的会计师、律师协同
@@ -54,7 +54,7 @@ f10:
 
 # 人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司…
 f11:
-  zh: "人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司的会计师、税务顾问和移民代理／律师对齐，避免各自出方案、最后互相冲突。相关专业意见由各自持牌方出具。"
+  zh: "人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司的会计师、税务顾问和移民代理／律师对齐，避免各方方案相互冲突。相关专业意见由各自持牌方出具。"
   en: "A workforce plan doesn’t stand alone. We align employment structure and remuneration with the company’s accountants, tax advisers and migration agent or lawyer so the plans don’t contradict each other. The professional advice itself comes from each licensed provider."
 
 # 落地执行的四个节点
@@ -64,8 +64,8 @@ f12:
 
 # 派驻人员带着家庭过来，第一个月多半在处理住房、学校和…
 f13:
-  zh: "派驻人员带着家庭过来，第一个月多半在处理住房、学校和银行，而不是工作。整体落地服务（Package A）按四个节点推进，每完成一段确认一段："
-  en: "When someone relocates with their family, most of month one goes on housing, schools and banks rather than the job. The end-to-end landing service (Package A) runs to four checkpoints, each confirmed as it is completed:"
+  zh: "派驻人员随家属抵澳后，首月通常需处理住房、子女入学与银行事务。整体落地服务（Package A）按四个节点推进，每完成一段确认一段："
+  en: "When staff relocate with their families, much of the first month is taken up by housing, schooling and banking. The end-to-end landing service (Package A) runs to four checkpoints, each confirmed as it is completed:"
 
 # 出发前 —— 签证与体检节点确认、随行家属材料清单、…
 f14:
@@ -79,7 +79,7 @@ f15:
 
 # 首日 —— 入职材料、TFN 与超年金账户、办公与门…
 f16:
-  zh: "首日 —— 入职材料、TFN 与超年金账户、办公与门禁安排"
+  zh: "首日 —— 入职材料、TFN 与养老金账户、办公与门禁安排"
   en: "Day one — onboarding paperwork, tax file number and super account, desk and building access"
 
 # 7 天 / 30 天 —— 长租与学校确认、家属安顿…

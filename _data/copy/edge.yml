@@ -9,7 +9,7 @@ f01:
 
 # 另外六项常被忽略、但会影响成本的工作
 f02:
-  zh: "另外六项常被忽略、但会影响成本的工作"
+  zh: "另外六项容易被忽略、但会影响成本的工作"
   en: "Six more pieces of work that are easy to miss and show up in the cost"
 
 # 薪酬定价
@@ -19,8 +19,8 @@ f03:
 
 # 能解释得清的薪资区间
 f04:
-  zh: "能解释得清的薪资区间"
-  en: "Salary ranges that can be explained"
+  zh: "有据可依的薪资区间"
+  en: "Salary ranges with a traceable basis"
 
 # 结合公开薪酬数据、适用薪酬标准的最低要求，以及我们在…
 f05:
@@ -64,13 +64,13 @@ f12:
 
 # 分数制 HR 负责人
 f13:
-  zh: "分数制 HR 负责人"
+  zh: "非全职 HR 负责人"
   en: "Fractional HR leadership"
 
 # 团队只有 5–30 人时，不值得养一个全职 HR 总…
 f14:
-  zh: "团队只有 5–30 人时，不值得养一个全职 HR 总监。我们按月提供一位可上会、可决策的 HR 负责人，需要时再移交给企业自建的团队。"
-  en: "At 5–30 people a full-time HR director isn’t worth it. We provide one on a monthly basis who sits in the leadership meetings, and hand over when the company is ready to build in-house."
+  zh: "团队在 5–30 人阶段，通常尚不需要全职人力资源总监。我们按月提供一位可参与管理层会议、具备决策能力的 HR 负责人，待企业自建团队后完成移交。"
+  en: "At 5–30 people a full-time HR director is rarely warranted. We provide one on a monthly basis who sits in the leadership meetings, and hand over when the company is ready to build in-house."
 
 # 承诺
 f15:
@@ -84,8 +84,8 @@ f16:
 
 # 核心岗位设保用期，期内离职按服务协议约定由我们负责替…
 f17:
-  zh: "核心岗位设保用期，期内离职按服务协议约定由我们负责替补。我们希望赚的是留得下来的团队，不是被换掉的人。"
-  en: "Key roles carry a guarantee period; a departure inside it is replaced under the terms of the agreement. We would rather be paid for the team that stays than for the people who get replaced."
+  zh: "核心岗位设保用期，期内离职按服务协议约定由我们负责替补。"
+  en: "Key roles carry a guarantee period; a departure inside it is replaced under the terms of the agreement."
 
 # 项目用工
 f18:
