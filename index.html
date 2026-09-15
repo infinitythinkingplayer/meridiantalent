@@ -1046,7 +1046,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
   function frame(ts){
     if (t0 === null) t0 = ts;
     var el = (ts - t0)/1000;
-    if (!reduce) rot = (-133 + 11*Math.sin(el*0.22)) * D;
+    if (!reduce) rot = (-133 + 12*Math.sin(el*0.46)) * D;
 
     ctx.clearRect(0,0,W,H);
 
@@ -1090,7 +1090,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
     // 错相位的流动光点
     if (!reduce){
       CITIES.forEach(function(c){
-        var tp = (el*0.16 + c.phase) % 1;
+        var tp = (el*0.30 + c.phase) % 1;
         var pl = c.slerp(tp);
         var pp = project(pl[0], pl[1]+rot);
         if (pp[2] > 0){
