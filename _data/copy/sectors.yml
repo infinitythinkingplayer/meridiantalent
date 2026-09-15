@@ -1,0 +1,224 @@
+# ⑨ 行业分组 — Sector desks
+# 只改引号里面的文字。中文和英文要一起改。
+# Edit only the text inside the quotes. Change zh and en together.
+
+# 行业覆盖
+f01:
+  zh: "行业覆盖"
+  en: "Sector coverage"
+
+# 五个行业组，新能源是我们最深的一条
+f02:
+  zh: "五个行业组，新能源是我们最深的一条"
+  en: "Five sector desks. New energy is the deepest of them."
+
+# 同一个职位名称，在不同行业里是完全不同的人。所以顾问…
+f03:
+  zh: "同一个职位名称，在不同行业里是完全不同的人。所以顾问按行业分组，而不是按职能分组——他们看得懂贵司的项目，也听得懂候选人在说什么。"
+  en: "The same job title means a different person in a different industry. So our consultants are grouped by sector, not by function — they understand the projects, and they understand what a candidate is actually telling them."
+
+# 新能源与电力
+f04:
+  zh: "新能源与电力"
+  en: "New Energy &amp; Power"
+
+# 重点赛道
+f05:
+  zh: "重点赛道"
+  en: "FLAGSHIP"
+
+# 光伏电站开发
+f06:
+  zh: "光伏电站开发"
+  en: "Utility-scale solar"
+
+# 工商业分布式
+f07:
+  zh: "工商业分布式"
+  en: "C&amp;I distributed solar"
+
+# 储能 BESS
+f08:
+  zh: "储能 BESS"
+  en: "Battery storage (BESS)"
+
+# 风电开发与运维
+f09:
+  zh: "风电开发与运维"
+  en: "Wind development &amp; O&amp;M"
+
+# 绿氢与电解槽
+f10:
+  zh: "绿氢与电解槽"
+  en: "Green hydrogen &amp; electrolysers"
+
+# 电池制造与回收
+f11:
+  zh: "电池制造与回收"
+  en: "Battery manufacturing &amp; recycling"
+
+# 充电桩与车网互动
+f12:
+  zh: "充电桩与车网互动"
+  en: "EV charging &amp; V2G"
+
+# 电网与并网工程
+f13:
+  zh: "电网与并网工程"
+  en: "Grid &amp; connection engineering"
+
+# 虚拟电厂 VPP
+f14:
+  zh: "虚拟电厂 VPP"
+  en: "Virtual power plants"
+
+# 绿证与碳资产
+f15:
+  zh: "绿证与碳资产"
+  en: "LGCs &amp; carbon assets"
+
+# 基建工程与矿业
+f16:
+  zh: "基建工程与矿业"
+  en: "Infrastructure, Engineering &amp; Mining"
+
+# EPC 总承包
+f17:
+  zh: "EPC 总承包"
+  en: "EPC contracting"
+
+# 建筑与土木
+f18:
+  zh: "建筑与土木"
+  en: "Construction &amp; civil"
+
+# 矿业与资源
+f19:
+  zh: "矿业与资源"
+  en: "Mining &amp; resources"
+
+# 交通与市政
+f20:
+  zh: "交通与市政"
+  en: "Transport &amp; utilities"
+
+# 项目管理与造价
+f21:
+  zh: "项目管理与造价"
+  en: "Project controls &amp; QS"
+
+# HSE 与合规
+f22:
+  zh: "HSE 与合规"
+  en: "HSE &amp; compliance"
+
+# 制造与工业
+f23:
+  zh: "制造与工业"
+  en: "Manufacturing &amp; industrial"
+
+# 科技与数字
+f24:
+  zh: "科技与数字"
+  en: "Technology &amp; Digital"
+
+# SaaS 与平台
+f25:
+  zh: "SaaS 与平台"
+  en: "SaaS &amp; platforms"
+
+# AI 与数据
+f26:
+  zh: "AI 与数据"
+  en: "AI &amp; data"
+
+# 电商与跨境
+f27:
+  zh: "电商与跨境"
+  en: "E-commerce &amp; cross-border"
+
+# 金融科技
+f28:
+  zh: "金融科技"
+  en: "Fintech"
+
+# 游戏与内容
+f29:
+  zh: "游戏与内容"
+  en: "Gaming &amp; content"
+
+# 智能硬件与 IoT
+f30:
+  zh: "智能硬件与 IoT"
+  en: "Hardware &amp; IoT"
+
+# 金融与专业服务
+f31:
+  zh: "金融与专业服务"
+  en: "Finance &amp; Professional Services"
+
+# 基金与资产管理
+f32:
+  zh: "基金与资产管理"
+  en: "Funds &amp; asset management"
+
+# 地产投资与开发
+f33:
+  zh: "地产投资与开发"
+  en: "Property investment &amp; development"
+
+# 会计与税务
+f34:
+  zh: "会计与税务"
+  en: "Accounting &amp; tax"
+
+# 法律与咨询
+f35:
+  zh: "法律与咨询"
+  en: "Legal &amp; advisory"
+
+# 保险与风控
+f36:
+  zh: "保险与风控"
+  en: "Insurance &amp; risk"
+
+# 银行与支付
+f37:
+  zh: "银行与支付"
+  en: "Banking &amp; payments"
+
+# 消费、零售与物流
+f38:
+  zh: "消费、零售与物流"
+  en: "Consumer, Retail &amp; Logistics"
+
+# 品牌出海与市场
+f39:
+  zh: "品牌出海与市场"
+  en: "Brand expansion &amp; marketing"
+
+# 连锁与门店运营
+f40:
+  zh: "连锁与门店运营"
+  en: "Retail chains &amp; store ops"
+
+# 餐饮与食品
+f41:
+  zh: "餐饮与食品"
+  en: "F&amp;B and food"
+
+# 仓储与配送
+f42:
+  zh: "仓储与配送"
+  en: "Warehousing &amp; delivery"
+
+# 供应链与关务
+f43:
+  zh: "供应链与关务"
+  en: "Supply chain &amp; customs"
+
+# 健康与教育服务
+f44:
+  zh: "健康与教育服务"
+  en: "Health &amp; education services"
+

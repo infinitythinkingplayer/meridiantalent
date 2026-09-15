@@ -1,0 +1,39 @@
+# ③ 首页数据条 — The 15+ / 6 / 1 / 2 figures
+# 只改引号里面的文字。中文和英文要一起改。
+# Edit only the text inside the quotes. Change zh and en together.
+
+# 合伙人平均行业与人力资源从业年限（个人从业经历）
+f01:
+  zh: "合伙人平均行业与人力资源从业年限（个人从业经历）"
+  en: "Average years of sector and HR experience per partner (individual careers)"
+
+# 环
+f02:
+  zh: "环"
+  en: ""
+
+# 实体 · 签证 · 招聘 · 合规 · 薪酬 · 留…
+f03:
+  zh: "实体 · 签证 · 招聘 · 合规 · 薪酬 · 留存，同一支团队交付"
+  en: "Entity · visas · hiring · compliance · payroll · retention — delivered by one team"
+
+# 个
+f04:
+  zh: "个"
+  en: ""
+
+# 对接人统一协调全部落地环节与各专业承办方
+f05:
+  zh: "对接人统一协调全部落地环节与各专业承办方"
+  en: "One point of contact coordinating every workstream and every specialist provider"
+
+# 语
+f06:
+  zh: "语"
+  en: ""
+
+# 中英双语交付：合同、员工手册、绩效表与月度汇报均出双…
+f07:
+  zh: "中英双语交付：合同、员工手册、绩效表与月度汇报均出双语版本"
+  en: "Bilingual delivery — contracts, handbook, performance forms and monthly reporting in both languages"
+

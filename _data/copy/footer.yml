@@ -1,0 +1,9 @@
+# ⑫ 页脚 — Footer
+# 只改引号里面的文字。中文和英文要一起改。
+# Edit only the text inside the quotes. Change zh and en together.
+
+# © 2026 MERIDIAN TALENT PTY…
+f01:
+  zh: "© 2026 MERIDIAN TALENT PTY LTD 美瑞安人才服务　保留所有权利"
+  en: "© 2026 MERIDIAN TALENT PTY LTD　All rights reserved"
+

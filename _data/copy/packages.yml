@@ -1,0 +1,319 @@
+# ⑥ 服务包 A · B · C — Packages
+# 只改引号里面的文字。中文和英文要一起改。
+# Edit only the text inside the quotes. Change zh and en together.
+
+# 服务包
+f01:
+  zh: "服务包"
+  en: "Packages"
+
+# 三种合作方式，范围写进服务协议
+f02:
+  zh: "三种合作方式，范围写进服务协议"
+  en: "Three ways to work together, with scope written into the agreement"
+
+# 主推的是整体落地服务：公司层面与员工层面由同一位负责…
+f03:
+  zh: "主推的是整体落地服务：公司层面与员工层面由同一位负责人统一安排。每个包都列明提供的服务、需要公司提供的前置资料与验收标准，可以组合，也可以单独采购，具体范围以服务协议为准。"
+  en: "Our lead product is the end-to-end landing service, where the company side and the employee side are run by one named lead. Each package sets out the services provided, what the company provides first, and how completion is signed off. They can be combined or taken separately, with the detailed scope set out in the service agreement."
+
+# 主推
+f04:
+  zh: "主推"
+  en: "Flagship"
+
+# 整体落地服务（管家模式）
+f05:
+  zh: "整体落地服务（管家模式）"
+  en: "End-to-End Landing (Concierge)"
+
+# 适合要把团队从海外派到澳洲的企业。公司这边的实体、用…
+f06:
+  zh: "适合要把团队从海外派到澳洲的企业。公司这边的实体、用工、合规与税务对接，员工这边的签证、接机、住处、子女入学、搬家与入职，由同一位负责人统一安排，全程单一对接窗口。"
+  en: "For companies moving a team from overseas to Australia. The entity, employment, compliance and tax side for the business, and the visa, arrival, housing, schooling, move and onboarding side for each person — all run by one named lead, as a single point of contact throughout."
+
+# 公司层面提供的服务
+f07:
+  zh: "公司层面提供的服务"
+  en: "What we provide for the company"
+
+# 用工结构与实体落地方案（与贵司的会计师、律师共同确认…
+f08:
+  zh: "用工结构与实体落地方案（与贵司的会计师、律师共同确认）"
+  en: "Workforce structure and entity setup plan, confirmed with the company’s accountant and lawyer"
+
+# 首年编制规划与人力成本模型（含派驻人员的整体成本）
+f09:
+  zh: "首年编制规划与人力成本模型（含派驻人员的整体成本）"
+  en: "First-year headcount plan and workforce cost model, including the full cost of each assignee"
+
+# 雇佣合同模板与员工手册（中英双语）
+f10:
+  zh: "雇佣合同模板与员工手册（中英双语）"
+  en: "Employment contract templates and employee handbook, in both languages"
+
+# 薪酬分类意见与薪资区间
+f11:
+  zh: "薪酬分类意见与薪资区间"
+  en: "Award classification assessment and salary ranges"
+
+# 发薪、超年金（Super）、工伤保险与合规节点的开办…
+f12:
+  zh: "发薪、超年金（Super）、工伤保险与合规节点的开办与移交"
+  en: "Payroll, superannuation, workers compensation and compliance milestones set up and handed over"
+
+# 注册移民代理、税务师、律师与财务顾问的选定与统一对接
+f13:
+  zh: "注册移民代理、税务师、律师与财务顾问的选定与统一对接"
+  en: "Registered migration agent, tax agent, lawyer and financial adviser selected and coordinated through one point of contact"
+
+# 为员工与家属提供的服务
+f14:
+  zh: "为员工与家属提供的服务"
+  en: "What we provide for the employee and family"
+
+# 签证路径时间表；移民申请由注册移民代理承办，我们全程…
+f15:
+  zh: "签证路径时间表；移民申请由注册移民代理承办，我们全程对接与跟进"
+  en: "Visa pathway timeline; the application is lodged by the registered migration agent, with us coordinating and tracking it throughout"
+
+# 行前说明与文件清单，接机与首周过渡住宿
+f16:
+  zh: "行前说明与文件清单，接机与首周过渡住宿"
+  en: "Pre-departure briefing and document checklist, airport pickup and first-week accommodation"
+
+# 手机卡、银行开户、税号（TFN）与医疗登记的落地事项
+f17:
+  zh: "手机卡、银行开户、税号（TFN）与医疗登记的落地事项"
+  en: "SIM, bank account, tax file number and medical registration sorted on arrival"
+
+# 选区看房、租约审阅与签约陪同
+f18:
+  zh: "选区看房、租约审阅与签约陪同"
+  en: "Suburb selection, property viewings, lease review and accompaniment at signing"
+
+# 子女入学：学区与学校范围、申请材料与面谈安排
+f19:
+  zh: "子女入学：学区与学校范围、申请材料与面谈安排"
+  en: "Schooling: catchment and school options, application documents and interview scheduling"
+
+# 国际搬家与宠物入境：承办方比价与全程安排
+f20:
+  zh: "国际搬家与宠物入境：承办方比价与全程安排"
+  en: "International removals and pet import: quotes compared and the whole process arranged"
+
+# 租金、押金、学费、搬家与机票等第三方费用的比价、代办…
+f21:
+  zh: "租金、押金、学费、搬家与机票等第三方费用的比价、代办与台账"
+  en: "Rent, bonds, school fees, removals and airfares: quotes compared, arrangements made and a running cost record kept"
+
+# 入职手续与到澳首月的安顿跟进
+f22:
+  zh: "入职手续与到澳首月的安顿跟进"
+  en: "Onboarding paperwork and settling-in follow-up through the first month"
+
+# 一位专属负责人，中英文随时对接
+f23:
+  zh: "一位专属负责人，中英文随时对接"
+  en: "One named lead, reachable in Chinese and English"
+
+# 需要公司提供
+f24:
+  zh: "需要公司提供"
+  en: "Required from the company"
+
+# 派驻人员名单、家属情况与预计到澳时间
+f25:
+  zh: "派驻人员名单、家属情况与预计到澳时间"
+  en: "The list of assignees, their family situation and expected arrival dates"
+
+# 业务计划与首年编制设想
+f26:
+  zh: "业务计划与首年编制设想"
+  en: "Business plan and first-year headcount intentions"
+
+# 已有实体资料，或注册意向
+f27:
+  zh: "已有实体资料，或注册意向"
+  en: "Existing entity details, or the intention to register"
+
+# 人力与安置的预算区间
+f28:
+  zh: "人力与安置的预算区间"
+  en: "A budget range for workforce and relocation"
+
+# 验收
+f29:
+  zh: "验收"
+  en: "Sign-off"
+
+# 公司层面的文件交付并经贵司书面确认；派驻人员完成入职…
+f30:
+  zh: "公司层面的文件交付并经贵司书面确认；派驻人员完成入职，住处与子女入学落定"
+  en: "The company-side documents are delivered and confirmed in writing, and each assignee has started work with housing and schooling settled"
+
+# 关键岗位招聘
+f31:
+  zh: "关键岗位招聘"
+  en: "Key Hires"
+
+# 适合已有实体，需要补齐国家经理、项目负责人或工程技术…
+f32:
+  zh: "适合已有实体，需要补齐国家经理、项目负责人或工程技术岗位的企业。"
+  en: "For businesses with an entity in place that need a country manager, project lead or technical hires."
+
+# 提供的服务包括
+f33:
+  zh: "提供的服务包括"
+  en: "Services include"
+
+# 岗位说明、汇报线与薪资区间
+f34:
+  zh: "岗位说明、汇报线与薪资区间"
+  en: "Role brief, reporting line and salary range"
+
+# 候选人长名单与结构化评估
+f35:
+  zh: "候选人长名单与结构化评估"
+  en: "A longlist with structured assessment"
+
+# 技术面试安排与资质核实协调
+f36:
+  zh: "技术面试安排与资质核实协调"
+  en: "Technical interviews arranged and credential checks coordinated"
+
+# offer 谈判与入职材料
+f37:
+  zh: "offer 谈判与入职材料"
+  en: "Offer negotiation and onboarding paperwork"
+
+# 候选人签证与雇主担保材料的对接与进度跟进
+f38:
+  zh: "候选人签证与雇主担保材料的对接与进度跟进"
+  en: "Candidate visa and sponsorship paperwork coordinated and tracked"
+
+# 背景调查与测评的安排与结果解读
+f39:
+  zh: "背景调查与测评的安排与结果解读"
+  en: "Background checks and assessments arranged, with the results interpreted"
+
+# 保用期内的替补（期限见服务协议）
+f40:
+  zh: "保用期内的替补（期限见服务协议）"
+  en: "Replacement within the guarantee period, on the terms set out in the service agreement"
+
+# 需要公司提供
+f41:
+  zh: "需要公司提供"
+  en: "Required from the company"
+
+# 岗位需求与汇报关系
+f42:
+  zh: "岗位需求与汇报关系"
+  en: "The role requirements and reporting relationships"
+
+# 面试参与人与可用时间
+f43:
+  zh: "面试参与人与可用时间"
+  en: "Who will interview, and when they are available"
+
+# 书面的薪资授权区间
+f44:
+  zh: "书面的薪资授权区间"
+  en: "An approved salary range in writing"
+
+# 验收
+f45:
+  zh: "验收"
+  en: "Sign-off"
+
+# 候选人到岗，并通过服务协议约定的保用期
+f46:
+  zh: "候选人到岗，并通过服务协议约定的保用期"
+  en: "The hire starts and completes the guarantee period set out in the agreement"
+
+# 月度 HR 运营
+f47:
+  zh: "月度 HR 运营"
+  en: "Monthly HR Operations"
+
+# 适合 5–30 人规模、还不值得设全职 HR 总监的…
+f48:
+  zh: "适合 5–30 人规模、还不值得设全职 HR 总监的本地团队。"
+  en: "For local teams of roughly 5–30 people, where a full-time HR director is not yet worth it."
+
+# 提供的服务包括
+f49:
+  zh: "提供的服务包括"
+  en: "Services include"
+
+# 发薪、休假与报销流程的日常运行
+f50:
+  zh: "发薪、休假与报销流程的日常运行"
+  en: "Running payroll, leave and expense processes"
+
+# 合规与签证到期日程表
+f51:
+  zh: "合规与签证到期日程表"
+  en: "A schedule of compliance and visa expiry dates"
+
+# 员工关系与绩效流程支持
+f52:
+  zh: "员工关系与绩效流程支持"
+  en: "Support on employee relations and performance process"
+
+# 月度中英双语汇报
+f53:
+  zh: "月度中英双语汇报"
+  en: "Monthly reporting in both Chinese and English"
+
+# BAS 与 STP 申报：由注册代理办理，我们负责数…
+f54:
+  zh: "BAS 与 STP 申报：由注册代理办理，我们负责数据、时点与进度对接"
+  en: "BAS and STP lodgements are made by the registered agent; we provide the data and manage timing and progress"
+
+# 员工关系争议的流程处理，必要时对接执业律师
+f55:
+  zh: "员工关系争议的流程处理，必要时对接执业律师"
+  en: "Employee relations disputes run through the correct process, with a practising lawyer brought in where needed"
+
+# 约定工时内的 HR 负责人参与，专项项目按需单独排期
+f56:
+  zh: "约定工时内的 HR 负责人参与，专项项目按需单独排期"
+  en: "An HR lead’s time up to the hours agreed, with dedicated projects scheduled separately as needed"
+
+# 需要公司提供
+f57:
+  zh: "需要公司提供"
+  en: "Required from the company"
+
+# 现有员工名册与雇佣合同
+f58:
+  zh: "现有员工名册与雇佣合同"
+  en: "The current staff list and employment contracts"
+
+# 薪酬与福利现状
+f59:
+  zh: "薪酬与福利现状"
+  en: "Current pay and benefits arrangements"
+
+# 相关系统的访问授权
+f60:
+  zh: "相关系统的访问授权"
+  en: "Access to the relevant systems"
+
+# 验收
+f61:
+  zh: "验收"
+  en: "Sign-off"
+
+# 按月交付汇报，每季度复盘范围与工时
+f62:
+  zh: "按月交付汇报，每季度复盘范围与工时"
+  en: "Monthly reporting delivered, with scope and hours reviewed each quarter"
+
+# 价格按编制规模、服务期与所在州确定，签约前以书面报价…
+f63:
+  zh: "价格按编制规模、服务期与所在州确定，签约前以书面报价单为准，本页不列价格。保用期长度与替补次数、以及各包的工时上限，均在服务协议中写明。"
+  en: "Pricing depends on headcount, term and the state of operation, and is confirmed in a written quote before signing — this page does not list prices. Guarantee periods, replacement counts and the hours included in each package are all set out in the agreement."
+

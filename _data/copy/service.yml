@@ -1,0 +1,179 @@
+# ⑤ 服务范围 — Scope — six workstreams
+# 只改引号里面的文字。中文和英文要一起改。
+# Edit only the text inside the quotes. Change zh and en together.
+
+# 一条龙
+f01:
+  zh: "一条龙"
+  en: "End to end"
+
+# 六个环节，一个团队交付
+f02:
+  zh: "六个环节，一个团队交付"
+  en: "Six workstreams. One team delivers all of them."
+
+# 每一项单拿出来都能找到供应商；难的是把它们串成一条线…
+f03:
+  zh: "每一项单拿出来都能找到供应商；难的是把它们串成一条线，并且有人为结果负责。"
+  en: "Each of these has vendors who will sell it separately. The hard part is joining them into one line with one party accountable for the outcome."
+
+# 实体与架构落地
+f04:
+  zh: "实体与架构落地"
+  en: "Entity &amp; structure"
+
+# 公司注册、ACN/ABN、GST 与税号
+f05:
+  zh: "公司注册、ACN/ABN、GST 与税号"
+  en: "Company registration, ACN/ABN, GST and tax registrations"
+
+# 董事居住要求与公司秘书安排
+f06:
+  zh: "董事居住要求与公司秘书安排"
+  en: "Resident director requirements and company secretary"
+
+# 注册地址、银行开户与保险配置
+f07:
+  zh: "注册地址、银行开户与保险配置"
+  en: "Registered address, bank accounts and insurance"
+
+# 雇主担保与签证路径
+f08:
+  zh: "雇主担保与签证路径"
+  en: "Sponsorship &amp; visas"
+
+# Standard Business Sponsors…
+f09:
+  zh: "Standard Business Sponsorship（SBS）雇主资质、提名与 482 / 186 路径设计（Accredited Sponsor 为另一独立资格）"
+  en: "Standard Business Sponsorship (SBS), nomination and 482 / 186 pathways (Accredited Sponsor is a separate status)"
+
+# 外派人员与本地雇佣的成本比选
+f10:
+  zh: "外派人员与本地雇佣的成本比选"
+  en: "Cost modelling: expat posting vs. local hire"
+
+# LMT 招聘测试与合规留痕
+f11:
+  zh: "LMT 招聘测试与合规留痕"
+  en: "Labour market testing and compliant record-keeping"
+
+# 分行业专项招聘
+f12:
+  zh: "分行业专项招聘"
+  en: "Sector-specialist recruitment"
+
+# 国家经理、项目总监、工程与技术、BD、运营与财务
+f13:
+  zh: "国家经理、项目总监、工程与技术、BD、运营与财务"
+  en: "Country managers, project directors, engineering, BD, operations and finance"
+
+# 白领、技术工种与门店/工地用工的混合方案
+f14:
+  zh: "白领、技术工种与门店/工地用工的混合方案"
+  en: "Blended models across professional, trade and site or store workforces"
+
+# 核心岗位保用期与替补承诺
+f15:
+  zh: "核心岗位保用期与替补承诺"
+  en: "Guarantee period and replacement commitment on key roles"
+
+# 雇佣合规
+f16:
+  zh: "雇佣合规"
+  en: "Employment compliance"
+
+# Fair Work、NES 与薪酬标准分类
+f17:
+  zh: "Fair Work、NES 与薪酬标准分类"
+  en: "Fair Work, NES and modern award classification"
+
+# 超年金、工伤险、Payroll Tax 与 STP …
+f18:
+  zh: "超年金、工伤险、Payroll Tax 与 STP 申报"
+  en: "Superannuation, workers comp, payroll tax and STP reporting"
+
+# 员工手册、WHS 制度与解雇合规流程
+f19:
+  zh: "员工手册、WHS 制度与解雇合规流程"
+  en: "Handbooks, WHS policy and lawful termination process"
+
+# 薪酬与人事运营
+f20:
+  zh: "薪酬与人事运营"
+  en: "Payroll &amp; HR operations"
+
+# 薪酬带宽设计与年度调薪测算
+f21:
+  zh: "薪酬带宽设计与年度调薪测算"
+  en: "Salary banding and annual pay-review modelling"
+
+# 发薪、休假、报销与人事系统搭建
+f22:
+  zh: "发薪、休假、报销与人事系统搭建"
+  en: "Payroll runs, leave, expenses and HRIS setup"
+
+# 合规与签证到期日程表，月度汇报中提示
+f23:
+  zh: "合规与签证到期日程表，月度汇报中提示"
+  en: "A schedule of compliance and visa expiry dates, flagged in the monthly report"
+
+# 团队留存与绩效
+f24:
+  zh: "团队留存与绩效"
+  en: "Retention &amp; performance"
+
+# 绩效制度与总部 KPI 的本地翻译
+f25:
+  zh: "绩效制度与总部 KPI 的本地翻译"
+  en: "Translating HQ KPIs into a local performance framework"
+
+# 外派主管的本地管理教练
+f26:
+  zh: "外派主管的本地管理教练"
+  en: "Coaching for expat managers leading local teams"
+
+# 雇主品牌与 Seek / LinkedIn 主页运营
+f27:
+  zh: "雇主品牌与 Seek / LinkedIn 主页运营"
+  en: "Employer brand and Seek / LinkedIn presence"
+
+# 专业边界与审批权限
+f28:
+  zh: "专业边界与审批权限"
+  en: "Scope, licensed providers and approvals"
+
+# 我们负责统筹、协调与执行人力环节。以下事项由持牌专业…
+f29:
+  zh: "我们负责统筹、协调与执行人力环节。以下事项由持牌专业方承办，我们负责对接方案与跟进进度，不以自身名义出具相关意见。"
+  en: "We coordinate and run the workforce side of the work. The items below are carried out by licensed providers; we align the plan and track progress, and do not issue this advice ourselves."
+
+# 移民与签证申请由 MARA 注册移民代理或执业律师承…
+f30:
+  zh: "移民与签证申请由 MARA 注册移民代理或执业律师承办"
+  en: "Migration and visa applications are handled by a MARA-registered migration agent or a practising lawyer"
+
+# BAS 与 STP 申报由注册 BAS 代理或税务代…
+f31:
+  zh: "BAS 与 STP 申报由注册 BAS 代理或税务代理承办"
+  en: "BAS and STP lodgements are handled by a registered BAS agent or tax agent"
+
+# 公司设立、税务架构与法律意见由会计师或律师出具
+f32:
+  zh: "公司设立、税务架构与法律意见由会计师或律师出具"
+  en: "Company set-up, tax structuring and legal advice come from the company’s accountant or lawyer"
+
+# 雇佣条件以 Fair Work 与适用的薪酬标准为准
+f33:
+  zh: "雇佣条件以 Fair Work 与适用的薪酬标准为准"
+  en: "Employment conditions are governed by the Fair Work Act and the applicable modern award"
+
+# 录用、调薪、解雇与对外付款，由客户书面授权人审批后执…
+f34:
+  zh: "录用、调薪、解雇与对外付款，由客户书面授权人审批后执行"
+  en: "Hiring, pay changes, terminations and outbound payments are executed only after approval by the company’s authorised signatory"
+
+# 移民、税务与法律意见，均由上述持牌方以其名义出具
+f35:
+  zh: "移民、税务与法律意见，均由上述持牌方以其名义出具"
+  en: "Migration, tax and legal advice is issued by those licensed providers in their own name"
+

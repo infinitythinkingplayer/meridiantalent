@@ -1,0 +1,44 @@
+# ② 首页头部 — Hero — headline, lede, buttons
+# 只改引号里面的文字。中文和英文要一起改。
+# Edit only the text inside the quotes. Change zh and en together.
+
+# 澳洲团队搭建与 HR 运营
+f01:
+  zh: "澳洲落地与团队运营"
+  en: "Landing and running teams in Australia"
+
+# 在澳洲搭起团队，并且运转下去
+f02:
+  zh: "从落地澳洲，<br><span>到团队持续运营</span>"
+  en: "From landing in Australia<br><span>to running the team long term</span>"
+
+# 我们帮海外企业在澳洲组建本地团队，并接手之后的日常 …
+f03:
+  zh: "我们帮海外企业在澳洲组建本地团队，并接手之后的日常 HR 运营。擅长领域包括新能源、教育与金融科技。"
+  en: "We build local teams in Australia for companies expanding from overseas, and run the HR that follows. Our depth is in new energy, education and fintech."
+
+# 新能源 · 教育 · 金融科技 · 基建工程 · 专…
+f04:
+  zh: "新能源 · 教育 · 金融科技 · 基建工程 · 专业服务"
+  en: "New Energy · Education · Fintech · Infrastructure · Professional Services"
+
+# 预约 30 分钟落地诊断
+f05:
+  zh: "预约 30 分钟落地诊断"
+  en: "Book a 30-min landing review"
+
+# 看服务全景
+f06:
+  zh: "看服务全景"
+  en: "See the full scope"
+
+# 服务覆盖 SYDNEY · MELBOURNE · …
+f07:
+  zh: "服务覆盖　<b>SYDNEY · MELBOURNE · BRISBANE · PERTH · ADELAIDE · CANBERRA</b>"
+  en: "Coverage　<b>SYDNEY · MELBOURNE · BRISBANE · PERTH · ADELAIDE · CANBERRA</b>"
+
+# 总部 SYDNEY HAYMARKET · 对接 C…
+f08:
+  zh: "总部　<b>SYDNEY HAYMARKET</b>　·　对接　<b>CN / AU 双时区</b>"
+  en: "HQ　<b>SYDNEY HAYMARKET</b>　·　Coverage　<b>CN / AU dual time zone</b>"
+

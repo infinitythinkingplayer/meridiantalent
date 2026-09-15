@@ -1,0 +1,134 @@
+# ④ 服务差异（对比表） — How we differ — comparison table
+# 只改引号里面的文字。中文和英文要一起改。
+# Edit only the text inside the quotes. Change zh and en together.
+
+# 服务差异
+f01:
+  zh: "服务差异"
+  en: "How we differ"
+
+# 把分散的环节，收在一条时间表上
+f02:
+  zh: "把分散的环节，收在一条时间表上"
+  en: "Bringing scattered workstreams onto one timeline"
+
+# 赴澳落地出问题，往往不在招聘这一步，而在招到人之后：…
+f03:
+  zh: "赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同条款、薪酬分类、超年金与申报、外派与本地员工的工作习惯差异、核心岗位的留存。这些环节通常分散在不同供应商手里，衔接的责任最后落回企业自己身上。"
+  en: "Australian landings usually run into trouble after the hire, not before it: contract terms, award classification, superannuation and reporting, differences in working norms between expat and local staff, and retention in key roles. These pieces usually sit with different providers, and joining them up ends up falling to the company itself."
+
+# 分别向多家供应商采购
+f04:
+  zh: "分别向多家供应商采购"
+  en: "Buying from several providers separately"
+
+# 由 MERIDIAN TALENT 统一协调
+f05:
+  zh: "由 MERIDIAN TALENT 统一协调"
+  en: "Coordinated by MERIDIAN TALENT"
+
+# 服务起点
+f06:
+  zh: "服务起点"
+  en: "Starting point"
+
+# 通常在实体、岗位与预算都定好之后才介入
+f07:
+  zh: "通常在实体、岗位与预算都定好之后才介入"
+  en: "Usually engaged after the entity, the roles and the budget are already decided"
+
+# 从实体结构与首年编制阶段就一起规划
+f08:
+  zh: "从实体结构与首年编制阶段就一起规划"
+  en: "Involved from the entity-structure and first-year headcount stage"
+
+# 行业理解
+f09:
+  zh: "行业理解"
+  en: "Sector depth"
+
+# 各方按自身专长推荐，行业口径不一定一致
+f10:
+  zh: "各方按自身专长推荐，行业口径不一定一致"
+  en: "Each provider recommends from its own specialism; sector definitions may not line up"
+
+# 按行业分组的顾问团队，能与候选人聊清楚项目、标准与资…
+f11:
+  zh: "按行业分组的顾问团队，能与候选人聊清楚项目、标准与资质"
+  en: "Consultants grouped by sector — we discuss projects, standards and licences with candidates"
+
+# 合规责任
+f12:
+  zh: "合规责任"
+  en: "Compliance"
+
+# 合同、薪酬分类与各项申报分散在不同方
+f13:
+  zh: "合同、薪酬分类与各项申报分散在不同方"
+  en: "Contracts, award classification and the various filings sit with different parties"
+
+# 由同一支团队跟进并对接各承办方（承办分工见下方专业边…
+f14:
+  zh: "由同一支团队跟进并对接各承办方（承办分工见下方专业边界）"
+  en: "Tracked by one team and coordinated with each specialist provider (see the scope note below)"
+
+# 签证
+f15:
+  zh: "签证"
+  en: "Visas"
+
+# 移民、招聘与薪酬各自推进，时间表需要企业自行对齐
+f16:
+  zh: "移民、招聘与薪酬各自推进，时间表需要企业自行对齐"
+  en: "Migration, hiring and payroll advance separately; aligning the timeline falls to the company"
+
+# 由我们协调 MARA 注册代理或律师，与招聘计划排在…
+f17:
+  zh: "由我们协调 MARA 注册代理或律师，与招聘计划排在同一张时间表上"
+  en: "We coordinate the registered migration agent or lawyer and put it on the same timeline as hiring"
+
+# 人才储备
+f18:
+  zh: "人才储备"
+  en: "Talent pipeline"
+
+# 有岗位时才启动寻访
+f19:
+  zh: "有岗位时才启动寻访"
+  en: "Search starts only once a role opens"
+
+# 按行业长期跟进候选人，不是临门才开始找
+f20:
+  zh: "按行业长期跟进候选人，不是临门才开始找"
+  en: "Candidates tracked by sector over time, not sourced from scratch when a role opens"
+
+# 语言与文化
+f21:
+  zh: "语言与文化"
+  en: "Language &amp; culture"
+
+# 中英两侧的沟通往往要企业自行居中翻译
+f22:
+  zh: "中英两侧的沟通往往要企业自行居中翻译"
+  en: "Communication between the two sides is left for the company to translate"
+
+# 双语团队，同时面向总部与本地员工
+f23:
+  zh: "双语团队，同时面向总部与本地员工"
+  en: "A bilingual team working with head office and local staff alike"
+
+# 计费方式
+f24:
+  zh: "计费方式"
+  en: "Commercials"
+
+# 各供应商分别计费，总成本到后期才看得清
+f25:
+  zh: "各供应商分别计费，总成本到后期才看得清"
+  en: "Each provider bills separately; the total only becomes clear late"
+
+# 落地项目制 + 月度 HR 订阅，服务范围在服务协议…
+f26:
+  zh: "落地项目制 + 月度 HR 订阅，服务范围在服务协议中列明"
+  en: "A project-based landing fee plus a monthly HR retainer, with the scope set out in the service agreement"
+

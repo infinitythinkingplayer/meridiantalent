@@ -1,0 +1,54 @@
+# ⑪ 联系方式 — Contact block
+# 只改引号里面的文字。中文和英文要一起改。
+# Edit only the text inside the quotes. Change zh and en together.
+
+# 开始
+f01:
+  zh: "开始"
+  en: "Start here"
+
+# 先用 30 分钟把情况梳理一遍
+f02:
+  zh: "先用 30 分钟把情况梳理一遍"
+  en: "Start with a 30-minute review of where the company stands"
+
+# 30 分钟，中文或英文。带上贵司的业务目标与首年编制…
+f03:
+  zh: "30 分钟，中文或英文。带上贵司的业务目标与首年编制设想，我们会给出实体结构、签证路径与人力成本的初步判断，以及我们看到的主要风险点。"
+  en: "Thirty minutes, in Chinese or English. Bring the business goals and first-year headcount plan, and we will set out an initial view on entity structure, visa pathway and workforce cost, along with the main risks we can see."
+
+# 发送邮件预约
+f04:
+  zh: "发送邮件预约"
+  en: "Email us"
+
+# 办公地址
+f05:
+  zh: "办公地址"
+  en: "Office"
+
+# Level 4, 191 Thomas Street…
+f06:
+  zh: "Level 4, 191 Thomas Street<br>Haymarket NSW 2000, Australia"
+  en: "Level 4, 191 Thomas Street<br>Haymarket NSW 2000, Australia"
+
+# 公司主体
+f07:
+  zh: "公司主体"
+  en: "Entity"
+
+# 邮箱
+f08:
+  zh: "邮箱"
+  en: "Email"
+
+# 服务语言
+f09:
+  zh: "服务语言"
+  en: "Languages"
+
+# 中文 · English
+f10:
+  zh: "中文 · English"
+  en: "English · 中文"
+

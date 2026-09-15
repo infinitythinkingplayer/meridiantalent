@@ -1,0 +1,69 @@
+# ⑦ 落地节奏 — Timeline — five stages
+# 只改引号里面的文字。中文和英文要一起改。
+# Edit only the text inside the quotes. Change zh and en together.
+
+# 落地路径
+f01:
+  zh: "落地路径"
+  en: "How it runs"
+
+# 落地要按顺序推进
+f02:
+  zh: "落地要按顺序推进"
+  en: "The order of the work matters"
+
+# 这些环节彼此依赖——签证方案要在招聘启动前定，薪酬分…
+f03:
+  zh: "这些环节彼此依赖——签证方案要在招聘启动前定，薪酬分类要在发出 offer 前定。顺序错了，返工和成本都会跟着上来。实际用时取决于签证审批进度与企业自身的业务节奏。"
+  en: "These steps depend on one another: the visa plan is settled before hiring starts, the award classification before any offer goes out. Get the order wrong and rework and cost follow. How long it takes depends on visa processing and the company’s own pace."
+
+# 落地诊断
+f04:
+  zh: "落地诊断"
+  en: "Landing review"
+
+# 业务目标、首年编制、预算与风险清单，出具落地方案与成…
+f05:
+  zh: "业务目标、首年编制、预算与风险清单，出具落地方案与成本模型。"
+  en: "Business goals, first-year headcount, budget and risk register — delivered as a plan and a cost model."
+
+# 实体与合规底座
+f06:
+  zh: "实体与合规底座"
+  en: "Entity &amp; compliance base"
+
+# 公司与税务注册完成，保险、合同模板、员工手册与薪酬分…
+f07:
+  zh: "公司与税务注册完成，保险、合同模板、员工手册与薪酬分类就位。"
+  en: "Company and tax registrations done; insurance, contract templates, handbook and award classification in place."
+
+# 首批关键岗位
+f08:
+  zh: "首批关键岗位"
+  en: "First key hires"
+
+# 国家经理 / 项目负责人进入终面，签证路径与担保资质…
+f09:
+  zh: "国家经理 / 项目负责人进入终面，签证路径与担保资质并行推进。"
+  en: "Country manager and project lead reach final interview; sponsorship runs in parallel."
+
+# 团队成型
+f10:
+  zh: "团队成型"
+  en: "Team formed"
+
+# 工程、BD 与运营岗位陆续入职，发薪与人事系统跑通第…
+f11:
+  zh: "工程、BD 与运营岗位陆续入职，发薪与人事系统跑通第一个完整周期。"
+  en: "Engineering, BD and ops roles onboard; payroll and HRIS complete a full cycle."
+
+# 移交与持续运营
+f12:
+  zh: "移交与持续运营"
+  en: "Handover &amp; ongoing"
+
+# 绩效制度上线，日常人事流程移交，转为月度 HR 订阅…
+f13:
+  zh: "绩效制度上线，日常人事流程移交，转为月度 HR 订阅持续运营。"
+  en: "Performance framework live, day-to-day HR processes handed over, and the engagement moves to the monthly retainer."
+

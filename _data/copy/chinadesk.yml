@@ -1,0 +1,109 @@
+# ⑧ 出海专线 — China Desk
+# 只改引号里面的文字。中文和英文要一起改。
+# Edit only the text inside the quotes. Change zh and en together.
+
+# 出海专线
+f01:
+  zh: "出海专线"
+  en: "China Desk"
+
+# 一条专门服务中资企业出海的业务线
+f02:
+  zh: "一条专门服务中资企业出海的业务线"
+  en: "A dedicated desk for Chinese enterprises expanding abroad"
+
+# 中资企业在澳洲遇到的问题，和一家欧美公司开分部完全不…
+f03:
+  zh: "中资企业在澳洲遇到的问题，和一家欧美公司开分部完全不同：董事居住要求、外派人员身份、总部审批链条、跨时区汇报、以及本地员工对管理方式的不适应。我们为此单设一条业务线，用中文与总部沟通，用英文与监管机构、律师和员工沟通。"
+  en: "What a Chinese-invested business runs into in Australia is not what a European or US company runs into: resident director requirements, expat status, HQ approval chains, cross-time-zone reporting, and local staff adjusting to a different management style. We run a separate desk for it — speaking Chinese to head office, and English to the regulator, the lawyers and local staff."
+
+# 总部可读的中文汇报
+f04:
+  zh: "总部可读的中文汇报"
+  en: "Reporting head office can read"
+
+# 人力预算、编制进度、离职率与合规风险，按总部习惯的口…
+f05:
+  zh: "人力预算、编制进度、离职率与合规风险，按总部习惯的口径出中文月报，不用国家经理自己翻译。"
+  en: "Headcount budget, hiring progress, attrition and compliance risk — reported monthly in Chinese, in the format head office already uses, so the country manager isn’t translating it themselves."
+
+# 外派人员安置
+f06:
+  zh: "外派人员安置"
+  en: "Expat relocation"
+
+# 签证、税务身份、住房、子女入学、医疗保险与落地手续，…
+f07:
+  zh: "签证、税务身份、住房、子女入学、医疗保险与落地手续，让派过来的人第一个月就能专心工作。"
+  en: "Visas, tax residency, housing, schooling, health cover and settling-in logistics — so the person sent over can focus on the job in month one."
+
+# 中英文双语文件包
+f08:
+  zh: "中英文双语文件包"
+  en: "Bilingual document pack"
+
+# 雇佣合同、员工手册、绩效表、offer 与离职流程全…
+f09:
+  zh: "雇佣合同、员工手册、绩效表、offer 与离职流程全部中英对照；解释优先语言由合同约定并经律师审核，中文版便于总部理解与审批。"
+  en: "Contracts, handbook, performance forms, offers and exit process in parallel Chinese and English. Which language prevails is set in the agreement and reviewed by a lawyer; the Chinese version is there so head office can read and approve it."
+
+# 与贵司的会计师、律师协同
+f10:
+  zh: "与贵司的会计师、律师协同"
+  en: "Working alongside the company’s accountants and lawyers"
+
+# 人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司…
+f11:
+  zh: "人力方案不是孤立的：我们把雇佣结构与薪酬安排，与贵司的会计师、税务顾问和移民代理／律师对齐，避免各自出方案、最后互相冲突。相关专业意见由各自持牌方出具。"
+  en: "A workforce plan doesn’t stand alone. We align employment structure and remuneration with the company’s accountants, tax advisers and migration agent or lawyer so the plans don’t contradict each other. The professional advice itself comes from each licensed provider."
+
+# 落地执行的四个节点
+f12:
+  zh: "落地执行的四个节点"
+  en: "The four checkpoints of a landing"
+
+# 派驻人员带着家庭过来，第一个月多半在处理住房、学校和…
+f13:
+  zh: "派驻人员带着家庭过来，第一个月多半在处理住房、学校和银行，而不是工作。整体落地服务（Package A）按四个节点推进，每完成一段确认一段："
+  en: "When someone relocates with their family, most of month one goes on housing, schools and banks rather than the job. The end-to-end landing service (Package A) runs to four checkpoints, each confirmed as it is completed:"
+
+# 出发前 —— 签证与体检节点确认、随行家属材料清单、…
+f14:
+  zh: "出发前 —— 签证与体检节点确认、随行家属材料清单、住房与学区初选"
+  en: "Before departure — visa and medical milestones confirmed, dependant document checklist, shortlist of suburbs and schools"
+
+# 抵达前 —— 临时住所、机场接送、银行开户与电话卡预…
+f15:
+  zh: "抵达前 —— 临时住所、机场接送、银行开户与电话卡预约"
+  en: "Before arrival — temporary accommodation, airport pick-up, bank account and SIM appointments booked"
+
+# 首日 —— 入职材料、TFN 与超年金账户、办公与门…
+f16:
+  zh: "首日 —— 入职材料、TFN 与超年金账户、办公与门禁安排"
+  en: "Day one — onboarding paperwork, tax file number and super account, desk and building access"
+
+# 7 天 / 30 天 —— 长租与学校确认、家属安顿…
+f17:
+  zh: "7 天 / 30 天 —— 长租与学校确认、家属安顿回访、留存风险预警"
+  en: "Day 7 and day 30 — lease and school confirmed, a check-in with the family, and an early flag on any retention risk"
+
+# 同样适用于
+f18:
+  zh: "同样适用于"
+  en: "Equally for"
+
+# 任何第一次在澳洲雇人的公司
+f19:
+  zh: "任何第一次在澳洲雇人的公司"
+  en: "Any company hiring in Australia for the first time"
+
+# 出海专线是我们的一条业务线，不是我们的全部。欧美、东…
+f20:
+  zh: "出海专线是我们的一条业务线，不是我们的全部。欧美、东南亚、日韩企业的澳洲落地，以及本地企业的规模化扩张，走的是同一套流程与同一支团队——只是不需要中文那一层。"
+  en: "The China Desk is one of our lines, not all of them. European, US, Southeast Asian, Japanese and Korean businesses landing in Australia — and local companies scaling up — run through the same process and the same team, minus the Chinese-language layer."
+
+# 预约初步沟通
+f21:
+  zh: "预约初步沟通"
+  en: "Book an initial call"
+

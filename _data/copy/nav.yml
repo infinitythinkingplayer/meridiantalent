@@ -1,0 +1,34 @@
+# ① 顶部导航 — Navigation bar
+# 只改引号里面的文字。中文和英文要一起改。
+# Edit only the text inside the quotes. Change zh and en together.
+
+# 美瑞安人才服务 · ACN 701 340 409
+f01:
+  zh: "美瑞安人才服务 · ACN 701 340 409"
+  en: "ACN 701 340 409"
+
+# 服务差异
+f02:
+  zh: "服务差异"
+  en: "How we differ"
+
+# 服务范围
+f03:
+  zh: "服务范围"
+  en: "Scope"
+
+# 服务包
+f04:
+  zh: "服务包"
+  en: "Packages"
+
+# 出海专线
+f05:
+  zh: "出海专线"
+  en: "China Desk"
+
+# 预约落地咨询
+f06:
+  zh: "预约落地咨询"
+  en: "Book a consultation"
+
