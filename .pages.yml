@@ -53,13 +53,13 @@ content:
         type: object
         fields:
           - name: f01
-            label: "澳洲团队搭建与 HR 运营"
+            label: "澳洲落地与团队运营"
             type: object
             fields:
               - { name: zh, label: "中文",    type: string }
               - { name: en, label: "English", type: string }
           - name: f02
-            label: "从组建澳洲团队，到持续的 HR 运营"
+            label: "从落地澳洲，到团队持续运营"
             type: object
             fields:
               - { name: zh, label: "中文",    type: text }
