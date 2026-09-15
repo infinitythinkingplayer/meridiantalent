@@ -245,14 +245,7 @@ table.cmp tbody tr:last-child td,table.cmp tbody tr:last-child th{border-bottom:
 .lead .tags{display:flex;flex-wrap:wrap;gap:7px;margin-top:2px}
 .lead .tags span{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;color:var(--dim);border:1px solid var(--line);padding:4px 9px;border-radius:4px}
 
-/* ---------- uni ---------- */
-.uni-grid{display:grid;grid-template-columns:1fr 1fr;gap:44px;align-items:start}
-@media(max-width:880px){.uni-grid{grid-template-columns:1fr;gap:32px}}
-.uni-list{display:flex;flex-direction:column;gap:1px;background:var(--line);border:1px solid var(--line)}
-.uni-row{background:var(--ink);padding:18px 22px;display:flex;gap:16px;align-items:baseline}
-.uni-row .i{font-family:var(--mono);font-size:11px;color:var(--acc);min-width:26px}
-.uni-row .t{font-weight:600;font-size:14.5px}
-.uni-row .s{color:var(--dim);font-size:12.5px;margin-left:auto;text-align:right;font-family:var(--mono);letter-spacing:.06em}
+@media(max-width:880px){}
 .note{
   border-left:2px solid var(--solar);background:rgba(255,176,58,.06);
   padding:12px 16px;font-size:12.5px;color:var(--solar);line-height:1.6;border-radius:0 6px 6px 0;
@@ -368,7 +361,6 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
       <a href="#service" data-zh="服务范围" data-en="Scope">服务范围</a>
       <a href="#packages" data-zh="服务包" data-en="Packages">服务包</a>
       <a href="#chinadesk" data-zh="出海专线" data-en="China Desk">出海专线</a>
-      <a href="#uni" data-zh="高校合作" data-en="Universities">高校合作</a>
     </nav>
     <div class="langbtn" role="group" aria-label="Language">
       <button type="button" data-set="zh" aria-pressed="true">中文</button>
@@ -450,7 +442,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
           <tr>
             <th data-zh="人才储备" data-en="Talent pipeline">人才储备</th>
             <td class="them" data-zh="有岗位时才启动寻访" data-en="Search starts only once a role opens">有岗位时才启动寻访</td>
-            <td class="us" data-zh="自有分行业人才库 + 高校实习生 / 毕业生持续输送" data-en="Our own sector talent pools plus a standing university intern &amp; graduate pipeline">自有分行业人才库 + 高校实习生 / 毕业生持续输送</td>
+            <td class="us" data-zh="按行业长期跟进候选人，不是临门才开始找" data-en="Candidates tracked by sector over time, not sourced from scratch when a role opens">按行业长期跟进候选人，不是临门才开始找</td>
           </tr>
           <tr>
             <th data-zh="语言与文化" data-en="Language &amp; culture">语言与文化</th>
@@ -688,89 +680,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
       <div class="tl-step">
         <div class="d">STEP 05</div>
         <h3 data-zh="移交与持续运营" data-en="Handover &amp; ongoing">移交与持续运营</h3>
-        <p data-zh="绩效制度上线，实习生批次接入，转为月度 HR 订阅持续运营。" data-en="Performance framework live, first intern cohort onboarded, transition to the monthly HR retainer.">绩效制度上线，实习生批次接入，转为月度 HR 订阅持续运营。</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ LEADERSHIP ============ -->
-<section id="team">
-  <div class="wrap">
-    <div class="sec-head rv">
-      <div class="eyebrow"><span data-zh="管理层" data-en="Leadership">管理层</span></div>
-      <h2 data-zh="合伙人平均 15 年以上行业与人力资源从业经历" data-en="Partners with 15+ years each in their sector and in HR">合伙人平均 15 年以上行业与人力资源从业经历</h2>
-      <p class="lede" data-zh="我们的合伙人多数不是从招聘行业转过来的：他们在跨国企业、项目公司与开发商的澳洲分部里做过团队组建、成本管理与劳资事务。以下年限为各人的个人从业经历，不代表 Meridian Talent 作为公司的业绩记录（公司于 2026 年 8 月在新南威尔士州注册）。" data-en="Most of our partners did not come up through the recruitment industry; they worked on team building, cost management and industrial relations inside multinationals, project companies and developers operating in Australia. The years below describe each person’s own career, not a company track record — Meridian Talent was registered in New South Wales in August 2026.">我们的合伙人多数不是从招聘行业转过来的：他们在跨国企业、项目公司与开发商的澳洲分部里做过团队组建、成本管理与劳资事务。以下年限为各人的个人从业经历，不代表 Meridian Talent 作为公司的业绩记录（公司于 2026 年 8 月在新南威尔士州注册）。</p>
-    </div>
-    <div class="grid g4 rv" style="background:transparent;gap:18px">
-      <div class="lead">
-        <div class="yrs">17<em data-zh="年" data-en="yrs">年</em></div>
-        <h3 data-zh="创始合伙人" data-en="Founding Partner">创始合伙人</h3>
-        <p data-zh="参与过中资企业在澳洲的设立与团队组建，覆盖新能源与基建项目。" data-en="Has worked on the Australian set-up and team building of Chinese-invested businesses across energy and infrastructure.">参与过中资企业在澳洲的设立与团队组建，覆盖新能源与基建项目。</p>
-        <div class="tags"><span>LANDING</span><span>ENERGY</span><span>M&amp;A</span></div>
-      </div>
-      <div class="lead">
-        <div class="yrs">16<em data-zh="年" data-en="yrs">年</em></div>
-        <h3 data-zh="人力与合规总监" data-en="Director, HR &amp; Compliance">人力与合规总监</h3>
-        <p data-zh="澳洲本地 HR 出身，处理过 Fair Work 仲裁、Award 补发与大规模项目用工。" data-en="Australian HR career; has handled Fair Work claims, award back-pay remediation and large project workforces.">澳洲本地 HR 出身，处理过 Fair Work 仲裁、Award 补发与大规模项目用工。</p>
-        <div class="tags"><span>FAIR WORK</span><span>PAYROLL</span><span>WHS</span></div>
-      </div>
-      <div class="lead">
-        <div class="yrs">15<em data-zh="年" data-en="yrs">年</em></div>
-        <h3 data-zh="工程与技术人才总监" data-en="Director, Engineering &amp; Technical Talent">工程与技术人才总监</h3>
-        <p data-zh="电力与项目工程背景，负责技术岗位的评估标准与技术面试。" data-en="Power and project engineering background; owns our technical assessment standards and interviews.">电力与项目工程背景，负责技术岗位的评估标准与技术面试。</p>
-        <div class="tags"><span>ENGINEERING</span><span>TECH</span><span>O&amp;M</span></div>
-      </div>
-      <div class="lead">
-        <div class="yrs">14<em data-zh="年" data-en="yrs">年</em></div>
-        <h3 data-zh="高校与早期人才总监" data-en="Director, Campus &amp; Early Talent">高校与早期人才总监</h3>
-        <p data-zh="负责高校战略合作、实习生项目设计与毕业生管培体系。" data-en="Owns university partnerships, internship design and the graduate development programme.">负责高校战略合作、实习生项目设计与毕业生管培体系。</p>
-        <div class="tags"><span>CAMPUS</span><span>GRAD</span><span>EVP</span></div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ============ UNIVERSITIES ============ -->
-<section id="uni" class="band">
-  <div class="wrap">
-    <div class="sec-head rv">
-      <div class="eyebrow"><span data-zh="高校合作（筹建中）" data-en="University partnerships (in progress)">高校合作（筹建中）</span></div>
-      <h2 data-zh="实习生与毕业生通道" data-en="The intern and graduate pipeline">实习生与毕业生通道</h2>
-    </div>
-    <div class="uni-grid rv">
-      <div>
-        <p class="lede" data-zh="澳洲高校每年在工程、IT、商科与会计等专业输出大量兼具中文背景与本地学历的毕业生。他们熟悉本地标准与职场规则，起薪相对可控，也常愿意进入正在扩张的外资企业。<strong>我们与院校学院及职业发展中心的合作通道目前处于筹建与洽谈阶段</strong>，下方为计划中的四种合作形式；具体院校与可落地的名额，会在协议签署后逐一确认。" data-en="Each year Australian universities graduate a large cohort in engineering, IT, business and accounting who hold both local qualifications and Chinese-language backgrounds. They know the local standards and workplace norms, cost sensibly, and are often glad to join a scaling foreign-invested business. <strong>Our channels into faculties and careers centres are currently being established and negotiated</strong>; the four formats below are planned, and specific institutions and intake numbers will be confirmed as agreements are signed.">澳洲高校每年在工程、IT、商科与会计等专业输出大量兼具中文背景与本地学历的毕业生。他们熟悉本地标准与职场规则，起薪相对可控，也常愿意进入正在扩张的外资企业。<strong>我们与院校学院及职业发展中心的合作通道目前处于筹建与洽谈阶段</strong>，下方为计划中的四种合作形式；具体院校与可落地的名额，会在协议签署后逐一确认。</p>
-        <div style="height:22px"></div>
-        <div class="grid g2" style="background:transparent;gap:16px">
-          <div class="lead" style="padding:22px 20px">
-            <h3 style="font-size:16px" data-zh="实习生批次输送" data-en="Intern cohorts">实习生批次输送</h3>
-            <p data-zh="每学期两批，12 周项目制实习，可转正名额由你决定。" data-en="Two cohorts per semester, 12-week project placements, conversion offers at your discretion.">每学期两批，12 周项目制实习，可转正名额由你决定。</p>
-          </div>
-          <div class="lead" style="padding:22px 20px">
-            <h3 style="font-size:16px" data-zh="毕业生管培" data-en="Graduate programme">毕业生管培</h3>
-            <p data-zh="两年轮岗设计，工程—项目—商务三线培养，由我们代管评估。" data-en="A two-year rotation across engineering, project and commercial, assessed and administered by us.">两年轮岗设计，工程—项目—商务三线培养，由我们代管评估。</p>
-          </div>
-          <div class="lead" style="padding:22px 20px">
-            <h3 style="font-size:16px" data-zh="Capstone 课题合作" data-en="Capstone projects">Capstone 课题合作</h3>
-            <p data-zh="把你的真实课题变成学生毕设，提前锁定优秀人选。" data-en="Turn a real problem from your business into a student capstone and lock in the best candidates early.">把你的真实课题变成学生毕设，提前锁定优秀人选。</p>
-          </div>
-          <div class="lead" style="padding:22px 20px">
-            <h3 style="font-size:16px" data-zh="雇主宣讲与校园品牌" data-en="Campus employer brand">雇主宣讲与校园品牌</h3>
-            <p data-zh="宣讲会、行业分享与奖学金，让你的品牌在毕业前就被认识。" data-en="Info sessions, industry talks and scholarships so your brand is known before graduation.">宣讲会、行业分享与奖学金，让你的品牌在毕业前就被认识。</p>
-          </div>
-        </div>
-      </div>
-      <div>
-        <div class="uni-list">
-          <div class="uni-row"><span class="i">01</span><span class="t" data-zh="合作院校（待公布）" data-en="Partner university (to be announced)">合作院校（待公布）</span><span class="s">ENGINEERING</span></div>
-          <div class="uni-row"><span class="i">02</span><span class="t" data-zh="合作院校（待公布）" data-en="Partner university (to be announced)">合作院校（待公布）</span><span class="s">IT &amp; DATA</span></div>
-          <div class="uni-row"><span class="i">03</span><span class="t" data-zh="合作院校（待公布）" data-en="Partner university (to be announced)">合作院校（待公布）</span><span class="s">ACCOUNTING</span></div>
-          <div class="uni-row"><span class="i">04</span><span class="t" data-zh="合作院校（待公布）" data-en="Partner university (to be announced)">合作院校（待公布）</span><span class="s">BUSINESS</span></div>
-          <div class="uni-row"><span class="i">05</span><span class="t" data-zh="合作院校（待公布）" data-en="Partner university (to be announced)">合作院校（待公布）</span><span class="s">CAREERS HUB</span></div>
-        </div>
-        <div style="height:16px"></div>
-        <div class="note" data-zh="院校名单将在合作协议与校方书面授权完成后公布。实习生批次、毕业生管培与 Capstone 课题的具体安排，可在洽谈时提供说明。" data-en="Partner institutions will be named once the agreements and each institution’s written permission are in place. We are happy to walk you through how the intern cohorts, graduate programme and capstone projects work." >院校名单将在合作协议与校方书面授权完成后公布。实习生批次、毕业生管培与 Capstone 课题的具体安排，可在洽谈时提供说明。</div>
+        <p data-zh="绩效制度上线，日常人事流程移交，转为月度 HR 订阅持续运营。" data-en="Performance framework live, day-to-day HR processes handed over, and the engagement moves to the monthly retainer.">绩效制度上线，日常人事流程移交，转为月度 HR 订阅持续运营。</p>
       </div>
     </div>
   </div>
