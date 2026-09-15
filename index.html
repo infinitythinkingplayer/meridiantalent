@@ -3,12 +3,12 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Meridian Talent — 企业澳洲落地的一条龙人力服务</title>
-<meta name="description" content="Meridian Talent 为进入澳洲市场的企业提供一条龙人力落地服务：公司实体、雇主担保签证、分行业招聘、雇佣合规、薪酬运营与团队留存，单一对接人。设有中资企业出海专线。悉尼 Haymarket。">
+<title>Meridian Talent 美瑞安人才服务 — 澳洲团队搭建与 HR 运营</title>
+<meta name="description" content="Meridian Talent（美瑞安人才服务）为进入澳洲市场的企业提供团队搭建与 HR 运营：实体与雇主担保协调、分行业招聘、雇佣合规、薪酬运营与团队留存，单一对接人。设有中资企业出海专线。悉尼 Haymarket，服务覆盖澳洲主要城市。">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Meridian Talent">
-<meta property="og:title" content="Meridian Talent — 企业澳洲落地的一条龙人力服务">
-<meta property="og:description" content="从公司架构、雇主担保、招聘选人，到薪酬合规、员工手册、绩效落地——单一对接人，一条线负责到底。">
+<meta property="og:title" content="Meridian Talent 美瑞安人才服务 — 澳洲团队搭建与 HR 运营">
+<meta property="og:description" content="从实体与雇主担保协调、招聘选人，到薪酬合规、员工手册与绩效落地——单一对接人，一条线负责到底。">
 <meta property="og:url" content="https://meridiantalent.au/">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:locale:alternate" content="en_AU">
@@ -18,7 +18,6 @@
 
 </head>
 <body>
-<title>Meridian Talent</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,400..800&family=IBM+Plex+Mono:wght@400;500&family=Noto+Sans+SC:wght@300;400;500;700&display=swap">
@@ -103,18 +102,18 @@ header{
   border-bottom:1px solid var(--line);
 }
 .nav{display:flex;align-items:center;gap:24px;height:68px}
-.brand{display:flex;align-items:baseline;gap:11px;margin-right:auto}
+.brand{display:flex;flex-direction:column;gap:2px;margin-right:auto;line-height:1.25}
 .brand b{
   font-family:var(--display);font-weight:800;font-stretch:118%;
-  font-size:17px;letter-spacing:.02em;
+  font-size:17px;letter-spacing:.02em;white-space:nowrap;
 }
 .brand i{
-  font-style:normal;font-family:var(--mono);font-size:10px;letter-spacing:.16em;
-  color:var(--dim);text-transform:uppercase;
+  font-style:normal;font-family:var(--mono);font-size:9.5px;letter-spacing:.12em;
+  color:var(--dim);text-transform:uppercase;white-space:nowrap;
 }
-.navlinks{display:flex;gap:26px;font-size:13.5px;color:var(--muted)}
+.navlinks{display:flex;gap:22px;font-size:13.5px;color:var(--muted);white-space:nowrap}
 .navlinks a:hover{color:var(--acc)}
-@media(max-width:900px){.navlinks{display:none}}
+@media(max-width:1180px){.navlinks{display:none}}
 .langbtn{
   display:flex;border:1px solid var(--line-strong);border-radius:999px;overflow:hidden;
   font-family:var(--mono);font-size:11px;letter-spacing:.1em;
@@ -312,6 +311,38 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 .cd-item h3{font-size:16px;margin-bottom:5px}
 .cd-item p{color:var(--muted);font-size:14px;line-height:1.62}
 
+.cd-item ul.relo{margin:10px 0 0;padding:0;list-style:none;display:flex;flex-direction:column;gap:7px}
+.cd-item ul.relo li{color:var(--muted);font-size:13px;line-height:1.55;padding-left:15px;position:relative}
+.cd-item ul.relo li::before{content:"";position:absolute;left:0;top:.66em;width:5px;height:1px;background:var(--acc)}
+
+/* ---------- 专业边界 ---------- */
+.bound{
+  margin-top:28px;border:1px solid var(--line);border-left:2px solid var(--acc-2);
+  background:rgba(56,198,255,.045);padding:24px 26px;border-radius:0 8px 8px 0;
+}
+.bound h3{font-size:16.5px;margin-bottom:6px}
+.bound .bl{color:var(--muted);font-size:13.5px;line-height:1.65;margin-bottom:14px;max-width:70ch}
+.bound ul{margin:0;padding:0;list-style:none;display:grid;grid-template-columns:1fr 1fr;gap:9px 30px}
+@media(max-width:760px){.bound ul{grid-template-columns:1fr}}
+.bound li{color:var(--muted);font-size:13.5px;line-height:1.6;padding-left:16px;position:relative}
+.bound li::before{content:"";position:absolute;left:0;top:.68em;width:6px;height:1px;background:var(--acc-2)}
+
+/* ---------- 服务包 ---------- */
+.pkgs{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+@media(max-width:940px){.pkgs{grid-template-columns:1fr}}
+.pkg{background:var(--ink);padding:30px 26px 34px;display:flex;flex-direction:column;gap:16px}
+.pkg .pk{font-family:var(--mono);font-size:11px;letter-spacing:.14em;color:var(--acc)}
+.pkg h3{font-size:19px}
+.pkg .sub{color:var(--muted);font-size:14px;line-height:1.62}
+.pkg .grp{display:flex;flex-direction:column;gap:8px}
+.pkg .grp>.gt{font-family:var(--mono);font-size:10px;letter-spacing:.15em;text-transform:uppercase;color:var(--dim)}
+.pkg ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:6px}
+.pkg li{color:var(--muted);font-size:13.5px;line-height:1.55;padding-left:15px;position:relative}
+.pkg li::before{content:"";position:absolute;left:0;top:.66em;width:5px;height:1px;background:var(--acc);opacity:.85}
+.pkg .ex li{color:var(--dim)}
+.pkg .ex li::before{background:var(--dim)}
+.pricenote{margin-top:24px;font-size:13.5px;color:var(--muted);line-height:1.7;border-left:2px solid var(--line-strong);padding-left:16px;max-width:78ch}
+
 /* ---------- reveal ---------- */
 .rv{opacity:0;transform:translateY(16px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1)}
 .rv.in{opacity:1;transform:none}
@@ -328,13 +359,13 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
   <div class="wrap nav">
     <div class="brand">
       <b>MERIDIAN TALENT</b>
-      <i>ACN 701 340 409</i>
+      <i data-zh="美瑞安人才服务 · ACN 701 340 409" data-en="ACN 701 340 409">美瑞安人才服务 · ACN 701 340 409</i>
     </div>
     <nav class="navlinks">
-      <a href="#why" data-zh="为何不是普通猎头" data-en="Why not a recruiter">为何不是普通猎头</a>
-      <a href="#service" data-zh="一条龙服务" data-en="End-to-end">一条龙服务</a>
+      <a href="#why" data-zh="服务差异" data-en="How we differ">服务差异</a>
+      <a href="#service" data-zh="服务范围" data-en="Scope">服务范围</a>
+      <a href="#packages" data-zh="服务包" data-en="Packages">服务包</a>
       <a href="#chinadesk" data-zh="出海专线" data-en="China Desk">出海专线</a>
-      <a href="#timeline" data-zh="落地路径" data-en="How it runs">落地路径</a>
       <a href="#uni" data-zh="高校合作" data-en="Universities">高校合作</a>
     </nav>
     <div class="langbtn" role="group" aria-label="Language">
@@ -349,30 +380,30 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section class="hero">
   <div class="wrap hero-grid">
     <div>
-      <div class="eyebrow"><span data-zh="海外企业 · 澳大利亚落地" data-en="Global companies · Landing in Australia">海外企业 · 澳大利亚落地</span></div>
-      <h1 class="hero-sub" data-zh='把你的团队，<br><span>完整地搬到澳洲</span>' data-en='Build your Australian<br><span>team, end to end</span>'>把你的团队，<br><span>完整地搬到澳洲</span></h1>
-      <p class="lede" style="margin-top:22px" data-zh="Meridian Talent 为进入澳洲市场的企业提供一条龙人力落地服务：从公司架构、雇主担保、招聘选人，到薪酬合规、员工手册、绩效落地——单一对接人，一条线负责到底。我们同时设有专门服务中资企业出海的团队。" data-en="Meridian Talent gives companies entering Australia one end-to-end workforce partner: entity structuring, employer sponsorship, hiring, payroll compliance, handbooks and performance frameworks — one point of contact, and one line of accountability. We also run a dedicated desk for Chinese enterprises expanding abroad.">Meridian Talent 为进入澳洲市场的企业提供一条龙人力落地服务：从公司架构、雇主担保、招聘选人，到薪酬合规、员工手册、绩效落地——单一对接人，一条线负责到底。我们同时设有专门服务中资企业出海的团队。</p>
+      <div class="eyebrow"><span data-zh="澳洲团队搭建与 HR 运营" data-en="Building and running your Australian team">澳洲团队搭建与 HR 运营</span></div>
+      <h1 class="hero-sub" data-zh='在澳洲搭起团队，<br><span>并且运转下去</span>' data-en='Build your Australian team,<br><span>then keep it running</span>'>在澳洲搭起团队，<br><span>并且运转下去</span></h1>
+      <p class="lede" style="margin-top:22px" data-zh="Meridian Talent（美瑞安人才服务）做两件事：帮进入澳洲市场的企业把本地团队搭起来，再把日常 HR 运营接手下去——用工结构与雇主担保协调、分行业招聘、雇佣合规、发薪与绩效。单一对接人，各专业环节由持牌方承办、由我们统一协调。新能源与中资出海是我们较熟的两条入口，但不是全部。" data-en="Meridian Talent does two things: build your local team in Australia, then take on the HR operations that follow — workforce structuring and sponsorship coordination, sector-specific hiring, employment compliance, payroll and performance. One point of contact, with each specialist workstream carried out by its licensed provider and coordinated by us. New energy and China-outbound are two entry points we know well, not the whole of what we do.">Meridian Talent（美瑞安人才服务）做两件事：帮进入澳洲市场的企业把本地团队搭起来，再把日常 HR 运营接手下去——用工结构与雇主担保协调、分行业招聘、雇佣合规、发薪与绩效。单一对接人，各专业环节由持牌方承办、由我们统一协调。新能源与中资出海是我们较熟的两条入口，但不是全部。</p>
       <p class="hero-en" data-zh="New Energy · Infrastructure &amp; Mining · Technology · Finance &amp; Professional Services · Consumer &amp; Logistics" data-en="新能源 · 基建与矿业 · 科技与数字 · 金融与专业服务 · 消费零售与物流">New Energy · Infrastructure &amp; Mining · Technology · Finance &amp; Professional Services · Consumer &amp; Logistics</p>
       <div class="hero-btns">
         <a class="cta" href="#contact" data-zh="预约 30 分钟落地诊断" data-en="Book a 30-min landing review">预约 30 分钟落地诊断</a>
         <a class="cta ghost" href="#service" data-zh="看服务全景" data-en="See the full scope">看服务全景</a>
       </div>
       <div class="coord">
-        <span data-zh="航线　<b>CHINA 116°E → SYDNEY 151°12′E</b>" data-en="Route　<b>CHINA 116°E → SYDNEY 151°12′E</b>">航线　<b>CHINA 116°E → SYDNEY 151°12′E</b></span>
-        <span data-zh="总部　<b>SYDNEY 33°52′S</b>　·　对接　<b>CN / AU 双时区</b>" data-en="HQ　<b>SYDNEY 33°52′S</b>　·　Coverage　<b>CN / AU dual time zone</b>">总部　<b>SYDNEY 33°52′S</b>　·　对接　<b>CN / AU 双时区</b></span>
+        <span data-zh="服务覆盖　<b>SYDNEY · MELBOURNE · BRISBANE · PERTH · ADELAIDE · CANBERRA</b>" data-en="Coverage　<b>SYDNEY · MELBOURNE · BRISBANE · PERTH · ADELAIDE · CANBERRA</b>">服务覆盖　<b>SYDNEY · MELBOURNE · BRISBANE · PERTH · ADELAIDE · CANBERRA</b></span>
+        <span data-zh="总部　<b>SYDNEY HAYMARKET</b>　·　对接　<b>CN / AU 双时区</b>" data-en="HQ　<b>SYDNEY HAYMARKET</b>　·　Coverage　<b>CN / AU dual time zone</b>">总部　<b>SYDNEY HAYMARKET</b>　·　对接　<b>CN / AU 双时区</b></span>
       </div>
     </div>
-    <div class="globe-wrap"><canvas id="globe" aria-label="Meridian arc from East Asia to Australia" role="img"></canvas></div>
+    <div class="globe-wrap"><canvas id="globe" aria-label="Routes from East Asia to Sydney, Melbourne, Brisbane, Perth, Adelaide and Canberra" role="img"></canvas></div>
   </div>
 </section>
 
 <!-- ============ STATS ============ -->
 <div class="wrap">
   <div class="stats rv">
-    <div class="stat"><b>20<em>+</em></b><p data-zh="管理层平均行业与人力资源从业年限" data-en="Avg. years of sector &amp; HR experience across leadership">管理层平均行业与人力资源从业年限</p></div>
+    <div class="stat"><b>15<em>+</em></b><p data-zh="合伙人平均行业与人力资源从业年限（个人从业经历）" data-en="Average years of sector and HR experience per partner (individual careers)">合伙人平均行业与人力资源从业年限（个人从业经历）</p></div>
     <div class="stat"><b>6<em data-zh="环" data-en="">环</em></b><p data-zh="实体 · 签证 · 招聘 · 合规 · 薪酬 · 留存，同一支团队交付" data-en="Entity · visas · hiring · compliance · payroll · retention — delivered by one team">实体 · 签证 · 招聘 · 合规 · 薪酬 · 留存，同一支团队交付</p></div>
-    <div class="stat"><b>1<em data-zh="个" data-en="">个</em></b><p data-zh="对接人统管全部落地环节，不用你追七家供应商" data-en="One point of contact — not seven vendors to chase">对接人统管全部落地环节，不用你追七家供应商</p></div>
-    <div class="stat"><b>5<em data-zh="所" data-en="">所</em></b><p data-zh="澳洲高校战略合作，输送实习生与毕业生" data-en="University partnerships feeding interns &amp; graduates">澳洲高校战略合作，输送实习生与毕业生</p></div>
+    <div class="stat"><b>1<em data-zh="个" data-en="">个</em></b><p data-zh="对接人统一协调全部落地环节与各专业承办方" data-en="One point of contact coordinating every workstream and every specialist provider">对接人统一协调全部落地环节与各专业承办方</p></div>
+    <div class="stat"><b>2<em data-zh="语" data-en="">语</em></b><p data-zh="中英双语交付：合同、员工手册、绩效表与月度汇报均出双语版本" data-en="Bilingual delivery — contracts, handbook, performance forms and monthly reporting in both languages">中英双语交付：合同、员工手册、绩效表与月度汇报均出双语版本</p></div>
   </div>
 </div>
 
@@ -380,54 +411,54 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section id="why">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="eyebrow"><span data-zh="差异" data-en="The difference">差异</span></div>
-      <h2 data-zh="普通猎头交人，我们交一支能运转的团队" data-en="Recruiters hand you résumés. We hand you a working team.">普通猎头交人，我们交一支能运转的团队</h2>
-      <p class="lede" data-zh="赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同不合规、award 分类错、超年金漏缴、外派与本地员工文化冲突、核心岗位留不住。这些环节，普通 HR 与猎头既不做，也不担。" data-en="Australian landings usually run into trouble after the hire, not before it: non-compliant contracts, the wrong modern award, missed superannuation, expat-vs-local friction, key roles that don’t stay. Recruiters neither do this work nor carry the risk for it.">赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同不合规、award 分类错、超年金漏缴、外派与本地员工文化冲突、核心岗位留不住。这些环节，普通 HR 与猎头既不做，也不担。</p>
+      <div class="eyebrow"><span data-zh="服务差异" data-en="How we differ">服务差异</span></div>
+      <h2 data-zh="把分散的环节，收在一条时间表上" data-en="Bringing scattered workstreams onto one timeline">把分散的环节，收在一条时间表上</h2>
+      <p class="lede" data-zh="赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同条款、award 分类、超年金与申报、外派与本地员工的工作习惯差异、核心岗位的留存。这些环节通常分散在不同供应商手里，衔接的责任最后落回你自己身上。" data-en="Australian landings usually run into trouble after the hire, not before it: contract terms, award classification, superannuation and reporting, differences in working norms between expat and local staff, and retention in key roles. These pieces usually sit with different providers, and joining them up ends up being your job.">赴澳落地出问题，往往不在招聘这一步，而在招到人之后：合同条款、award 分类、超年金与申报、外派与本地员工的工作习惯差异、核心岗位的留存。这些环节通常分散在不同供应商手里，衔接的责任最后落回你自己身上。</p>
     </div>
     <div class="cmp-scroll rv">
       <table class="cmp">
         <thead>
           <tr>
             <th></th>
-            <th data-zh="普通猎头 / 本地 HR 外包" data-en="Typical recruiter / HR outsourcer">普通猎头 / 本地 HR 外包</th>
-            <th data-zh="MERIDIAN TALENT" data-en="MERIDIAN TALENT">MERIDIAN TALENT</th>
+            <th data-zh="分别向多家供应商采购" data-en="Buying from several providers separately">分别向多家供应商采购</th>
+            <th data-zh="由 MERIDIAN TALENT 统一协调" data-en="Coordinated by MERIDIAN TALENT">由 MERIDIAN TALENT 统一协调</th>
           </tr>
         </thead>
         <tbody>
           <tr>
             <th data-zh="服务起点" data-en="Starting point">服务起点</th>
-            <td class="them" data-zh="你已经有公司、有 JD、有预算，才开始" data-en="Starts once you already have an entity, a JD and a budget">你已经有公司、有 JD、有预算，才开始</td>
-            <td class="us" data-zh="从「要不要设澳洲实体、设成什么结构」就开始" data-en="Starts at “should you set up in Australia, and how”">从「要不要设澳洲实体、设成什么结构」就开始</td>
+            <td class="them" data-zh="通常在实体、岗位与预算都定好之后才介入" data-en="Usually engaged after the entity, the roles and the budget are already decided">通常在实体、岗位与预算都定好之后才介入</td>
+            <td class="us" data-zh="从实体结构与首年编制阶段就一起规划" data-en="Involved from the entity-structure and first-year headcount stage">从实体结构与首年编制阶段就一起规划</td>
           </tr>
           <tr>
             <th data-zh="行业理解" data-en="Sector depth">行业理解</th>
-            <td class="them" data-zh="按关键词搜简历，分不清同一职位在不同行业里的差别" data-en="Keyword search; can’t tell how the same job title differs across industries">按关键词搜简历，分不清同一职位在不同行业里的差别</td>
+            <td class="them" data-zh="各方按自身专长推荐，行业口径不一定一致" data-en="Each provider recommends from its own specialism; sector definitions may not line up">各方按自身专长推荐，行业口径不一定一致</td>
             <td class="us" data-zh="按行业分组的顾问团队，能与候选人聊清楚项目、标准与资质" data-en="Consultants grouped by sector — we discuss projects, standards and licences with candidates">按行业分组的顾问团队，能与候选人聊清楚项目、标准与资质</td>
           </tr>
           <tr>
             <th data-zh="合规责任" data-en="Compliance">合规责任</th>
-            <td class="them" data-zh="推荐人选后责任结束，合同与 award 归你自己" data-en="Responsibility ends at placement; contracts and awards are your problem">推荐人选后责任结束，合同与 award 归你自己</td>
-            <td class="us" data-zh="雇佣合同、Award 分类、超年金、工伤险、Payroll Tax 全程把关" data-en="Contracts, award classification, super, workers comp and payroll tax all covered">雇佣合同、Award 分类、超年金、工伤险、Payroll Tax 全程把关</td>
+            <td class="them" data-zh="合同、award 分类与各项申报分散在不同方" data-en="Contracts, award classification and the various filings sit with different parties">合同、award 分类与各项申报分散在不同方</td>
+            <td class="us" data-zh="由同一支团队跟进并对接各承办方（承办分工见下方专业边界）" data-en="Tracked by one team and coordinated with each specialist provider (see the scope note below)">由同一支团队跟进并对接各承办方（承办分工见下方专业边界）</td>
           </tr>
           <tr>
             <th data-zh="签证" data-en="Visas">签证</th>
-            <td class="them" data-zh="转介第三方，进度失控" data-en="Referred to a third party; timelines out of your hands">转介第三方，进度失控</td>
-            <td class="us" data-zh="雇主担保方案与招聘计划同步设计，中介与律师由我们协调" data-en="Sponsorship planned alongside the hiring plan; we coordinate agents and lawyers">雇主担保方案与招聘计划同步设计，中介与律师由我们协调</td>
+            <td class="them" data-zh="移民、招聘与薪酬各自推进，时间表需要你自己对齐" data-en="Migration, hiring and payroll advance separately; aligning the timeline is on you">移民、招聘与薪酬各自推进，时间表需要你自己对齐</td>
+            <td class="us" data-zh="由我们协调 MARA 注册代理或律师，与招聘计划排在同一张时间表上" data-en="We coordinate the registered migration agent or lawyer and put it on the same timeline as hiring">由我们协调 MARA 注册代理或律师，与招聘计划排在同一张时间表上</td>
           </tr>
           <tr>
             <th data-zh="人才储备" data-en="Talent pipeline">人才储备</th>
-            <td class="them" data-zh="只有在招的岗位才找人" data-en="Only searches when a role is open">只有在招的岗位才找人</td>
+            <td class="them" data-zh="有岗位时才启动寻访" data-en="Search starts only once a role opens">有岗位时才启动寻访</td>
             <td class="us" data-zh="自有分行业人才库 + 高校实习生 / 毕业生持续输送" data-en="Our own sector talent pools plus a standing university intern &amp; graduate pipeline">自有分行业人才库 + 高校实习生 / 毕业生持续输送</td>
           </tr>
           <tr>
             <th data-zh="语言与文化" data-en="Language &amp; culture">语言与文化</th>
-            <td class="them" data-zh="要么全英文，要么只懂中文" data-en="Either English-only, or Chinese-only">要么全英文，要么只懂中文</td>
-            <td class="us" data-zh="双语团队，既向总部汇报 KPI，也向本地员工解释规则" data-en="Bilingual team — reports KPIs to HQ, explains the rules to local staff">双语团队，既向总部汇报 KPI，也向本地员工解释规则</td>
+            <td class="them" data-zh="中英两侧的沟通往往要你自己居中翻译" data-en="Communication between the two sides often ends up being translated by you">中英两侧的沟通往往要你自己居中翻译</td>
+            <td class="us" data-zh="双语团队，同时面向总部与本地员工" data-en="A bilingual team working with head office and local staff alike">双语团队，同时面向总部与本地员工</td>
           </tr>
           <tr>
             <th data-zh="计费方式" data-en="Commercials">计费方式</th>
-            <td class="them" data-zh="按人头抽成，人越贵中介越赚" data-en="Per-placement commission — the pricier the hire, the bigger the fee">按人头抽成，人越贵中介越赚</td>
-            <td class="us" data-zh="落地项目制 + 月度 HR 订阅，与你的成本目标一致" data-en="Project-based landing fee plus a monthly HR retainer, aligned to your cost target">落地项目制 + 月度 HR 订阅，与你的成本目标一致</td>
+            <td class="them" data-zh="各供应商分别计费，总成本到后期才看得清" data-en="Each provider bills separately; the total only becomes clear late">各供应商分别计费，总成本到后期才看得清</td>
+            <td class="us" data-zh="落地项目制 + 月度 HR 订阅，范围与交付物在合同中列明" data-en="A project-based landing fee plus a monthly HR retainer, with scope and deliverables set out in the agreement">落地项目制 + 月度 HR 订阅，范围与交付物在合同中列明</td>
           </tr>
         </tbody>
       </table>
@@ -457,7 +488,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
         <div class="k">02 / VISA</div>
         <h3 data-zh="雇主担保与签证路径" data-en="Sponsorship &amp; visas">雇主担保与签证路径</h3>
         <ul>
-          <li data-zh="SBS 雇主资质、提名与 482 / 186 路径设计" data-en="Sponsor accreditation, nomination and 482 / 186 pathways">SBS 雇主资质、提名与 482 / 186 路径设计</li>
+          <li data-zh="Standard Business Sponsorship（SBS）雇主资质、提名与 482 / 186 路径设计（Accredited Sponsor 为另一独立资格）" data-en="Standard Business Sponsorship (SBS), nomination and 482 / 186 pathways (Accredited Sponsor is a separate status)">Standard Business Sponsorship（SBS）雇主资质、提名与 482 / 186 路径设计（Accredited Sponsor 为另一独立资格）</li>
           <li data-zh="外派人员与本地雇佣的成本比选" data-en="Cost modelling: expat posting vs. local hire">外派人员与本地雇佣的成本比选</li>
           <li data-zh="LMT 招聘测试与合规留痕" data-en="Labour market testing and compliant record-keeping">LMT 招聘测试与合规留痕</li>
         </ul>
@@ -499,6 +530,127 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
         </ul>
       </div>
     </div>
+    <div class="bound rv">
+      <h3 data-zh="专业边界与审批权限" data-en="Scope, licensed providers and approvals">专业边界与审批权限</h3>
+      <p class="bl" data-zh="我们负责统筹、协调与执行人力环节。以下事项由持牌专业方承办，我们负责对接方案与跟进进度，不以自身名义出具相关意见。" data-en="We coordinate and run the workforce side of the work. The items below are carried out by licensed providers; we align the plan and track progress, and do not issue this advice ourselves.">我们负责统筹、协调与执行人力环节。以下事项由持牌专业方承办，我们负责对接方案与跟进进度，不以自身名义出具相关意见。</p>
+      <ul>
+        <li data-zh="移民与签证申请由 MARA 注册移民代理或执业律师承办" data-en="Migration and visa applications are handled by a MARA-registered migration agent or a practising lawyer">移民与签证申请由 MARA 注册移民代理或执业律师承办</li>
+        <li data-zh="BAS 与 STP 申报由注册 BAS 代理或税务代理承办" data-en="BAS and STP lodgements are handled by a registered BAS agent or tax agent">BAS 与 STP 申报由注册 BAS 代理或税务代理承办</li>
+        <li data-zh="公司设立、税务架构与法律意见由会计师或律师出具" data-en="Company set-up, tax structuring and legal advice come from your accountant or lawyer">公司设立、税务架构与法律意见由会计师或律师出具</li>
+        <li data-zh="雇佣条件以 Fair Work 与适用 Modern Award 为准" data-en="Employment conditions are governed by the Fair Work Act and the applicable modern award">雇佣条件以 Fair Work 与适用 Modern Award 为准</li>
+        <li data-zh="录用、调薪、解雇与对外付款，由客户书面授权人审批后执行" data-en="Hiring, pay changes, terminations and outbound payments are executed only after approval by your authorised signatory">录用、调薪、解雇与对外付款，由客户书面授权人审批后执行</li>
+        <li data-zh="我们不提供移民建议、税务意见或法律意见" data-en="We do not provide migration, tax or legal advice">我们不提供移民建议、税务意见或法律意见</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PACKAGES ============ -->
+<section id="packages" class="band">
+  <div class="wrap">
+    <div class="sec-head rv">
+      <div class="eyebrow"><span data-zh="服务包" data-en="Packages">服务包</span></div>
+      <h2 data-zh="三种合作方式，范围写进合同" data-en="Three ways to work together, with scope written into the agreement">三种合作方式，范围写进合同</h2>
+      <p class="lede" data-zh="每个包都列明交付物、需要你提供的前置资料、不包含的事项与验收标准。三个包可以组合，也可以单独采购。" data-en="Each package sets out what is delivered, what we need from you first, what is not included, and how completion is signed off. They can be combined or taken separately.">每个包都列明交付物、需要你提供的前置资料、不包含的事项与验收标准。三个包可以组合，也可以单独采购。</p>
+    </div>
+    <div class="pkgs rv">
+
+      <div class="pkg">
+        <div class="pk">PACKAGE A</div>
+        <h3 data-zh="落地启动包" data-en="Landing Setup">落地启动包</h3>
+        <p class="sub" data-zh="适合尚未设立澳洲实体，或刚设立、还没有本地员工的企业。" data-en="For businesses that have not yet set up in Australia, or have just set up and have no local staff.">适合尚未设立澳洲实体，或刚设立、还没有本地员工的企业。</p>
+        <div class="grp"><span class="gt" data-zh="交付物" data-en="Deliverables">交付物</span>
+          <ul>
+            <li data-zh="用工结构建议书（与你的会计师／律师共同确认）" data-en="A workforce structure recommendation, confirmed with your accountant and lawyer">用工结构建议书（与你的会计师／律师共同确认）</li>
+            <li data-zh="首年编制规划与人力成本模型" data-en="First-year headcount plan and workforce cost model">首年编制规划与人力成本模型</li>
+            <li data-zh="雇佣合同模板与员工手册（中英双语）" data-en="Employment contract templates and employee handbook, in both languages">雇佣合同模板与员工手册（中英双语）</li>
+            <li data-zh="Award 分类意见与薪资区间" data-en="Award classification assessment and salary ranges">Award 分类意见与薪资区间</li>
+            <li data-zh="签证路径时间表与承办方对接" data-en="Visa pathway timeline and handover to the registered provider">签证路径时间表与承办方对接</li>
+          </ul>
+        </div>
+        <div class="grp"><span class="gt" data-zh="需要你先提供" data-en="What we need first">需要你先提供</span>
+          <ul>
+            <li data-zh="业务计划与首年编制设想" data-en="Business plan and first-year headcount intentions">业务计划与首年编制设想</li>
+            <li data-zh="已有实体资料，或注册意向" data-en="Existing entity details, or your intention to register">已有实体资料，或注册意向</li>
+            <li data-zh="人力预算区间" data-en="A workforce budget range">人力预算区间</li>
+          </ul>
+        </div>
+        <div class="grp ex"><span class="gt" data-zh="不包含" data-en="Not included">不包含</span>
+          <ul>
+            <li data-zh="移民申请本身与官费" data-en="The visa application itself and government fees">移民申请本身与官费</li>
+            <li data-zh="税务意见、法律意见与公司注册官费" data-en="Tax advice, legal advice and company registration fees">税务意见、法律意见与公司注册官费</li>
+          </ul>
+        </div>
+        <div class="grp"><span class="gt" data-zh="验收" data-en="Sign-off">验收</span>
+          <ul><li data-zh="上述文件交付并经你书面确认" data-en="The documents above are delivered and confirmed by you in writing">上述文件交付并经你书面确认</li></ul>
+        </div>
+      </div>
+
+      <div class="pkg">
+        <div class="pk">PACKAGE B</div>
+        <h3 data-zh="关键岗位招聘" data-en="Key Hires">关键岗位招聘</h3>
+        <p class="sub" data-zh="适合已有实体，需要补齐国家经理、项目负责人或工程技术岗位的企业。" data-en="For businesses with an entity in place that need a country manager, project lead or technical hires.">适合已有实体，需要补齐国家经理、项目负责人或工程技术岗位的企业。</p>
+        <div class="grp"><span class="gt" data-zh="交付物" data-en="Deliverables">交付物</span>
+          <ul>
+            <li data-zh="岗位说明、汇报线与薪资区间" data-en="Role brief, reporting line and salary range">岗位说明、汇报线与薪资区间</li>
+            <li data-zh="候选人长名单与结构化评估" data-en="A longlist with structured assessment">候选人长名单与结构化评估</li>
+            <li data-zh="技术面试安排与资质核实协调" data-en="Technical interviews arranged and credential checks coordinated">技术面试安排与资质核实协调</li>
+            <li data-zh="offer 谈判与入职材料" data-en="Offer negotiation and onboarding paperwork">offer 谈判与入职材料</li>
+            <li data-zh="保用期内的替补（次数与期限见合同）" data-en="Replacement within the guarantee period, on the terms set out in the agreement">保用期内的替补（次数与期限见合同）</li>
+          </ul>
+        </div>
+        <div class="grp"><span class="gt" data-zh="需要你先提供" data-en="What we need first">需要你先提供</span>
+          <ul>
+            <li data-zh="岗位需求与汇报关系" data-en="The role requirements and reporting relationships">岗位需求与汇报关系</li>
+            <li data-zh="面试参与人与可用时间" data-en="Who will interview, and when they are available">面试参与人与可用时间</li>
+            <li data-zh="书面的薪资授权区间" data-en="An approved salary range in writing">书面的薪资授权区间</li>
+          </ul>
+        </div>
+        <div class="grp ex"><span class="gt" data-zh="不包含" data-en="Not included">不包含</span>
+          <ul>
+            <li data-zh="候选人的签证申请与官费" data-en="The candidate’s visa application and government fees">候选人的签证申请与官费</li>
+            <li data-zh="第三方背景调查与测评费用" data-en="Third-party background checks and assessment fees">第三方背景调查与测评费用</li>
+          </ul>
+        </div>
+        <div class="grp"><span class="gt" data-zh="验收" data-en="Sign-off">验收</span>
+          <ul><li data-zh="候选人到岗，并通过合同约定的保用期" data-en="The hire starts and completes the guarantee period set out in the agreement">候选人到岗，并通过合同约定的保用期</li></ul>
+        </div>
+      </div>
+
+      <div class="pkg">
+        <div class="pk">PACKAGE C</div>
+        <h3 data-zh="月度 HR 运营" data-en="Monthly HR Operations">月度 HR 运营</h3>
+        <p class="sub" data-zh="适合 5–30 人规模、还不值得设全职 HR 总监的本地团队。" data-en="For local teams of roughly 5–30 people, where a full-time HR director is not yet worth it.">适合 5–30 人规模、还不值得设全职 HR 总监的本地团队。</p>
+        <div class="grp"><span class="gt" data-zh="交付物" data-en="Deliverables">交付物</span>
+          <ul>
+            <li data-zh="发薪、休假与报销流程的日常运行" data-en="Running payroll, leave and expense processes">发薪、休假与报销流程的日常运行</li>
+            <li data-zh="合规到期与签证节点看板" data-en="A dashboard of compliance and visa expiry dates">合规到期与签证节点看板</li>
+            <li data-zh="员工关系与绩效流程支持" data-en="Support on employee relations and performance process">员工关系与绩效流程支持</li>
+            <li data-zh="月度中英双语汇报" data-en="Monthly reporting in both Chinese and English">月度中英双语汇报</li>
+            <li data-zh="约定工时内的 HR 负责人参与（工时写入合同）" data-en="An HR lead’s time up to the hours agreed, with the hours set out in the agreement">约定工时内的 HR 负责人参与（工时写入合同）</li>
+          </ul>
+        </div>
+        <div class="grp"><span class="gt" data-zh="需要你先提供" data-en="What we need first">需要你先提供</span>
+          <ul>
+            <li data-zh="现有员工名册与雇佣合同" data-en="Your current staff list and employment contracts">现有员工名册与雇佣合同</li>
+            <li data-zh="薪酬与福利现状" data-en="Current pay and benefits arrangements">薪酬与福利现状</li>
+            <li data-zh="相关系统的访问授权" data-en="Access to the relevant systems">相关系统的访问授权</li>
+          </ul>
+        </div>
+        <div class="grp ex"><span class="gt" data-zh="不包含" data-en="Not included">不包含</span>
+          <ul>
+            <li data-zh="税务申报的最终签署与税务意见" data-en="Signing off lodgements, and tax advice">税务申报的最终签署与税务意见</li>
+            <li data-zh="法律意见与仲裁代理" data-en="Legal advice and representation in proceedings">法律意见与仲裁代理</li>
+            <li data-zh="超出约定工时的专项项目" data-en="Project work beyond the agreed hours">超出约定工时的专项项目</li>
+          </ul>
+        </div>
+        <div class="grp"><span class="gt" data-zh="验收" data-en="Sign-off">验收</span>
+          <ul><li data-zh="按月交付汇报，每季度复盘范围与工时" data-en="Monthly reporting delivered, with scope and hours reviewed each quarter">按月交付汇报，每季度复盘范围与工时</li></ul>
+        </div>
+      </div>
+
+    </div>
+    <p class="pricenote rv" data-zh="价格按编制规模、服务期与所在州确定，签约前以书面报价单为准，本页不列价格。保用期长度与替补次数、以及各包的工时上限，均在合同中写明。" data-en="Pricing depends on headcount, term and the state you operate in, and is confirmed in a written quote before signing — this page does not list prices. Guarantee periods, replacement counts and the hours included in each package are all set out in the agreement.">价格按编制规模、服务期与所在州确定，签约前以书面报价单为准，本页不列价格。保用期长度与替补次数、以及各包的工时上限，均在合同中写明。</p>
   </div>
 </section>
 
@@ -545,30 +697,30 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
   <div class="wrap">
     <div class="sec-head rv">
       <div class="eyebrow"><span data-zh="管理层" data-en="Leadership">管理层</span></div>
-      <h2 data-zh="平均 20 年以上行业经验，全部来自甲方一线" data-en="20+ years each, all of it on the operator’s side of the table">平均 20 年以上行业经验，全部来自甲方一线</h2>
-      <p class="lede" data-zh="我们的合伙人不是从招聘行业转过来的：他们在跨国企业、项目公司与开发商的澳洲分部里，亲自组建过团队、背过 P&amp;L、处理过劳资纠纷。" data-en="Our partners did not come up through the recruitment industry. They built teams, carried P&amp;L and handled industrial disputes inside multinationals, project companies and developers operating in Australia.">我们的合伙人不是从招聘行业转过来的：他们在跨国企业、项目公司与开发商的澳洲分部里，亲自组建过团队、背过 P&amp;L、处理过劳资纠纷。</p>
+      <h2 data-zh="合伙人平均 15 年以上行业与人力资源从业经历" data-en="Partners with 15+ years each in their sector and in HR">合伙人平均 15 年以上行业与人力资源从业经历</h2>
+      <p class="lede" data-zh="我们的合伙人多数不是从招聘行业转过来的：他们在跨国企业、项目公司与开发商的澳洲分部里做过团队组建、成本管理与劳资事务。以下年限为各人的个人从业经历，不代表 Meridian Talent 作为公司的业绩记录（公司于 2026 年 8 月在新南威尔士州注册）。" data-en="Most of our partners did not come up through the recruitment industry; they worked on team building, cost management and industrial relations inside multinationals, project companies and developers operating in Australia. The years below describe each person’s own career, not a company track record — Meridian Talent was registered in New South Wales in August 2026.">我们的合伙人多数不是从招聘行业转过来的：他们在跨国企业、项目公司与开发商的澳洲分部里做过团队组建、成本管理与劳资事务。以下年限为各人的个人从业经历，不代表 Meridian Talent 作为公司的业绩记录（公司于 2026 年 8 月在新南威尔士州注册）。</p>
     </div>
     <div class="grid g4 rv" style="background:transparent;gap:18px">
       <div class="lead">
-        <div class="yrs">24<em data-zh="年" data-en="yrs">年</em></div>
+        <div class="yrs">17<em data-zh="年" data-en="yrs">年</em></div>
         <h3 data-zh="创始合伙人" data-en="Founding Partner">创始合伙人</h3>
-        <p data-zh="曾主导中资企业的澳洲设立，覆盖新能源与基建项目，负责首年 40 人团队组建与并购整合。" data-en="Led the Australian set-up of Chinese-invested businesses across energy and infrastructure; built the first 40-person team and integrated an acquisition.">曾主导中资企业的澳洲设立，覆盖新能源与基建项目，负责首年 40 人团队组建与并购整合。</p>
+        <p data-zh="参与过中资企业在澳洲的设立与团队组建，覆盖新能源与基建项目。" data-en="Has worked on the Australian set-up and team building of Chinese-invested businesses across energy and infrastructure.">参与过中资企业在澳洲的设立与团队组建，覆盖新能源与基建项目。</p>
         <div class="tags"><span>LANDING</span><span>ENERGY</span><span>M&amp;A</span></div>
       </div>
       <div class="lead">
-        <div class="yrs">22<em data-zh="年" data-en="yrs">年</em></div>
+        <div class="yrs">16<em data-zh="年" data-en="yrs">年</em></div>
         <h3 data-zh="人力与合规总监" data-en="Director, HR &amp; Compliance">人力与合规总监</h3>
         <p data-zh="澳洲本地 HR 出身，处理过 Fair Work 仲裁、Award 补发与大规模项目用工。" data-en="Australian HR career; has handled Fair Work claims, award back-pay remediation and large project workforces.">澳洲本地 HR 出身，处理过 Fair Work 仲裁、Award 补发与大规模项目用工。</p>
         <div class="tags"><span>FAIR WORK</span><span>PAYROLL</span><span>WHS</span></div>
       </div>
       <div class="lead">
-        <div class="yrs">19<em data-zh="年" data-en="yrs">年</em></div>
+        <div class="yrs">15<em data-zh="年" data-en="yrs">年</em></div>
         <h3 data-zh="工程与技术人才总监" data-en="Director, Engineering &amp; Technical Talent">工程与技术人才总监</h3>
         <p data-zh="电力与项目工程背景，负责技术岗位的评估标准与技术面试。" data-en="Power and project engineering background; owns our technical assessment standards and interviews.">电力与项目工程背景，负责技术岗位的评估标准与技术面试。</p>
         <div class="tags"><span>ENGINEERING</span><span>TECH</span><span>O&amp;M</span></div>
       </div>
       <div class="lead">
-        <div class="yrs">18<em data-zh="年" data-en="yrs">年</em></div>
+        <div class="yrs">14<em data-zh="年" data-en="yrs">年</em></div>
         <h3 data-zh="高校与早期人才总监" data-en="Director, Campus &amp; Early Talent">高校与早期人才总监</h3>
         <p data-zh="负责高校战略合作、实习生项目设计与毕业生管培体系。" data-en="Owns university partnerships, internship design and the graduate development programme.">负责高校战略合作、实习生项目设计与毕业生管培体系。</p>
         <div class="tags"><span>CAMPUS</span><span>GRAD</span><span>EVP</span></div>
@@ -581,12 +733,12 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section id="uni" class="band">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="eyebrow"><span data-zh="高校战略合作" data-en="University partnerships">高校战略合作</span></div>
-      <h2 data-zh="实习生与毕业生，是最便宜的本地化" data-en="Interns and graduates are the cheapest localisation you will ever buy">实习生与毕业生，是最便宜的本地化</h2>
+      <div class="eyebrow"><span data-zh="高校合作（筹建中）" data-en="University partnerships (in progress)">高校合作（筹建中）</span></div>
+      <h2 data-zh="实习生与毕业生通道" data-en="The intern and graduate pipeline">实习生与毕业生通道</h2>
     </div>
     <div class="uni-grid rv">
       <div>
-        <p class="lede" data-zh="澳洲高校每年在工程、IT、商科与会计等专业输出大量兼具中文背景与本地学历的毕业生。他们熟悉本地标准与职场规则，起薪合理，且往往愿意进入正在扩张的外资企业。我们与合作院校的学院与职业发展中心建立长期通道，把这条供给变成你可以规划的编制。" data-en="Each year Australian universities graduate a large cohort in engineering, IT, business and accounting who hold both local qualifications and Chinese-language backgrounds. They know the local standards and workplace norms, cost sensibly, and are often glad to join a scaling foreign-invested business. We hold standing channels into partner faculties and careers centres so that supply becomes headcount you can plan around.">澳洲高校每年在工程、IT、商科与会计等专业输出大量兼具中文背景与本地学历的毕业生。他们熟悉本地标准与职场规则，起薪合理，且往往愿意进入正在扩张的外资企业。我们与合作院校的学院与职业发展中心建立长期通道，把这条供给变成你可以规划的编制。</p>
+        <p class="lede" data-zh="澳洲高校每年在工程、IT、商科与会计等专业输出大量兼具中文背景与本地学历的毕业生。他们熟悉本地标准与职场规则，起薪相对可控，也常愿意进入正在扩张的外资企业。<strong>我们与院校学院及职业发展中心的合作通道目前处于筹建与洽谈阶段</strong>，下方为计划中的四种合作形式；具体院校与可落地的名额，会在协议签署后逐一确认。" data-en="Each year Australian universities graduate a large cohort in engineering, IT, business and accounting who hold both local qualifications and Chinese-language backgrounds. They know the local standards and workplace norms, cost sensibly, and are often glad to join a scaling foreign-invested business. <strong>Our channels into faculties and careers centres are currently being established and negotiated</strong>; the four formats below are planned, and specific institutions and intake numbers will be confirmed as agreements are signed.">澳洲高校每年在工程、IT、商科与会计等专业输出大量兼具中文背景与本地学历的毕业生。他们熟悉本地标准与职场规则，起薪相对可控，也常愿意进入正在扩张的外资企业。<strong>我们与院校学院及职业发展中心的合作通道目前处于筹建与洽谈阶段</strong>，下方为计划中的四种合作形式；具体院校与可落地的名额，会在协议签署后逐一确认。</p>
         <div style="height:22px"></div>
         <div class="grid g2" style="background:transparent;gap:16px">
           <div class="lead" style="padding:22px 20px">
@@ -650,14 +802,27 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
           <span class="n">03</span>
           <div>
             <h3 data-zh="中英文双语文件包" data-en="Bilingual document pack">中英文双语文件包</h3>
-            <p data-zh="雇佣合同、员工手册、绩效表、offer 与解雇流程全部中英对照，英文版具法律效力，中文版让总部看得懂、批得动。" data-en="Contracts, handbook, performance forms, offers and termination process in parallel Chinese and English — the English version governs, the Chinese version lets head office understand and approve it.">雇佣合同、员工手册、绩效表、offer 与解雇流程全部中英对照，英文版具法律效力，中文版让总部看得懂、批得动。</p>
+            <p data-zh="雇佣合同、员工手册、绩效表、offer 与离职流程全部中英对照；解释优先语言由合同约定并经律师审核，中文版便于总部理解与审批。" data-en="Contracts, handbook, performance forms, offers and exit process in parallel Chinese and English. Which language prevails is set in the agreement and reviewed by a lawyer; the Chinese version is there so head office can read and approve it.">雇佣合同、员工手册、绩效表、offer 与离职流程全部中英对照；解释优先语言由合同约定并经律师审核，中文版便于总部理解与审批。</p>
           </div>
         </div>
         <div class="cd-item">
           <span class="n">04</span>
           <div>
             <h3 data-zh="与你的会计师、律师协同" data-en="Working alongside your accountants and lawyers">与你的会计师、律师协同</h3>
-            <p data-zh="人力方案不是孤立的：我们把雇佣结构、薪酬安排与你的税务顾问、移民律师对齐，避免各自出方案、最后互相打架。" data-en="A workforce plan doesn’t stand alone. We align employment structure and remuneration with your tax advisers and migration lawyers, so the plans don’t contradict each other.">人力方案不是孤立的：我们把雇佣结构、薪酬安排与你的税务顾问、移民律师对齐，避免各自出方案、最后互相打架。</p>
+            <p data-zh="人力方案不是孤立的：我们把雇佣结构与薪酬安排，与你的会计师、税务顾问和移民代理/律师对齐，避免各自出方案、最后互相冲突。相关专业意见由各自持牌方出具。" data-en="A workforce plan doesn’t stand alone. We align employment structure and remuneration with your accountants, tax advisers and migration agent or lawyer so the plans don’t contradict each other. The professional advice itself comes from each licensed provider.">人力方案不是孤立的：我们把雇佣结构与薪酬安排，与你的会计师、税务顾问和移民代理/律师对齐，避免各自出方案、最后互相冲突。相关专业意见由各自持牌方出具。</p>
+          </div>
+        </div>
+        <div class="cd-item">
+          <span class="n">05</span>
+          <div>
+            <h3 data-zh="到岗与家庭落地包（可选）" data-en="Arrival &amp; family settling package (optional)">到岗与家庭落地包（可选）</h3>
+            <p data-zh="外派人员带着家庭过来，第一个月多半在处理住房、学校和银行，而不是工作。这项按四个节点验收：" data-en="When someone relocates with their family, most of month one goes on housing, schools and banks rather than the job. This runs to four checkpoints:">外派人员带着家庭过来，第一个月多半在处理住房、学校和银行，而不是工作。这项按四个节点验收：</p>
+            <ul class="relo">
+              <li data-zh="出发前 —— 签证与体检节点确认、随行家属材料清单、住房与学区初选" data-en="Before departure — visa and medical milestones confirmed, dependant document checklist, shortlist of suburbs and schools">出发前 —— 签证与体检节点确认、随行家属材料清单、住房与学区初选</li>
+              <li data-zh="抵达前 —— 临时住所、机场接送、银行开户与电话卡预约" data-en="Before arrival — temporary accommodation, airport pick-up, bank account and SIM appointments booked">抵达前 —— 临时住所、机场接送、银行开户与电话卡预约</li>
+              <li data-zh="首日 —— 入职材料、TFN 与超年金账户、办公与门禁安排" data-en="Day one — onboarding paperwork, tax file number and super account, desk and building access">首日 —— 入职材料、TFN 与超年金账户、办公与门禁安排</li>
+              <li data-zh="7 天 / 30 天 —— 长租与学校确认、家属安顿回访、留存风险预警" data-en="Day 7 and day 30 — lease and school confirmed, a check-in with the family, and an early flag on any retention risk">7 天 / 30 天 —— 长租与学校确认、家属安顿回访、留存风险预警</li>
+            </ul>
           </div>
         </div>
       </div>
@@ -768,14 +933,14 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 <section id="edge" class="band">
   <div class="wrap">
     <div class="sec-head rv">
-      <div class="eyebrow"><span data-zh="额外亮点" data-en="What else you get">额外亮点</span></div>
-      <h2 data-zh="六件普通供应商不会替你做的事" data-en="Six things an ordinary vendor will not do for you">六件普通供应商不会替你做的事</h2>
+      <div class="eyebrow"><span data-zh="另外六项" data-en="Six more things">另外六项</span></div>
+      <h2 data-zh="另外六项常被忽略、但会影响成本的工作" data-en="Six more pieces of work that are easy to miss and show up in the cost">另外六项常被忽略、但会影响成本的工作</h2>
     </div>
     <div class="grid g3 rv">
       <div class="card">
         <div class="k" data-zh="薪酬数据" data-en="Salary data">薪酬数据</div>
         <h3 data-zh="分行业人才库与年度薪酬报告" data-en="Sector talent pools &amp; annual salary report">分行业人才库与年度薪酬报告</h3>
-        <p data-zh="按行业维护的澳洲人才库，配合年度薪酬基准报告。给 offer 时不靠猜，也不被中介的报价牵着走。" data-en="Australian talent pools maintained by sector, plus an annual benchmarking report — so offers are priced on data, not on an agency’s quote.">按行业维护的澳洲人才库，配合年度薪酬基准报告。给 offer 时不靠猜，也不被中介的报价牵着走。</p>
+        <p data-zh="按行业维护的澳洲人才库，配合年度薪酬基准报告，让薪资区间有据可依。" data-en="Australian talent pools maintained by sector, plus an annual benchmarking report, so salary ranges rest on data.">按行业维护的澳洲人才库，配合年度薪酬基准报告，让薪资区间有据可依。</p>
       </div>
       <div class="card">
         <div class="k" data-zh="文化桥梁" data-en="Culture bridge">文化桥梁</div>
@@ -812,10 +977,10 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
     <div class="contact rv">
       <div>
         <div class="eyebrow"><span data-zh="开始" data-en="Start here">开始</span></div>
-        <h2 style="margin-top:16px" data-zh="先做一次落地诊断，再决定要不要合作" data-en="Start with a landing review. Decide about us afterwards.">先做一次落地诊断，再决定要不要合作</h2>
+        <h2 style="margin-top:16px" data-zh="先用 30 分钟把情况梳理一遍" data-en="Start with a 30-minute review of where you stand">先用 30 分钟把情况梳理一遍</h2>
         <p class="lede" style="margin-top:18px" data-zh="30 分钟，中文或英文。带上你的业务目标与首年编制设想，我们会给出实体结构、签证路径与人力成本的初步判断，以及我们看到的主要风险点。" data-en="Thirty minutes, in Chinese or English. Bring your business goals and first-year headcount plan; you’ll leave with an initial view on entity structure, visa pathway and workforce cost, and the main risks we can see.">30 分钟，中文或英文。带上你的业务目标与首年编制设想，我们会给出实体结构、签证路径与人力成本的初步判断，以及我们看到的主要风险点。</p>
         <div class="hero-btns">
-          <a class="cta" href="mailto:hello@meridiantalent.au" data-zh="发送邮件预约" data-en="Email us">发送邮件预约</a>
+          <a class="cta" href="mailto:hello@meridiantalent.au?subject=%E8%90%BD%E5%9C%B0%E5%92%A8%E8%AF%A2%20%7C%20Landing%20enquiry" data-zh="发送邮件预约" data-en="Email us">发送邮件预约</a>
         </div>
       </div>
       <div class="info">
@@ -825,11 +990,11 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
         </div>
         <div>
           <span class="lb">Entity</span>
-          <span class="vl num">MERIDIAN TALENT PTY LTD<br>ACN 701 340 409</span>
+          <span class="vl"><span class="num">MERIDIAN TALENT PTY LTD</span><br>美瑞安人才服务<br><span class="num">ACN 701 340 409</span></span>
         </div>
         <div>
           <span class="lb">Email</span>
-          <span class="vl num">hello@meridiantalent.au</span>
+          <span class="vl num"><a href="mailto:hello@meridiantalent.au?subject=%E8%90%BD%E5%9C%B0%E5%92%A8%E8%AF%A2%20%7C%20Landing%20enquiry" style="border-bottom:1px solid var(--line-strong)">hello@meridiantalent.au</a></span>
         </div>
         <div>
           <span class="lb" data-zh="服务语言" data-en="Languages">服务语言</span>
@@ -842,7 +1007,7 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
 
 <footer>
   <div class="wrap foot">
-    <span data-zh="© 2026 MERIDIAN TALENT PTY LTD　保留所有权利" data-en="© 2026 MERIDIAN TALENT PTY LTD　All rights reserved">© 2026 MERIDIAN TALENT PTY LTD　保留所有权利</span>
+    <span data-zh="© 2026 MERIDIAN TALENT PTY LTD 美瑞安人才服务　保留所有权利" data-en="© 2026 MERIDIAN TALENT PTY LTD　All rights reserved">© 2026 MERIDIAN TALENT PTY LTD 美瑞安人才服务　保留所有权利</span>
     <span class="mono">ACN 701 340 409 · REGISTERED IN NEW SOUTH WALES · 12 AUG 2026</span>
   </div>
 </footer>
@@ -874,14 +1039,15 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
     for (var r2=0;r2<rv.length;r2++) rv[r2].classList.add('in');
   }
 
-  /* ---------- meridian globe ---------- */
+  /* ---------- meridian globe: 六条航线 ---------- */
   var cv = document.getElementById('globe');
   if (!cv) return;
   var ctx = cv.getContext('2d');
   var reduce = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
   var DPR = Math.min(window.devicePixelRatio || 1, 2);
   var W=0,H=0,R=0,CX=0,CY=0;
-  var LAT0 = -12 * Math.PI/180;  // viewing latitude
+  var D = Math.PI/180;
+  var LAT0 = -14 * D;
 
   function resize(){
     var b = cv.getBoundingClientRect();
@@ -892,115 +1058,134 @@ footer{border-top:1px solid var(--line);padding:34px 0;color:var(--dim);font-siz
   }
 
   function project(lat, lon){
-    var cl = Math.cos(lat), sl = Math.sin(lat);
-    var cd = Math.cos(lon), sd = Math.sin(lon);
-    var z = Math.sin(LAT0)*sl + Math.cos(LAT0)*cl*cd;
-    var x = cl*sd;
-    var y = Math.cos(LAT0)*sl - Math.sin(LAT0)*cl*cd;
-    return [CX + x*R, CY - y*R, z];
+    var cl=Math.cos(lat), sl=Math.sin(lat), cd=Math.cos(lon), sd=Math.sin(lon);
+    return [CX + cl*sd*R,
+            CY - (Math.cos(LAT0)*sl - Math.sin(LAT0)*cl*cd)*R,
+            Math.sin(LAT0)*sl + Math.cos(LAT0)*cl*cd];
   }
 
-  function strokeArcPath(pts, color, width){
+  function strokeArcPath(pts, color, width, alpha){
     ctx.strokeStyle = color; ctx.lineWidth = width; ctx.lineCap='round';
-    var drawing=false;
-    ctx.beginPath();
+    ctx.globalAlpha = (alpha === undefined ? 1 : alpha);
+    var drawing=false; ctx.beginPath();
     for (var i=0;i<pts.length;i++){
-      var p = pts[i];
-      if (p[2] > 0){
-        if(!drawing){ ctx.moveTo(p[0],p[1]); drawing=true; } else ctx.lineTo(p[0],p[1]);
+      var pt = pts[i];
+      if (pt[2] > 0){
+        if(!drawing){ ctx.moveTo(pt[0],pt[1]); drawing=true; } else ctx.lineTo(pt[0],pt[1]);
       } else drawing=false;
     }
-    ctx.stroke();
+    ctx.stroke(); ctx.globalAlpha = 1;
   }
 
-  var D = Math.PI/180;
-  // great-circle interpolation between two lat/lon points
   function toVec(lat,lon){ return [Math.cos(lat)*Math.cos(lon), Math.cos(lat)*Math.sin(lon), Math.sin(lat)]; }
-  var A = toVec(39.9*D, 116.4*D);   // North Asia
-  var B = toVec(-33.87*D, 151.21*D); // Sydney
-  var dot = A[0]*B[0]+A[1]*B[1]+A[2]*B[2];
-  var omega = Math.acos(Math.max(-1,Math.min(1,dot)));
 
-  function slerp(t){
-    var s1 = Math.sin((1-t)*omega)/Math.sin(omega);
-    var s2 = Math.sin(t*omega)/Math.sin(omega);
-    var v = [A[0]*s1+B[0]*s2, A[1]*s1+B[1]*s2, A[2]*s1+B[2]*s2];
-    return [Math.asin(v[2]), Math.atan2(v[1], v[0])];
-  }
+  var ORIGIN = toVec(39.9*D, 116.4*D);   // 出发侧
+
+  // 每个城市自带 slerp 闭包
+  var CITIES = [
+    {name:'SYDNEY',    lat:-33.87, lon:151.21, main:true,  dx: 1.0, dy: 1.0, phase:0.00},
+    {name:'MELBOURNE', lat:-37.81, lon:144.96, main:false, dx:-1.0, dy: 1.7, phase:0.17},
+    {name:'BRISBANE',  lat:-27.47, lon:153.03, main:false, dx: 1.0, dy:-1.5, phase:0.34},
+    {name:'PERTH',     lat:-31.95, lon:115.86, main:false, dx:-1.0, dy:-0.7, phase:0.51},
+    {name:'ADELAIDE',  lat:-34.93, lon:138.60, main:false, dx:-1.0, dy: 0.5, phase:0.68},
+    {name:'CANBERRA',  lat:-35.28, lon:149.13, main:false, dx: 1.0, dy:-0.25, phase:0.85}
+  ];
+  CITIES.forEach(function(c){
+    var B = toVec(c.lat*D, c.lon*D);
+    var dot = ORIGIN[0]*B[0] + ORIGIN[1]*B[1] + ORIGIN[2]*B[2];
+    var om = Math.acos(Math.max(-1, Math.min(1, dot)));
+    c.slerp = function(t){
+      var s1 = Math.sin((1-t)*om)/Math.sin(om);
+      var s2 = Math.sin(t*om)/Math.sin(om);
+      var v = [ORIGIN[0]*s1+B[0]*s2, ORIGIN[1]*s1+B[1]*s2, ORIGIN[2]*s1+B[2]*s2];
+      return [Math.asin(v[2]), Math.atan2(v[1], v[0])];
+    };
+  });
 
   var rot = -133*D, t0 = null;
+
+  function node(latd, lond, color, r, label, dx, dy, alpha){
+    var pt = project(latd*D, lond*D + rot);
+    if (pt[2] <= 0) return;
+    ctx.globalAlpha = alpha;
+    ctx.fillStyle = color;
+    ctx.beginPath(); ctx.arc(pt[0],pt[1],r,0,Math.PI*2); ctx.fill();
+    ctx.strokeStyle = color; ctx.lineWidth=1; ctx.globalAlpha = alpha*0.34;
+    ctx.beginPath(); ctx.arc(pt[0],pt[1],r+5,0,Math.PI*2); ctx.stroke();
+    ctx.globalAlpha = 1;
+    if (!label) return;
+    var ox = dx * Math.max(22, W*0.085);
+    var oy = dy * Math.max(13, W*0.045);
+    ctx.strokeStyle = color; ctx.globalAlpha = alpha*0.45; ctx.lineWidth = 1;
+    ctx.beginPath(); ctx.moveTo(pt[0] + (dx<0?-1:1)*(r+4), pt[1]);
+    ctx.lineTo(pt[0]+ox, pt[1]+oy); ctx.stroke(); ctx.globalAlpha = 1;
+    ctx.font = '500 ' + Math.max(8.5, Math.round(W*0.022)) + 'px "IBM Plex Mono", monospace';
+    ctx.textAlign = dx < 0 ? 'right' : 'left';
+    ctx.textBaseline = 'middle';
+    ctx.fillStyle = color; ctx.globalAlpha = alpha;
+    ctx.fillText(label, pt[0]+ox+(dx<0?-5:5), pt[1]+oy);
+    ctx.globalAlpha = 1;
+  }
 
   function frame(ts){
     if (t0 === null) t0 = ts;
     var el = (ts - t0)/1000;
-    // oscillate gently so China and Australia both stay in view
     if (!reduce) rot = (-133 + 11*Math.sin(el*0.22)) * D;
 
     ctx.clearRect(0,0,W,H);
 
-    // globe halo
     var g = ctx.createRadialGradient(CX-R*0.25, CY-R*0.3, R*0.1, CX, CY, R*1.05);
     g.addColorStop(0,'rgba(53,224,161,0.07)');
     g.addColorStop(1,'rgba(6,16,15,0)');
     ctx.fillStyle=g; ctx.beginPath(); ctx.arc(CX,CY,R*1.05,0,Math.PI*2); ctx.fill();
 
-    // limb
     ctx.strokeStyle='rgba(126,229,197,0.20)'; ctx.lineWidth=1;
     ctx.beginPath(); ctx.arc(CX,CY,R,0,Math.PI*2); ctx.stroke();
 
-    // meridians
-    var lon, lat, pts, i;
+    var lon, lat, pts;
     for (lon=-180; lon<180; lon+=15){
-      pts=[];
-      for (lat=-90; lat<=90; lat+=3) pts.push(project(lat*D, lon*D + rot));
+      pts=[]; for (lat=-90; lat<=90; lat+=3) pts.push(project(lat*D, lon*D + rot));
       strokeArcPath(pts, 'rgba(126,229,197,0.13)', 1);
     }
-    // parallels
     for (lat=-60; lat<=60; lat+=20){
-      pts=[];
-      for (lon=-180; lon<=180; lon+=3) pts.push(project(lat*D, lon*D + rot));
+      pts=[]; for (lon=-180; lon<=180; lon+=3) pts.push(project(lat*D, lon*D + rot));
       strokeArcPath(pts, 'rgba(126,229,197,0.10)', 1);
     }
 
-    // the meridian route
-    var route=[];
-    for (i=0;i<=140;i++){ var ll = slerp(i/140); route.push(project(ll[0], ll[1]+rot)); }
-    strokeArcPath(route, 'rgba(53,224,161,0.85)', 2.1);
+    var showAll = W > 360;
 
-    // endpoints
-    function node(latd, lond, color, r, label, dx, dy, align){
-      var p = project(latd*D, lond*D + rot);
-      if (p[2] <= 0) return;
-      ctx.fillStyle = color;
-      ctx.beginPath(); ctx.arc(p[0],p[1],r,0,Math.PI*2); ctx.fill();
-      ctx.strokeStyle = color; ctx.globalAlpha=0.32; ctx.lineWidth=1;
-      ctx.beginPath(); ctx.arc(p[0],p[1],r+5,0,Math.PI*2); ctx.stroke();
-      ctx.globalAlpha=1;
-      if (!label) return;
-      // leader line
-      ctx.strokeStyle = color; ctx.globalAlpha=0.45; ctx.lineWidth=1;
-      ctx.beginPath(); ctx.moveTo(p[0]+Math.sign(dx)*(r+4), p[1]);
-      ctx.lineTo(p[0]+dx, p[1]+dy); ctx.stroke(); ctx.globalAlpha=1;
-      ctx.font = '500 ' + Math.max(9, Math.round(W*0.024)) + 'px "IBM Plex Mono", monospace';
-      ctx.textAlign = align; ctx.textBaseline = 'middle';
-      ctx.fillStyle = color;
-      ctx.fillText(label, p[0]+dx+(align==='right'?-5:5), p[1]+dy);
-    }
-    node(39.9,116.4,'#38C6FF',3,'CHINA',-Math.max(26,W*0.09),-Math.max(16,W*0.05),'right');
-    node(-33.87,151.21,'#35E0A1',4,'SYDNEY',Math.max(26,W*0.09),Math.max(16,W*0.05),'left');
+    // 六条航线：次线先画，主线压在上面
+    CITIES.slice().sort(function(a,b){ return (a.main?1:0) - (b.main?1:0); }).forEach(function(c){
+      var route=[], i, ll;
+      for (i=0;i<=120;i++){ ll = c.slerp(i/120); route.push(project(ll[0], ll[1]+rot)); }
+      if (c.main) strokeArcPath(route, 'rgba(53,224,161,0.88)', 2.1);
+      else        strokeArcPath(route, 'rgba(53,224,161,0.85)', 1.3, 0.44);
+    });
 
-    // travelling pulse
+    // 出发侧
+    node(39.9, 116.4, '#38C6FF', 3, showAll ? 'CHINA' : '', -1, -1, 0.9);
+
+    // 城市节点
+    CITIES.forEach(function(c){
+      var label = c.main ? c.name : (showAll ? c.name : '');
+      node(c.lat, c.lon, '#35E0A1', c.main ? 4 : 2.6, label, c.dx, c.dy, c.main ? 1 : 0.62);
+    });
+
+    // 错相位的流动光点
     if (!reduce){
-      var tp = (el*0.20) % 1;
-      var pl = slerp(tp);
-      var pp = project(pl[0], pl[1]+rot);
-      if (pp[2] > 0){
-        ctx.fillStyle='#FFB03A';
-        ctx.beginPath(); ctx.arc(pp[0],pp[1],2.6,0,Math.PI*2); ctx.fill();
-        ctx.globalAlpha=0.28;
-        ctx.beginPath(); ctx.arc(pp[0],pp[1],7,0,Math.PI*2); ctx.fill();
-        ctx.globalAlpha=1;
-      }
+      CITIES.forEach(function(c){
+        var tp = (el*0.16 + c.phase) % 1;
+        var pl = c.slerp(tp);
+        var pp = project(pl[0], pl[1]+rot);
+        if (pp[2] > 0){
+          ctx.globalAlpha = c.main ? 1 : 0.5;
+          ctx.fillStyle='#FFB03A';
+          ctx.beginPath(); ctx.arc(pp[0],pp[1], c.main ? 2.6 : 1.9, 0, Math.PI*2); ctx.fill();
+          ctx.globalAlpha = c.main ? 0.28 : 0.15;
+          ctx.beginPath(); ctx.arc(pp[0],pp[1], c.main ? 7 : 5, 0, Math.PI*2); ctx.fill();
+          ctx.globalAlpha = 1;
+        }
+      });
     }
     requestAnimationFrame(frame);
   }
